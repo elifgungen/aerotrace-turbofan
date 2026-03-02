@@ -1,0 +1,101 @@
+{
+ "datasetId": "DS02",
+ "datasetLabel": "N-CMAPSS DS02",
+ "totalEngines": 9,
+ "totalCycles": 648,
+ "labelCounts": {
+  "Planned Maintenance": 9
+ },
+ "engines": [
+  {
+   "id": 2,
+   "maxCycle": 75,
+   "rul": 1.0,
+   "anomSmooth": 0.045193,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.9688,
+   "transitions": 1
+  },
+  {
+   "id": 5,
+   "maxCycle": 89,
+   "rul": 1.29,
+   "anomSmooth": 0.126784,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.9688,
+   "transitions": 7
+  },
+  {
+   "id": 10,
+   "maxCycle": 82,
+   "rul": 1.52,
+   "anomSmooth": 0.002079,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.9688,
+   "transitions": 1
+  },
+  {
+   "id": 11,
+   "maxCycle": 59,
+   "rul": 1.29,
+   "anomSmooth": 0.001259,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.9688,
+   "transitions": 1
+  },
+  {
+   "id": 14,
+   "maxCycle": 76,
+   "rul": 1.91,
+   "anomSmooth": 0.926679,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.9688,
+   "transitions": 11
+  },
+  {
+   "id": 15,
+   "maxCycle": 67,
+   "rul": 1.65,
+   "anomSmooth": 0.170007,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.9688,
+   "transitions": 3
+  },
+  {
+   "id": 16,
+   "maxCycle": 63,
+   "rul": 1.4,
+   "anomSmooth": 0.067675,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.9688,
+   "transitions": 5
+  },
+  {
+   "id": 18,
+   "maxCycle": 71,
+   "rul": 2.7,
+   "anomSmooth": 0.004775,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.9688,
+   "transitions": 3
+  },
+  {
+   "id": 20,
+   "maxCycle": 66,
+   "rul": 2.43,
+   "anomSmooth": 0.143968,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.9688,
+   "transitions": 1
+  }
+ ]
+}

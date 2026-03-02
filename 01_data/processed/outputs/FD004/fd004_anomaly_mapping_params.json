@@ -1,0 +1,29 @@
+{
+  "dataset": "FD004",
+  "fit_split": "train_only",
+  "mapping_mode": "sigmoid",
+  "sigmoid": {
+    "c": 0.7582087031353564,
+    "k": 1.0
+  },
+  "baseline_n": 20,
+  "eps": 1e-06,
+  "smooth_window": 5,
+  "sensors_used": [
+    "s2",
+    "s3",
+    "s4",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+  ],
+  "missing_sensors": []
+}

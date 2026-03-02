@@ -1,0 +1,15 @@
+﻿{
+  "dataset": "DS06",
+  "rows": 797,
+  "engines": 10,
+  "hybrid_alarm_rate_pct": 20.9536,
+  "hybrid_critical_rate_pct": 2.8858,
+  "critical_proxy_rate_pct": 2.5094,
+  "missed_alarm_proxy_rate_pct": 0.0,
+  "critical_detection_recall_pct": 100.0,
+  "early_alarm_proxy_rate_pct": 0.3764,
+  "avg_hybrid_risk": 0.324696,
+  "warning_threshold": 0.55,
+  "critical_threshold": 0.78,
+  "config_version": "phase2-hybrid-v1"
+}

@@ -1,0 +1,26 @@
+policy:
+  version: "v2"
+
+thresholds:
+  theta_rul:
+    mode: "fixed"
+    value: 30
+  alpha_anomaly:
+    mode: "quantile"
+    value: 0.8
+    q: 0.97
+
+stability:
+  smoothing:
+    method: "ema"
+    span: 7
+    window: 7
+  hysteresis:
+    enabled: true
+    alpha_high_multiplier: 1.0
+    alpha_low_multiplier: 0.9
+  persistence:
+    min_cycles_on: 3
+
+outputs:
+  include_reason_text: true

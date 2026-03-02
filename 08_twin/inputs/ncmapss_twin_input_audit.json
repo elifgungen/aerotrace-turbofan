@@ -1,0 +1,139 @@
+{
+  "overall_ready": true,
+  "split_mode": "all",
+  "datasets": [
+    {
+      "dataset": "DS01",
+      "rul_file": "02_notebook_exports\\RUL\\N-CMAPSS\\DS01\\ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+      "anomaly_file": "02_notebook_exports\\Anomaly\\N-CMAPSS\\OUTPUTS\\ncmapss_DS01_anomaly_scores.csv",
+      "output_file": "08_twin\\inputs\\ncmapss_DS01_twin_feed.csv",
+      "rul_rows": 894,
+      "anomaly_rows": 894,
+      "output_rows": 894,
+      "rul_duplicates": 0,
+      "anomaly_duplicates": 0,
+      "rul_only_keys": 0,
+      "anomaly_only_keys": 0,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "ready": true,
+      "notes": []
+    },
+    {
+      "dataset": "DS02",
+      "rul_file": "02_notebook_exports\\RUL\\N-CMAPSS\\DS02\\ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+      "anomaly_file": "02_notebook_exports\\Anomaly\\N-CMAPSS\\OUTPUTS\\ncmapss_DS02_anomaly_scores.csv",
+      "output_file": "08_twin\\inputs\\ncmapss_DS02_twin_feed.csv",
+      "rul_rows": 648,
+      "anomaly_rows": 648,
+      "output_rows": 648,
+      "rul_duplicates": 0,
+      "anomaly_duplicates": 0,
+      "rul_only_keys": 0,
+      "anomaly_only_keys": 0,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "ready": true,
+      "notes": []
+    },
+    {
+      "dataset": "DS03",
+      "rul_file": "02_notebook_exports\\RUL\\N-CMAPSS\\DSO3\\ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+      "anomaly_file": "02_notebook_exports\\Anomaly\\N-CMAPSS\\OUTPUTS\\ncmapss_DS03_anomaly_scores.csv",
+      "output_file": "08_twin\\inputs\\ncmapss_DS03_twin_feed.csv",
+      "rul_rows": 1101,
+      "anomaly_rows": 1101,
+      "output_rows": 1101,
+      "rul_duplicates": 0,
+      "anomaly_duplicates": 0,
+      "rul_only_keys": 0,
+      "anomaly_only_keys": 0,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "ready": true,
+      "notes": []
+    },
+    {
+      "dataset": "DS04",
+      "rul_file": "02_notebook_exports\\RUL\\N-CMAPSS\\DS04\\ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+      "anomaly_file": "02_notebook_exports\\Anomaly\\N-CMAPSS\\OUTPUTS\\ncmapss_DS04_anomaly_scores.csv",
+      "output_file": "08_twin\\inputs\\ncmapss_DS04_twin_feed.csv",
+      "rul_rows": 856,
+      "anomaly_rows": 856,
+      "output_rows": 856,
+      "rul_duplicates": 0,
+      "anomaly_duplicates": 0,
+      "rul_only_keys": 0,
+      "anomaly_only_keys": 0,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "ready": true,
+      "notes": []
+    },
+    {
+      "dataset": "DS05",
+      "rul_file": "02_notebook_exports\\RUL\\N-CMAPSS\\DS05-DS06\\ncmapss_DS05_rul_predictions_autogluon_FIXED.csv",
+      "anomaly_file": "02_notebook_exports\\Anomaly\\N-CMAPSS\\OUTPUTS\\ncmapss_DS05_anomaly_scores.csv",
+      "output_file": "08_twin\\inputs\\ncmapss_DS05_twin_feed.csv",
+      "rul_rows": 818,
+      "anomaly_rows": 818,
+      "output_rows": 818,
+      "rul_duplicates": 0,
+      "anomaly_duplicates": 0,
+      "rul_only_keys": 0,
+      "anomaly_only_keys": 0,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "ready": true,
+      "notes": []
+    },
+    {
+      "dataset": "DS06",
+      "rul_file": "02_notebook_exports\\RUL\\N-CMAPSS\\DS05-DS06\\ncmapss_DS06_rul_predictions_autogluon_FIXED.csv",
+      "anomaly_file": "02_notebook_exports\\Anomaly\\N-CMAPSS\\OUTPUTS\\ncmapss_DS06_anomaly_scores.csv",
+      "output_file": "08_twin\\inputs\\ncmapss_DS06_twin_feed.csv",
+      "rul_rows": 797,
+      "anomaly_rows": 797,
+      "output_rows": 797,
+      "rul_duplicates": 0,
+      "anomaly_duplicates": 0,
+      "rul_only_keys": 0,
+      "anomaly_only_keys": 0,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "ready": true,
+      "notes": []
+    },
+    {
+      "dataset": "DS07",
+      "rul_file": "02_notebook_exports\\RUL\\N-CMAPSS\\DS07\\ncmapss_DS07_rul_predictions_autogluon_FIXED.csv",
+      "anomaly_file": "02_notebook_exports\\Anomaly\\N-CMAPSS\\OUTPUTS\\ncmapss_DS07_anomaly_scores.csv",
+      "output_file": "08_twin\\inputs\\ncmapss_DS07_twin_feed.csv",
+      "rul_rows": 812,
+      "anomaly_rows": 812,
+      "output_rows": 812,
+      "rul_duplicates": 0,
+      "anomaly_duplicates": 0,
+      "rul_only_keys": 0,
+      "anomaly_only_keys": 0,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "ready": true,
+      "notes": []
+    }
+  ]
+}

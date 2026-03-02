@@ -1,0 +1,1556 @@
+{
+  "dataset": "FD001",
+  "totalEngines": 100,
+  "totalCycles": 13096,
+  "labelDistribution": {
+    "Normal Operation": 75,
+    "Enhanced Monitoring": 6,
+    "Planned Maintenance": 5,
+    "Immediate Maintenance": 14
+  },
+  "policyVersion": "v2",
+  "runId": "",
+  "theta": 30.0,
+  "engines": [
+    {
+      "id": 1,
+      "cycles": 31,
+      "rul": 123.89,
+      "anomSmooth": 0.4348,
+      "anomRaw": 0.4443,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u21932.08"
+    },
+    {
+      "id": 2,
+      "cycles": 49,
+      "rul": 120.6,
+      "anomSmooth": 0.4007,
+      "anomRaw": 0.3999,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T24 \u21913.0"
+    },
+    {
+      "id": 3,
+      "cycles": 126,
+      "rul": 61.22,
+      "anomSmooth": 0.603,
+      "anomRaw": 0.5945,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u21915.8"
+    },
+    {
+      "id": 4,
+      "cycles": 106,
+      "rul": 75.97,
+      "anomSmooth": 0.5158,
+      "anomRaw": 0.5403,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nc \u21915.45"
+    },
+    {
+      "id": 5,
+      "cycles": 98,
+      "rul": 102.76,
+      "anomSmooth": 0.5006,
+      "anomRaw": 0.5495,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u21912.48"
+    },
+    {
+      "id": 6,
+      "cycles": 105,
+      "rul": 88.11,
+      "anomSmooth": 0.4573,
+      "anomRaw": 0.4087,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "W31 \u21933.17"
+    },
+    {
+      "id": 7,
+      "cycles": 160,
+      "rul": 99.1,
+      "anomSmooth": 0.5411,
+      "anomRaw": 0.5981,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "W32 \u21933.15"
+    },
+    {
+      "id": 8,
+      "cycles": 166,
+      "rul": 58.86,
+      "anomSmooth": 0.5778,
+      "anomRaw": 0.6174,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nf \u21917.26"
+    },
+    {
+      "id": 9,
+      "cycles": 55,
+      "rul": 119.16,
+      "anomSmooth": 0.4329,
+      "anomRaw": 0.4743,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "W32 \u21931.85"
+    },
+    {
+      "id": 10,
+      "cycles": 192,
+      "rul": 101.17,
+      "anomSmooth": 0.6164,
+      "anomRaw": 0.6409,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u219113.57"
+    },
+    {
+      "id": 11,
+      "cycles": 83,
+      "rul": 82.68,
+      "anomSmooth": 0.4779,
+      "anomRaw": 0.4781,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "htBleed \u21912.52"
+    },
+    {
+      "id": 12,
+      "cycles": 217,
+      "rul": 96.32,
+      "anomSmooth": 0.6838,
+      "anomRaw": 0.7654,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nf \u21919.34"
+    },
+    {
+      "id": 13,
+      "cycles": 195,
+      "rul": 95.61,
+      "anomSmooth": 0.6461,
+      "anomRaw": 0.7289,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nc \u219126.24"
+    },
+    {
+      "id": 14,
+      "cycles": 46,
+      "rul": 122.54,
+      "anomSmooth": 0.4115,
+      "anomRaw": 0.4053,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "htBleed \u21931.93"
+    },
+    {
+      "id": 15,
+      "cycles": 76,
+      "rul": 115.87,
+      "anomSmooth": 0.4925,
+      "anomRaw": 0.499,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T30 \u21913.23"
+    },
+    {
+      "id": 16,
+      "cycles": 113,
+      "rul": 99.15,
+      "anomSmooth": 0.5234,
+      "anomRaw": 0.5719,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Ps30 \u21911.54"
+    },
+    {
+      "id": 17,
+      "cycles": 165,
+      "rul": 47.15,
+      "anomSmooth": 0.8172,
+      "anomRaw": 0.8464,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nc \u21913.22"
+    },
+    {
+      "id": 18,
+      "cycles": 133,
+      "rul": 59.43,
+      "anomSmooth": 0.8507,
+      "anomRaw": 0.8715,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nc \u21916.21"
+    },
+    {
+      "id": 19,
+      "cycles": 135,
+      "rul": 88.78,
+      "anomSmooth": 0.5554,
+      "anomRaw": 0.5811,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T50 \u21917.28"
+    },
+    {
+      "id": 20,
+      "cycles": 184,
+      "rul": 25.36,
+      "anomSmooth": 0.9262,
+      "anomRaw": 0.9335,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 179,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 181,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 182,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "W31 \u21936.97"
+    },
+    {
+      "id": 21,
+      "cycles": 148,
+      "rul": 71.48,
+      "anomSmooth": 0.8004,
+      "anomRaw": 0.8327,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nc \u219111.53"
+    },
+    {
+      "id": 22,
+      "cycles": 39,
+      "rul": 120.4,
+      "anomSmooth": 0.4278,
+      "anomRaw": 0.3951,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": ""
+    },
+    {
+      "id": 23,
+      "cycles": 130,
+      "rul": 107.04,
+      "anomSmooth": 0.4671,
+      "anomRaw": 0.4998,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "P30 \u21935.12"
+    },
+    {
+      "id": 24,
+      "cycles": 186,
+      "rul": 25.88,
+      "anomSmooth": 0.9973,
+      "anomRaw": 0.9983,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 173,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 175,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 177,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "NRf \u219111.4"
+    },
+    {
+      "id": 25,
+      "cycles": 48,
+      "rul": 122.45,
+      "anomSmooth": 0.3985,
+      "anomRaw": 0.3974,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "BPR \u21931.76"
+    },
+    {
+      "id": 26,
+      "cycles": 76,
+      "rul": 111.06,
+      "anomSmooth": 0.4554,
+      "anomRaw": 0.4521,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T50 \u21913.04"
+    },
+    {
+      "id": 27,
+      "cycles": 140,
+      "rul": 80.71,
+      "anomSmooth": 0.5638,
+      "anomRaw": 0.6393,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u219112.95"
+    },
+    {
+      "id": 28,
+      "cycles": 158,
+      "rul": 79.51,
+      "anomSmooth": 0.5702,
+      "anomRaw": 0.5587,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nf \u219113.82"
+    },
+    {
+      "id": 29,
+      "cycles": 171,
+      "rul": 101.41,
+      "anomSmooth": 0.6417,
+      "anomRaw": 0.6417,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Ps30 \u21919.75"
+    },
+    {
+      "id": 30,
+      "cycles": 143,
+      "rul": 75.55,
+      "anomSmooth": 0.5102,
+      "anomRaw": 0.5514,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "phi \u21935.46"
+    },
+    {
+      "id": 31,
+      "cycles": 196,
+      "rul": 15.9,
+      "anomSmooth": 0.9616,
+      "anomRaw": 0.9656,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 176,
+          "from": "Normal Operation",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 177,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 178,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "phi \u21937.14"
+    },
+    {
+      "id": 32,
+      "cycles": 145,
+      "rul": 53.35,
+      "anomSmooth": 0.7991,
+      "anomRaw": 0.8221,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T50 \u21916.24"
+    },
+    {
+      "id": 33,
+      "cycles": 50,
+      "rul": 121.38,
+      "anomSmooth": 0.4154,
+      "anomRaw": 0.4129,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T50 \u21913.39"
+    },
+    {
+      "id": 34,
+      "cycles": 203,
+      "rul": 8.58,
+      "anomSmooth": 0.9824,
+      "anomRaw": 0.9905,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 187,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 188,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 191,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "NRc \u219129.99"
+    },
+    {
+      "id": 35,
+      "cycles": 198,
+      "rul": 7.63,
+      "anomSmooth": 0.9283,
+      "anomRaw": 0.942,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 178,
+          "from": "Planned Maintenance",
+          "to": "Normal Operation"
+        },
+        {
+          "cycle": 179,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        },
+        {
+          "cycle": 189,
+          "from": "Planned Maintenance",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "Nf \u219112.35"
+    },
+    {
+      "id": 36,
+      "cycles": 126,
+      "rul": 21.79,
+      "anomSmooth": 0.7303,
+      "anomRaw": 0.7374,
+      "label": "Planned Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_OFF",
+      "action": "Planl\u0131 bak\u0131m/inspection",
+      "transitions": [
+        {
+          "cycle": 121,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        },
+        {
+          "cycle": 123,
+          "from": "Planned Maintenance",
+          "to": "Normal Operation"
+        },
+        {
+          "cycle": 124,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        }
+      ],
+      "topSensor": "phi \u21937.98"
+    },
+    {
+      "id": 37,
+      "cycles": 121,
+      "rul": 56.24,
+      "anomSmooth": 0.8837,
+      "anomRaw": 0.9113,
+      "label": "Enhanced Monitoring",
+      "reasonCodes": "RUL_HIGH|ANOM_ON|STATE_CHANGE_OFF_TO_ON",
+      "action": "\u0130zleme art\u0131r + te\u015fhis",
+      "transitions": [
+        {
+          "cycle": 121,
+          "from": "Normal Operation",
+          "to": "Enhanced Monitoring"
+        }
+      ],
+      "topSensor": "T50 \u21914.82"
+    },
+    {
+      "id": 38,
+      "cycles": 125,
+      "rul": 43.66,
+      "anomSmooth": 0.8563,
+      "anomRaw": 0.9223,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u21917.66"
+    },
+    {
+      "id": 39,
+      "cycles": 37,
+      "rul": 122.15,
+      "anomSmooth": 0.4276,
+      "anomRaw": 0.4329,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "phi \u21932.71"
+    },
+    {
+      "id": 40,
+      "cycles": 133,
+      "rul": 27.73,
+      "anomSmooth": 0.748,
+      "anomRaw": 0.7513,
+      "label": "Planned Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_OFF",
+      "action": "Planl\u0131 bak\u0131m/inspection",
+      "transitions": [
+        {
+          "cycle": 128,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        },
+        {
+          "cycle": 131,
+          "from": "Planned Maintenance",
+          "to": "Normal Operation"
+        },
+        {
+          "cycle": 132,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        }
+      ],
+      "topSensor": "NRc \u21915.34"
+    },
+    {
+      "id": 41,
+      "cycles": 123,
+      "rul": 62.53,
+      "anomSmooth": 0.9075,
+      "anomRaw": 0.9131,
+      "label": "Enhanced Monitoring",
+      "reasonCodes": "RUL_HIGH|ANOM_ON",
+      "action": "\u0130zleme art\u0131r + te\u015fhis",
+      "transitions": [
+        {
+          "cycle": 119,
+          "from": "Normal Operation",
+          "to": "Enhanced Monitoring"
+        }
+      ],
+      "topSensor": "htBleed \u21915.03"
+    },
+    {
+      "id": 42,
+      "cycles": 156,
+      "rul": 18.09,
+      "anomSmooth": 0.9639,
+      "anomRaw": 0.9784,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 151,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 153,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 154,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "W32 \u21935.4"
+    },
+    {
+      "id": 43,
+      "cycles": 172,
+      "rul": 50.96,
+      "anomSmooth": 0.6449,
+      "anomRaw": 0.6991,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Ps30 \u21919.65"
+    },
+    {
+      "id": 44,
+      "cycles": 54,
+      "rul": 120.07,
+      "anomSmooth": 0.4272,
+      "anomRaw": 0.4689,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T50 \u21911.9"
+    },
+    {
+      "id": 45,
+      "cycles": 152,
+      "rul": 69.32,
+      "anomSmooth": 0.5053,
+      "anomRaw": 0.5314,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "phi \u219316.65"
+    },
+    {
+      "id": 46,
+      "cycles": 146,
+      "rul": 46.21,
+      "anomSmooth": 0.7547,
+      "anomRaw": 0.7267,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "phi \u21935.19"
+    },
+    {
+      "id": 47,
+      "cycles": 73,
+      "rul": 112.42,
+      "anomSmooth": 0.4155,
+      "anomRaw": 0.4115,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Ps30 \u21912.47"
+    },
+    {
+      "id": 48,
+      "cycles": 78,
+      "rul": 106.62,
+      "anomSmooth": 0.4261,
+      "anomRaw": 0.4778,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nc \u21912.9"
+    },
+    {
+      "id": 49,
+      "cycles": 303,
+      "rul": 17.88,
+      "anomSmooth": 0.9708,
+      "anomRaw": 0.977,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 300,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 302,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 303,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "P30 \u219313.71"
+    },
+    {
+      "id": 50,
+      "cycles": 74,
+      "rul": 104.63,
+      "anomSmooth": 0.45,
+      "anomRaw": 0.4863,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "W31 \u21933.02"
+    },
+    {
+      "id": 51,
+      "cycles": 144,
+      "rul": 77.91,
+      "anomSmooth": 0.5115,
+      "anomRaw": 0.474,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u21918.87"
+    },
+    {
+      "id": 52,
+      "cycles": 189,
+      "rul": 26.87,
+      "anomSmooth": 0.9876,
+      "anomRaw": 0.9958,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 166,
+          "from": "Normal Operation",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 189,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "NRc \u219111.65"
+    },
+    {
+      "id": 53,
+      "cycles": 164,
+      "rul": 32.55,
+      "anomSmooth": 0.9681,
+      "anomRaw": 0.9757,
+      "label": "Enhanced Monitoring",
+      "reasonCodes": "RUL_HIGH|ANOM_ON",
+      "action": "\u0130zleme art\u0131r + te\u015fhis",
+      "transitions": [
+        {
+          "cycle": 149,
+          "from": "Normal Operation",
+          "to": "Enhanced Monitoring"
+        }
+      ],
+      "topSensor": "NRc \u219114.0"
+    },
+    {
+      "id": 54,
+      "cycles": 121,
+      "rul": 120.35,
+      "anomSmooth": 0.5054,
+      "anomRaw": 0.4776,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Ps30 \u21913.2"
+    },
+    {
+      "id": 55,
+      "cycles": 113,
+      "rul": 100.41,
+      "anomSmooth": 0.4705,
+      "anomRaw": 0.4039,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u21914.85"
+    },
+    {
+      "id": 56,
+      "cycles": 136,
+      "rul": 13.4,
+      "anomSmooth": 0.7874,
+      "anomRaw": 0.7838,
+      "label": "Planned Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_OFF",
+      "action": "Planl\u0131 bak\u0131m/inspection",
+      "transitions": [
+        {
+          "cycle": 121,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        },
+        {
+          "cycle": 124,
+          "from": "Planned Maintenance",
+          "to": "Normal Operation"
+        },
+        {
+          "cycle": 126,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        }
+      ],
+      "topSensor": "T24 \u21911.63"
+    },
+    {
+      "id": 57,
+      "cycles": 160,
+      "rul": 57.49,
+      "anomSmooth": 0.5326,
+      "anomRaw": 0.5377,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "phi \u219311.38"
+    },
+    {
+      "id": 58,
+      "cycles": 176,
+      "rul": 36.6,
+      "anomSmooth": 0.8042,
+      "anomRaw": 0.8669,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Ps30 \u219112.8"
+    },
+    {
+      "id": 59,
+      "cycles": 94,
+      "rul": 116.93,
+      "anomSmooth": 0.4447,
+      "anomRaw": 0.4216,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T50 \u21915.71"
+    },
+    {
+      "id": 60,
+      "cycles": 147,
+      "rul": 76.47,
+      "anomSmooth": 0.4797,
+      "anomRaw": 0.4106,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u219111.36"
+    },
+    {
+      "id": 61,
+      "cycles": 159,
+      "rul": 44.67,
+      "anomSmooth": 0.8988,
+      "anomRaw": 0.9034,
+      "label": "Enhanced Monitoring",
+      "reasonCodes": "RUL_HIGH|ANOM_ON",
+      "action": "\u0130zleme art\u0131r + te\u015fhis",
+      "transitions": [
+        {
+          "cycle": 156,
+          "from": "Normal Operation",
+          "to": "Enhanced Monitoring"
+        }
+      ],
+      "topSensor": "Nf \u21917.53"
+    },
+    {
+      "id": 62,
+      "cycles": 232,
+      "rul": 62.17,
+      "anomSmooth": 0.9196,
+      "anomRaw": 0.9194,
+      "label": "Enhanced Monitoring",
+      "reasonCodes": "RUL_HIGH|ANOM_ON",
+      "action": "\u0130zleme art\u0131r + te\u015fhis",
+      "transitions": [
+        {
+          "cycle": 225,
+          "from": "Normal Operation",
+          "to": "Enhanced Monitoring"
+        }
+      ],
+      "topSensor": "NRf \u219110.43"
+    },
+    {
+      "id": 63,
+      "cycles": 155,
+      "rul": 52.22,
+      "anomSmooth": 0.5576,
+      "anomRaw": 0.5674,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u219119.01"
+    },
+    {
+      "id": 64,
+      "cycles": 168,
+      "rul": 46.38,
+      "anomSmooth": 0.8337,
+      "anomRaw": 0.8426,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "P30 \u21933.25"
+    },
+    {
+      "id": 65,
+      "cycles": 71,
+      "rul": 118.63,
+      "anomSmooth": 0.472,
+      "anomRaw": 0.4618,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "P30 \u21932.79"
+    },
+    {
+      "id": 66,
+      "cycles": 147,
+      "rul": 15.17,
+      "anomSmooth": 0.9824,
+      "anomRaw": 0.991,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 129,
+          "from": "Normal Operation",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 133,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 134,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "P30 \u21936.45"
+    },
+    {
+      "id": 67,
+      "cycles": 71,
+      "rul": 113.05,
+      "anomSmooth": 0.4655,
+      "anomRaw": 0.5912,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T24 \u21911.82"
+    },
+    {
+      "id": 68,
+      "cycles": 187,
+      "rul": 17.38,
+      "anomSmooth": 0.9633,
+      "anomRaw": 0.9665,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 173,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 176,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 177,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "Nc \u219123.28"
+    },
+    {
+      "id": 69,
+      "cycles": 54,
+      "rul": 118.76,
+      "anomSmooth": 0.4325,
+      "anomRaw": 0.4382,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "htBleed \u21912.85"
+    },
+    {
+      "id": 70,
+      "cycles": 152,
+      "rul": 79.91,
+      "anomSmooth": 0.5196,
+      "anomRaw": 0.4833,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u219111.59"
+    },
+    {
+      "id": 71,
+      "cycles": 68,
+      "rul": 112.38,
+      "anomSmooth": 0.5147,
+      "anomRaw": 0.4506,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "W31 \u21932.65"
+    },
+    {
+      "id": 72,
+      "cycles": 131,
+      "rul": 65.86,
+      "anomSmooth": 0.6426,
+      "anomRaw": 0.6828,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "phi \u21933.99"
+    },
+    {
+      "id": 73,
+      "cycles": 112,
+      "rul": 102.19,
+      "anomSmooth": 0.4754,
+      "anomRaw": 0.436,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "W31 \u21931.88"
+    },
+    {
+      "id": 74,
+      "cycles": 137,
+      "rul": 93.14,
+      "anomSmooth": 0.4892,
+      "anomRaw": 0.5325,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRf \u21917.08"
+    },
+    {
+      "id": 75,
+      "cycles": 88,
+      "rul": 108.83,
+      "anomSmooth": 0.5018,
+      "anomRaw": 0.582,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "P30 \u21933.48"
+    },
+    {
+      "id": 76,
+      "cycles": 205,
+      "rul": 12.01,
+      "anomSmooth": 0.9908,
+      "anomRaw": 0.9943,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 170,
+          "from": "Normal Operation",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 194,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "NRf \u219114.23"
+    },
+    {
+      "id": 77,
+      "cycles": 162,
+      "rul": 31.98,
+      "anomSmooth": 0.8272,
+      "anomRaw": 0.8866,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRf \u21919.38"
+    },
+    {
+      "id": 78,
+      "cycles": 72,
+      "rul": 122.56,
+      "anomSmooth": 0.4494,
+      "anomRaw": 0.4637,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T30 \u21932.48"
+    },
+    {
+      "id": 79,
+      "cycles": 101,
+      "rul": 97.25,
+      "anomSmooth": 0.5659,
+      "anomRaw": 0.6832,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nc \u21913.78"
+    },
+    {
+      "id": 80,
+      "cycles": 133,
+      "rul": 74.22,
+      "anomSmooth": 0.5027,
+      "anomRaw": 0.5477,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nc \u21919.48"
+    },
+    {
+      "id": 81,
+      "cycles": 213,
+      "rul": 8.27,
+      "anomSmooth": 0.9491,
+      "anomRaw": 0.9557,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 199,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 204,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 205,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "NRf \u21917.22"
+    },
+    {
+      "id": 82,
+      "cycles": 162,
+      "rul": 11.28,
+      "anomSmooth": 0.9473,
+      "anomRaw": 0.9709,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 153,
+          "from": "Planned Maintenance",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 154,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 156,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "NRc \u21918.85"
+    },
+    {
+      "id": 83,
+      "cycles": 73,
+      "rul": 113.12,
+      "anomSmooth": 0.44,
+      "anomRaw": 0.4509,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T30 \u21932.54"
+    },
+    {
+      "id": 84,
+      "cycles": 172,
+      "rul": 40.67,
+      "anomSmooth": 0.694,
+      "anomRaw": 0.7702,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "W32 \u21934.09"
+    },
+    {
+      "id": 85,
+      "cycles": 34,
+      "rul": 126.66,
+      "anomSmooth": 0.4302,
+      "anomRaw": 0.4668,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nf \u21932.09"
+    },
+    {
+      "id": 86,
+      "cycles": 110,
+      "rul": 73.62,
+      "anomSmooth": 0.4831,
+      "anomRaw": 0.5352,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "phi \u21933.49"
+    },
+    {
+      "id": 87,
+      "cycles": 56,
+      "rul": 120.24,
+      "anomSmooth": 0.4202,
+      "anomRaw": 0.4295,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "W31 \u21933.9"
+    },
+    {
+      "id": 88,
+      "cycles": 68,
+      "rul": 108.11,
+      "anomSmooth": 0.4509,
+      "anomRaw": 0.4569,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nf \u21933.41"
+    },
+    {
+      "id": 89,
+      "cycles": 177,
+      "rul": 75.97,
+      "anomSmooth": 0.4958,
+      "anomRaw": 0.5154,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "phi \u21935.79"
+    },
+    {
+      "id": 90,
+      "cycles": 146,
+      "rul": 35.96,
+      "anomSmooth": 0.9122,
+      "anomRaw": 0.931,
+      "label": "Enhanced Monitoring",
+      "reasonCodes": "RUL_HIGH|ANOM_ON",
+      "action": "\u0130zleme art\u0131r + te\u015fhis",
+      "transitions": [
+        {
+          "cycle": 143,
+          "from": "Planned Maintenance",
+          "to": "Normal Operation"
+        },
+        {
+          "cycle": 144,
+          "from": "Normal Operation",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 146,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        }
+      ],
+      "topSensor": "Ps30 \u219110.42"
+    },
+    {
+      "id": 91,
+      "cycles": 234,
+      "rul": 27.86,
+      "anomSmooth": 0.7659,
+      "anomRaw": 0.7222,
+      "label": "Planned Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_OFF",
+      "action": "Planl\u0131 bak\u0131m/inspection",
+      "transitions": [
+        {
+          "cycle": 226,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        },
+        {
+          "cycle": 232,
+          "from": "Planned Maintenance",
+          "to": "Normal Operation"
+        },
+        {
+          "cycle": 233,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        }
+      ],
+      "topSensor": "phi \u219311.76"
+    },
+    {
+      "id": 92,
+      "cycles": 150,
+      "rul": 22.08,
+      "anomSmooth": 0.7915,
+      "anomRaw": 0.8386,
+      "label": "Planned Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_OFF",
+      "action": "Planl\u0131 bak\u0131m/inspection",
+      "transitions": [
+        {
+          "cycle": 145,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        },
+        {
+          "cycle": 146,
+          "from": "Planned Maintenance",
+          "to": "Normal Operation"
+        },
+        {
+          "cycle": 147,
+          "from": "Normal Operation",
+          "to": "Planned Maintenance"
+        }
+      ],
+      "topSensor": "NRc \u21911.74"
+    },
+    {
+      "id": 93,
+      "cycles": 244,
+      "rul": 53.3,
+      "anomSmooth": 0.7469,
+      "anomRaw": 0.7335,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "P30 \u219310.8"
+    },
+    {
+      "id": 94,
+      "cycles": 133,
+      "rul": 53.53,
+      "anomSmooth": 0.6506,
+      "anomRaw": 0.7157,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "NRc \u21913.37"
+    },
+    {
+      "id": 95,
+      "cycles": 89,
+      "rul": 107.67,
+      "anomSmooth": 0.5627,
+      "anomRaw": 0.4699,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "P30 \u21934.59"
+    },
+    {
+      "id": 96,
+      "cycles": 97,
+      "rul": 118.26,
+      "anomSmooth": 0.4422,
+      "anomRaw": 0.3681,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "T24 \u21913.89"
+    },
+    {
+      "id": 97,
+      "cycles": 134,
+      "rul": 74.13,
+      "anomSmooth": 0.5773,
+      "anomRaw": 0.6644,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Nc \u21917.9"
+    },
+    {
+      "id": 98,
+      "cycles": 121,
+      "rul": 78.35,
+      "anomSmooth": 0.6146,
+      "anomRaw": 0.6149,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "Ps30 \u21916.19"
+    },
+    {
+      "id": 99,
+      "cycles": 97,
+      "rul": 118.3,
+      "anomSmooth": 0.4892,
+      "anomRaw": 0.4565,
+      "label": "Normal Operation",
+      "reasonCodes": "RUL_HIGH|ANOM_OFF",
+      "action": "Rutin izleme",
+      "transitions": [],
+      "topSensor": "htBleed \u21914.12"
+    },
+    {
+      "id": 100,
+      "cycles": 198,
+      "rul": 17.79,
+      "anomSmooth": 0.9988,
+      "anomRaw": 0.9995,
+      "label": "Immediate Maintenance",
+      "reasonCodes": "RUL_LOW|ANOM_ON",
+      "action": "Acil bak\u0131m karar\u0131 i\u00e7in y\u00fckselt",
+      "transitions": [
+        {
+          "cycle": 186,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        },
+        {
+          "cycle": 189,
+          "from": "Immediate Maintenance",
+          "to": "Enhanced Monitoring"
+        },
+        {
+          "cycle": 190,
+          "from": "Enhanced Monitoring",
+          "to": "Immediate Maintenance"
+        }
+      ],
+      "topSensor": "P30 \u219311.72"
+    }
+  ]
+}

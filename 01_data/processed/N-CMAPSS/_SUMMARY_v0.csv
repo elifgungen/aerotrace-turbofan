@@ -1,0 +1,11 @@
+dataset,train_rows,test_rows,n_train_engines,n_test_engines,n_features,verdict,step_failed,notes
+DS01,553,341,6,4,72,PASS,,"All steps completed successfully"
+DS02,446,202,6,3,72,PASS,,"All steps completed successfully"
+DS03,663,438,9,6,72,PASS,,"All steps completed successfully"
+DS04,512,344,6,4,72,PASS,,"All steps completed successfully"
+DS05,491,327,6,4,72,PASS,,"All steps completed successfully"
+DS06,475,322,6,4,72,PASS,,"All steps completed successfully"
+DS07,468,344,6,4,72,PASS,,"All steps completed successfully"
+DS08a,611,383,9,6,72,PASS,,"All steps completed successfully"
+DS08c,316,237,6,4,72,PASS,,"All steps completed successfully"
+DS08d,0,0,0,0,0,SKIP,inspect,"H5 truncated in source archive (-32 bytes); verified after investigation"

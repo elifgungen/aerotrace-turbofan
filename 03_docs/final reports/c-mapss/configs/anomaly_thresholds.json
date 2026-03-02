@@ -1,0 +1,26 @@
+{
+  "policy_version": "anomaly_v1",
+  "baseline_n": 20,
+  "eps": 1e-6,
+  "mapping_mode": "sigmoid",
+  "sigmoid_k": 1.0,
+  "mapping_fit_on": "train",
+  "smooth_window": 5,
+  "sensor_allowlist": [
+    "s2",
+    "s3",
+    "s4",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+  ]
+}
+

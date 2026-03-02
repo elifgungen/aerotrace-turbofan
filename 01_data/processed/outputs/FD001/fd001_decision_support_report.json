@@ -1,0 +1,44 @@
+{
+  "dataset": "FD001",
+  "code_version": "2026-01-29",
+  "created_at_utc": "2026-01-29T17:46:37.966774+00:00",
+  "config_path": "configs/decision_support_thresholds.json",
+  "config_sha256": "3274ceced0f57dd28bb3dce81d7647324d27f5d51991a29cc1ca7c33e996b895",
+  "inputs": {
+    "rul_csv": "data/outputs/fd001_rul_predictions.csv",
+    "rul_sha256": "c5ac602064461e5f2dd85a547175674a0102865b3febfd2e9d0e451ef44c7c6d",
+    "anomaly_csv": "data/outputs/fd001_anomaly_scores.csv",
+    "anomaly_sha256": "96f7f3182b28e4fb70411c4546b63f12f227b088314f51bc47a80b8c015563f5"
+  },
+  "join_key": [
+    "dataset_id",
+    "split",
+    "engine_id",
+    "cycle"
+  ],
+  "row_counts": {
+    "rul_rows": 13096,
+    "anomaly_rows": 33727,
+    "joined_rows": 13096
+  },
+  "duplicates_count": 0,
+  "nan_count_total": 0,
+  "rul_pred_min": 4.866864981285325,
+  "rul_pred_max": 125.0,
+  "anomaly_score_min": 0.322757537402092,
+  "anomaly_score_max": 0.9991587867089144,
+  "theta_rul_used": 50.0,
+  "alpha_anomaly_used": 0.4560538176011786,
+  "alpha_calibration": {
+    "alpha_mode": "target_arl_on_healthy_first_n",
+    "alpha_fit_on": "healthy_first_n_cycles_per_engine",
+    "calibration_split": "train",
+    "target_fpr_warn": 0.005,
+    "achieved_fpr_warn": 0.005,
+    "calib_values_count": 2000,
+    "alpha_warn": 0.4560538176011786
+  },
+  "outputs": {
+    "decision_support_csv": "data/outputs/fd001_decision_support.csv"
+  }
+}

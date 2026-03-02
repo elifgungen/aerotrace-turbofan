@@ -1,0 +1,51 @@
+﻿{
+  "version": "phase2-hybrid-v1",
+  "report_alignment": {
+    "rmse_protocol": "cycle_level",
+    "ncmapss_scope": ["DS01", "DS02", "DS03", "DS04", "DS05", "DS06", "DS07"],
+    "primary_kpi": "missed_alarm_minimization",
+    "cap_policy": {
+      "active": 125,
+      "shadow": 130
+    }
+  },
+  "contract": {
+    "require_canonical_split": true,
+    "allowed_splits": ["train", "test"],
+    "required_columns": [
+      "dataset_id",
+      "split",
+      "asset_id",
+      "t",
+      "rul_pred",
+      "anomaly_score_raw",
+      "anomaly_score_smoothed",
+      "anomaly_state",
+      "decision_label",
+      "reason_codes",
+      "theta_rul_used",
+      "alpha_high_used",
+      "alpha_low_used",
+      "policy_version",
+      "run_id"
+    ]
+  },
+  "fusion": {
+    "model_weight": 0.45,
+    "policy_weight": 0.25,
+    "physics_weight": 0.20,
+    "uncertainty_weight": 0.10,
+    "rul_weight_inside_model": 0.60,
+    "anomaly_weight_inside_model": 0.40,
+    "trend_window": 15,
+    "trend_drop_ref_per_cycle": 1.00,
+    "rul_std_ref": 5.00,
+    "anom_std_ref": 0.08,
+    "critical_floor_on_immediate": 0.88,
+    "persistence_pending_boost": 0.07
+  },
+  "thresholds": {
+    "warning": 0.55,
+    "critical": 0.78
+  }
+}

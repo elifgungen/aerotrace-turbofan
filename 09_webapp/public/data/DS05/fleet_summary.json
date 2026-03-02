@@ -1,0 +1,112 @@
+{
+ "datasetId": "DS05",
+ "datasetLabel": "N-CMAPSS DS05",
+ "totalEngines": 10,
+ "totalCycles": 818,
+ "labelCounts": {
+  "Planned Maintenance": 9,
+  "Immediate Maintenance": 1
+ },
+ "engines": [
+  {
+   "id": 1,
+   "maxCycle": 80,
+   "rul": 1.41,
+   "anomSmooth": 0.001095,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 3
+  },
+  {
+   "id": 2,
+   "maxCycle": 80,
+   "rul": 0.93,
+   "anomSmooth": 0.056772,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 1
+  },
+  {
+   "id": 3,
+   "maxCycle": 65,
+   "rul": 1.4,
+   "anomSmooth": 0.174708,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 1
+  },
+  {
+   "id": 4,
+   "maxCycle": 99,
+   "rul": 1.01,
+   "anomSmooth": 0.000556,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 7
+  },
+  {
+   "id": 5,
+   "maxCycle": 100,
+   "rul": 1.25,
+   "anomSmooth": 0.266847,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 3
+  },
+  {
+   "id": 6,
+   "maxCycle": 67,
+   "rul": 1.09,
+   "anomSmooth": 0.316874,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 5
+  },
+  {
+   "id": 7,
+   "maxCycle": 85,
+   "rul": 1.11,
+   "anomSmooth": 0.513001,
+   "label": "Immediate Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 6
+  },
+  {
+   "id": 8,
+   "maxCycle": 91,
+   "rul": 1.04,
+   "anomSmooth": 9.3e-05,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 3
+  },
+  {
+   "id": 9,
+   "maxCycle": 69,
+   "rul": 1.42,
+   "anomSmooth": 0.060218,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 5
+  },
+  {
+   "id": 10,
+   "maxCycle": 82,
+   "rul": 1.31,
+   "anomSmooth": 0.000149,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2394,
+   "transitions": 3
+  }
+ ]
+}

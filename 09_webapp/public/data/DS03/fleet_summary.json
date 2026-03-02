@@ -1,0 +1,162 @@
+{
+ "datasetId": "DS03",
+ "datasetLabel": "N-CMAPSS DS03",
+ "totalEngines": 15,
+ "totalCycles": 1101,
+ "labelCounts": {
+  "Planned Maintenance": 13,
+  "Immediate Maintenance": 2
+ },
+ "engines": [
+  {
+   "id": 1,
+   "maxCycle": 72,
+   "rul": 13.11,
+   "anomSmooth": 0.000943,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 5
+  },
+  {
+   "id": 2,
+   "maxCycle": 73,
+   "rul": 0.0,
+   "anomSmooth": 0.254869,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 29
+  },
+  {
+   "id": 3,
+   "maxCycle": 67,
+   "rul": 0.0,
+   "anomSmooth": 0.013681,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 28
+  },
+  {
+   "id": 4,
+   "maxCycle": 60,
+   "rul": 1.98,
+   "anomSmooth": 0.000697,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 23
+  },
+  {
+   "id": 5,
+   "maxCycle": 93,
+   "rul": 3.35,
+   "anomSmooth": 0.000148,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 5
+  },
+  {
+   "id": 6,
+   "maxCycle": 63,
+   "rul": 0.0,
+   "anomSmooth": 0.261568,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 16
+  },
+  {
+   "id": 7,
+   "maxCycle": 80,
+   "rul": 0.0,
+   "anomSmooth": 0.129501,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 30
+  },
+  {
+   "id": 8,
+   "maxCycle": 71,
+   "rul": 0.0,
+   "anomSmooth": 0.160155,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 7
+  },
+  {
+   "id": 9,
+   "maxCycle": 84,
+   "rul": 5.98,
+   "anomSmooth": 7.4e-05,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 3
+  },
+  {
+   "id": 10,
+   "maxCycle": 66,
+   "rul": 0.0,
+   "anomSmooth": 0.642895,
+   "label": "Immediate Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 15
+  },
+  {
+   "id": 11,
+   "maxCycle": 59,
+   "rul": 0.0,
+   "anomSmooth": 0.147197,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 12
+  },
+  {
+   "id": 12,
+   "maxCycle": 93,
+   "rul": 0.6,
+   "anomSmooth": 0.000332,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 5
+  },
+  {
+   "id": 13,
+   "maxCycle": 77,
+   "rul": 0.0,
+   "anomSmooth": 0.556959,
+   "label": "Immediate Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 21
+  },
+  {
+   "id": 14,
+   "maxCycle": 76,
+   "rul": 0.0,
+   "anomSmooth": 1.7e-05,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 1
+  },
+  {
+   "id": 15,
+   "maxCycle": 67,
+   "rul": 0.0,
+   "anomSmooth": 0.07279,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.2692,
+   "transitions": 25
+  }
+ ]
+}

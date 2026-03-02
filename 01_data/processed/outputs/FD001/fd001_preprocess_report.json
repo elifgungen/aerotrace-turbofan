@@ -1,0 +1,55 @@
+{
+  "dataset": "FD001",
+  "status": "FAIL",
+  "reason": "Missing required raw files; cannot rebuild preprocess.",
+  "missing_raw_files": [
+    "data/raw/CMAPSSData/train_FD001.txt",
+    "data/raw/CMAPSSData/test_FD001.txt",
+    "data/raw/CMAPSSData/RUL_FD001.txt"
+  ],
+  "expected_raw_files": {
+    "train_txt": "data/raw/CMAPSSData/train_FD001.txt",
+    "test_txt": "data/raw/CMAPSSData/test_FD001.txt",
+    "rul_txt": "data/raw/CMAPSSData/RUL_FD001.txt"
+  },
+  "raw_schema": {
+    "format": "whitespace-separated txt, no header",
+    "columns_count": 26,
+    "columns": [
+      "engine_id",
+      "cycle",
+      "os1",
+      "os2",
+      "os3",
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s9",
+      "s10",
+      "s11",
+      "s12",
+      "s13",
+      "s14",
+      "s15",
+      "s16",
+      "s17",
+      "s18",
+      "s19",
+      "s20",
+      "s21"
+    ],
+    "notes": [
+      "engine_id is 1-indexed unit id",
+      "cycle is integer",
+      "RUL_FD001.txt is 1 value per test engine, in engine_id order"
+    ]
+  },
+  "config_sha256": "1342d4228f7ecc9fff8122b30f03bc275ebf14554688b2db21cd9e6f90b560f8",
+  "created_at_utc": "2026-01-29T18:42:22.006768+00:00",
+  "code_version": "2026-01-29"
+}

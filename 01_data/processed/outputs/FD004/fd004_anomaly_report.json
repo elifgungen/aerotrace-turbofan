@@ -1,0 +1,85 @@
+{
+  "dataset": "FD004",
+  "code_version": "2026-01-29",
+  "created_at_utc": "2026-01-29T14:53:00.768525+00:00",
+  "config_path": "configs/anomaly_thresholds.json",
+  "config_sha256": "335f40ac5df2d5fd121c6f20ed7fd52cd3037e816a4c526104a0921141ce1442",
+  "fit_split": "train_only",
+  "data_summary": {
+    "train_csv": "01_data/processed/train_FD004_full_norm.csv",
+    "test_csv": "01_data/processed/test_FD004_full_norm.csv",
+    "train_sha256": "5742374a38124daa22bdd6204b6cf6b450d942aacc48edb03780c7ece80a0f1e",
+    "test_sha256": "f75426a3799dfa85e9c02cf05d6b8bdb12e34060c9672317e4c5756757cbe7d0",
+    "input_rows_train": 61249,
+    "input_rows_test": 41214,
+    "output_rows_train": 61249,
+    "output_rows_test": 41214,
+    "output_rows_total": 102463,
+    "duplicates_count": 0,
+    "train_engines": 249,
+    "test_engines": 248,
+    "train_baseline_rows_per_engine_min": 20,
+    "test_baseline_rows_per_engine_min": 19
+  },
+  "anomaly_summary": {
+    "min": 0.36466142856220995,
+    "max": 0.9753385414754799,
+    "quantiles": {
+      "p50": 0.5331265204905933,
+      "p90": 0.6157162527612524,
+      "p95": 0.6452785994668814,
+      "p99": 0.7180343899469555
+    }
+  },
+  "mapping_params_used": {
+    "dataset": "FD004",
+    "fit_split": "train_only",
+    "mapping_mode": "sigmoid",
+    "sigmoid": {
+      "c": 0.7582087031353564,
+      "k": 1.0
+    },
+    "baseline_n": 20,
+    "eps": 1e-06,
+    "smooth_window": 5,
+    "sensors_used": [
+      "s2",
+      "s3",
+      "s4",
+      "s7",
+      "s8",
+      "s9",
+      "s11",
+      "s12",
+      "s13",
+      "s14",
+      "s15",
+      "s17",
+      "s20",
+      "s21"
+    ],
+    "missing_sensors": []
+  },
+  "sensors_used": [
+    "s2",
+    "s3",
+    "s4",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+  ],
+  "missing_sensors": [],
+  "outputs": {
+    "scores_csv": "data/outputs/fd004_anomaly_scores.csv",
+    "report_json": "data/outputs/fd004_anomaly_report.json",
+    "mapping_params_json": "data/outputs/fd004_anomaly_mapping_params.json"
+  }
+}

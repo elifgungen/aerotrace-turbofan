@@ -1,0 +1,28 @@
+{
+  "fd001": {
+    "joined_rows": 13096,
+    "changed_rows": 651,
+    "change_ratio": 0.04970983506414172,
+    "top_transitions": {
+      "Planned Maintenance -> Normal Operation": 304,
+      "Planned Maintenance -> Enhanced Monitoring": 87,
+      "Planned Maintenance -> Immediate Maintenance": 85,
+      "Enhanced Monitoring -> Normal Operation": 66,
+      "Normal Operation -> Enhanced Monitoring": 63,
+      "Immediate Maintenance -> Enhanced Monitoring": 46
+    },
+    "diff_csv": "/Users/elifgungen/Downloads/JET-CUBE 3/OUTPUTS/audit/delta_fd001.csv"
+  },
+  "ncmapss_ds01": {
+    "joined_rows": 894,
+    "changed_rows": 329,
+    "change_ratio": 0.3680089485458613,
+    "top_transitions": {
+      "Normal Operation -> Planned Maintenance": 282,
+      "Enhanced Monitoring -> Normal Operation": 29,
+      "Enhanced Monitoring -> Planned Maintenance": 17,
+      "Normal Operation -> Immediate Maintenance": 1
+    },
+    "diff_csv": "/Users/elifgungen/Downloads/JET-CUBE 3/OUTPUTS/audit/delta_ncmapss_ds01.csv"
+  }
+}

@@ -1,0 +1,7 @@
+decision_label_v1,decision_label_v2,count
+Normal Operation,Normal Operation,562
+Normal Operation,Planned Maintenance,282
+Enhanced Monitoring,Normal Operation,29
+Enhanced Monitoring,Planned Maintenance,17
+Planned Maintenance,Planned Maintenance,3
+Normal Operation,Immediate Maintenance,1

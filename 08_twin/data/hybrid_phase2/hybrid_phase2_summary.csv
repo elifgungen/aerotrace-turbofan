@@ -1,0 +1,8 @@
+dataset,rows,engines,hybrid_alarm_rate_pct,hybrid_critical_rate_pct,critical_proxy_rate_pct,missed_alarm_proxy_rate_pct,critical_detection_recall_pct,early_alarm_proxy_rate_pct,avg_hybrid_risk,warning_threshold,critical_threshold,config_version
+DS01,894,10,20.0224,0.6711,1.1186,0.4474,60.0,0.0,0.346126,0.55,0.78,phase2-hybrid-v1
+DS02,648,9,23.3025,1.5432,0.7716,0.1543,80.0,0.9259,0.336982,0.55,0.78,phase2-hybrid-v1
+DS03,1101,15,22.525,1.8165,2.089,0.4541,78.2609,0.1817,0.399918,0.55,0.78,phase2-hybrid-v1
+DS04,856,10,8.1776,0.9346,1.4019,0.4673,66.6667,0.0,0.342595,0.55,0.78,phase2-hybrid-v1
+DS05,818,10,23.4719,1.467,1.467,0.1222,91.6667,0.1222,0.340636,0.55,0.78,phase2-hybrid-v1
+DS06,797,10,20.9536,2.8858,2.5094,0.0,100.0,0.3764,0.324696,0.55,0.78,phase2-hybrid-v1
+DS07,812,10,22.0443,1.4778,1.601,0.2463,84.6154,0.1232,0.303625,0.55,0.78,phase2-hybrid-v1

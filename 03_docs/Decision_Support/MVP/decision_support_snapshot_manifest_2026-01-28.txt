@@ -1,0 +1,26 @@
+Decision Support snapshot manifest (2026-01-28)
+
+Core code/config
+- config/decision_support_thresholds.json
+- 05_demo/decision_support_runner.py
+- 03_docs/Decision_Support/decision_logic.md
+- 03_docs/Decision_Support/decision_support_report_2026-01-28.md
+
+Evidence (reports)
+- 05_demo/demo output/fd001_decision_support_baseline_deviation_report.json
+- 05_demo/demo output/fd002_decision_support_with_anomaly_report.json
+
+Outputs (V1 contract)
+- data/outputs/fd001_decision_support.csv
+- data/outputs/fd002_decision_support.csv
+
+Outputs (V2, richer)
+- 05_demo/demo output/fd001_decision_support_baseline_deviation.csv
+- 05_demo/demo output/fd002_decision_support_with_anomaly.csv
+
+Plots (visual proof)
+- 04_figures/decision_support/fd001_baseline_engine_73_timeline.png
+- 04_figures/decision_support/fd001_baseline_engine_49_timeline.png
+- 04_figures/decision_support/fd002_engine_1_timeline.png
+- 04_figures/decision_support/fd002_engine_159_timeline.png
+
