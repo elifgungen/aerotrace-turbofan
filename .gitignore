@@ -45,12 +45,12 @@ env/
 autogluon_models/
 
 # ─── Large Data (regeneratable / licensed) ───
-01_data/raw/
-01_data/processed/CMAPSS/
-02_notebooks_exports/**
-!02_notebooks_exports/**/
-!02_notebooks_exports/**/*.py
-!02_notebooks_exports/**/*.ipynb
+data/raw/
+data/processed/CMAPSS/
+notebooks/**
+!notebooks/**/
+!notebooks/**/*.py
+!notebooks/**/*.ipynb
 
 # ─── Excluded Directories ───
 06_application/
@@ -58,6 +58,12 @@ autogluon_models/
 logo/
 JET-CUBE-public/
 
+# ─── Forbidden docs (must never be in public repo) ───
+readme_docs/DRIVE KULLANIM REHBERI.docx
+readme_docs/Drive_Kullanim_Rehberi*
+readme_docs/HAVELSAN JET CUBE*
+
 # ─── Build & Generated ───
-09_webapp/dist/
-09_webapp/.vercel/
+webapp/dist/
+webapp/.vercel/
+09_webapp/
