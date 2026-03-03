@@ -4,7 +4,7 @@ Turbofan motorları için **insan-onaylı kestirimci bakım karar destek sistemi
 11 farklı senaryo (C-MAPSS FD001–FD004 + N-CMAPSS DS01–DS07) üzerinde çalışan RUL tahmin ve anomali skorlarını birleştirip her çevrimde **4 seviyeli bakım önerisi** üretir; nihai karar bakım mühendisinde kalır.
 
 > **AeroTrace** by **AeroLith Systems** · v2.0  
-> Deploy: [https://dist-ebon-nine.vercel.app](https://dist-ebon-nine.vercel.app)
+> Deploy: [https://09webapp.vercel.app](https://09webapp.vercel.app)
 
 ---
 
