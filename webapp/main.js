@@ -1105,6 +1105,7 @@ function updateMotorCycle(timeline, cycle) {
   }
 
   // Update Sensor Insight Cards
+  const si = row.sensorInsights;
   const cardsContainer = document.getElementById('sensor-cards-container');
   const insightsSection = document.getElementById('sensor-insights-section');
   if (cardsContainer && insightsSection) {
@@ -1385,7 +1386,7 @@ function render3DEngine(healths) {
       xaxis: { visible: false },
       yaxis: { visible: false },
       zaxis: { visible: false, range: [-0.5, 12.5] },
-      camera: { eye: { x: 1.8, y: 0.8, z: 0.5 } },
+      camera: { eye: { x: 2.4, y: 1.2, z: 0.8 } },
       bgcolor: 'rgba(0,0,0,0)',
       aspectratio: { x: 1, y: 1, z: 2.8 },
     },
@@ -1542,6 +1543,11 @@ function runDemoStep() {
         if (xaiPanel) xaiPanel.scrollIntoView({ behavior: 'smooth', block: 'center' });
       });
     }, 450);
+  } else {
+    // Scroll to top when navigating to a non-XAI step (e.g. going back from step 4 to 3)
+    demoPendingTimeout = setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 300);
   }
 }
 
