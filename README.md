@@ -124,6 +124,9 @@ npm run dev
 Default URL:
 - `http://localhost:5173`
 
+Live deployment (Vercel):
+- `https://09webapp.vercel.app`
+
 Web app documentation:
 - `webapp/README.md`
 

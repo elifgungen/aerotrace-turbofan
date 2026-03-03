@@ -1599,11 +1599,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
   document.getElementById('demo-close').addEventListener('click', endDemo);
 
-  // Sidebar logo click → Ana Sayfa
+  // Sidebar logo click: landing sayfasındaysa intro'ya, diğer sayfalarda landing'e git
   const sidebarLogo = document.querySelector('.sidebar-logo');
   if (sidebarLogo) {
     sidebarLogo.style.cursor = 'pointer';
-    sidebarLogo.addEventListener('click', () => navigateTo('landing'));
+    sidebarLogo.addEventListener('click', () => {
+      if (currentPage === 'landing') {
+        navigateTo('intro');
+      } else {
+        navigateTo('landing');
+      }
+    });
   }
 
   // Browser back/forward support

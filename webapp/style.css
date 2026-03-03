@@ -853,6 +853,7 @@ code,
   margin-top: var(--space-md);
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 .fleet-preview-link a {
