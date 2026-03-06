@@ -23,13 +23,13 @@ Bu klasor, Twin calismasini tek bir yerde toplamak icin olusturuldu.
 
 ## Onkosullar
 ```powershell
-Set-Location "C:\Baran\Havelsan"
+Set-Location "<repo-root>"
 .\.venv\Scripts\python.exe -m pip install streamlit plotly pandas numpy scikit-learn pyyaml
 ```
 
 ## Hizli Baslangic (3D UI)
 ```powershell
-Set-Location "C:\Baran\Havelsan"
+Set-Location "<repo-root>"
 .\.venv\Scripts\python.exe -m streamlit run twin/app/streamlit_twin_3d.py --server.port 8518
 ```
 
@@ -43,7 +43,7 @@ Beklenen UI ibaresi:
 Varsayilanlar artik `twin/*` yolunu kullanir.
 
 ```powershell
-Set-Location "C:\Baran\Havelsan"
+Set-Location "<repo-root>"
 .\.venv\Scripts\python.exe twin/scripts/run_twin_hybrid_phase2.py
 ```
 
@@ -54,7 +54,7 @@ Uretilen dosyalar:
 
 ## Phase-1 Replay Calistirma
 ```powershell
-Set-Location "C:\Baran\Havelsan"
+Set-Location "<repo-root>"
 .\.venv\Scripts\python.exe twin/scripts/run_twin_phase1_replay.py
 ```
 
@@ -68,7 +68,7 @@ Uretilen dosyalar:
 RUL + anomaly exportlardan `twin/inputs` altina yeni feed olusturur.
 
 ```powershell
-Set-Location "C:\Baran\Havelsan"
+Set-Location "<repo-root>"
 .\.venv\Scripts\python.exe twin/scripts/build_twin_inputs_ncmapss.py
 ```
 

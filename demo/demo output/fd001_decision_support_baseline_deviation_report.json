@@ -2,7 +2,7 @@
   "config_path": "config/decision_support_thresholds.json",
   "config_sha256": "d4b5f4b971c56dec04f885cef530f95e386e1c9a2c4df87bdbf958f781885f65",
   "config_policy_version": "v2",
-  "pred_path": "notebooks/RUL/FD001/FD001_Ozcan_AllRaws/predictions_cycle_all_rows.csv",
+  "pred_path": "notebooks/RUL/C-MAPSS/FD001/FD001_AllRaws/predictions_cycle_all_rows.csv",
   "anomaly_path": "notebooks/Anomaly/jet-cube-turbofan-mvp/outputs/fd001_anomaly_scores.csv",
   "out_path": "demo/demo output/fd001_decision_support_baseline_deviation.csv",
   "created_at_utc": "2026-01-27T21:40:08.807627+00:00",

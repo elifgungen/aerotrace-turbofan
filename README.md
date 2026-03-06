@@ -175,8 +175,23 @@ Twin documentation:
 
 - Data source summary:
   - `readme_docs/data_sources.md`
+- C-MAPSS raw snapshots in this repo:
+  - `data/raw/CMAPSS/FD001_raw_dataset/{train_FD001.txt,test_FD001.txt,RUL_FD001.txt}`
+  - `data/raw/CMAPSS/FD002_raw_dataset/{train_FD002.txt,test_FD002.txt,RUL_FD002.txt}`
+  - `data/raw/CMAPSS/FD003_raw_dataset/{train_FD003.txt,test_FD003.txt,RUL_FD003.txt}`
+  - `data/raw/CMAPSS/FD004_raw_dataset/{train_FD004.txt,test_FD004.txt,RUL_FD004.txt}`
 - N-CMAPSS retrieval note:
   - `data/raw/N-CMAPSS/README_download.md`
+- Processed decision-support outputs:
+  - `data/processed/outputs/FD001/`
+  - `data/processed/outputs/FD002/`
+  - `data/processed/outputs/FD003/`
+  - `data/processed/outputs/FD004/`
+- RUL notebook exports:
+  - `notebooks/RUL/C-MAPSS/FD001/FD001_AllRaws/`
+  - `notebooks/RUL/C-MAPSS/FD002/FD002_All/`
+  - `notebooks/RUL/N-CMAPSS/DS01/`
+  - `notebooks/RUL/N-CMAPSS/DS02/`
 
 ## 9) What this repo is optimized for
 

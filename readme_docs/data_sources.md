@@ -16,6 +16,12 @@ Her dataset (FD001, FD002, FD003, FD004) için üç dosya:
 - `test_FD00x.txt` — Test verisi (kesik çevrim)
 - `RUL_FD00x.txt` — Test motorları için gerçek kalan ömür
 
+Repo içindeki mevcut ham C-MAPSS yerleşimi:
+- `data/raw/CMAPSS/FD001_raw_dataset/`
+- `data/raw/CMAPSS/FD002_raw_dataset/`
+- `data/raw/CMAPSS/FD003_raw_dataset/`
+- `data/raw/CMAPSS/FD004_raw_dataset/`
+
 ### Dataset Özellikleri
 
 | Dataset | Motor | Çalışma Koşulu | Hata Modu | Sensör |
@@ -84,10 +90,33 @@ data/processed/N-CMAPSS/
 ### Pipeline Çıktıları
 ```
 data/processed/outputs/
-├── fd001_decision_support.csv
-├── fd002_decision_support.csv
-├── fd003_decision_support.csv
-└── fd004_decision_support.csv
+├── FD001/
+│   ├── fd001_anomaly_scores.csv
+│   ├── fd001_rul_predictions.csv
+│   └── fd001_decision_support.csv
+├── FD002/
+│   ├── fd002_anomaly_scores.csv
+│   ├── fd002_rul_predictions.csv
+│   └── fd002_decision_support.csv
+├── FD003/
+│   ├── fd003_anomaly_scores.csv
+│   ├── fd003_rul_predictions.csv
+│   └── fd003_decision_support.csv
+└── FD004/
+    ├── fd004_anomaly_scores.csv
+    ├── fd004_rul_predictions.csv
+    └── fd004_decision_support.csv
+```
+
+### RUL Notebook Export Klasörleri
+```
+notebooks/RUL/
+├── C-MAPSS/
+│   ├── FD001/FD001_AllRaws/
+│   └── FD002/FD002_All/
+└── N-CMAPSS/
+    ├── DS01/
+    └── DS02/
 ```
 
 ---
@@ -105,6 +134,7 @@ Tüm processed CSV'ler `(dataset_id, split, engine_id, cycle)` unique join key'i
 ---
 
 ## Not
-- Raw veri dosyaları repo içinde **yer almaz** (lisans/boyut kısıtı)
+- C-MAPSS ham snapshot'ları repo içinde bulunur (`data/raw/CMAPSS/*`).
+- N-CMAPSS ham veri dosyaları repo içinde yoktur; edinim için `data/raw/N-CMAPSS/README_download.md` kullanılır.
 - Raw yoksa pipeline script'leri FAIL ederek beklenen dosyaları raporlar
 - İşlenmiş veriler script'ler ile raw'dan yeniden üretilebilir

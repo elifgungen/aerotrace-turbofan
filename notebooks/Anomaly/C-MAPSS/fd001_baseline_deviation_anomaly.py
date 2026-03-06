@@ -188,12 +188,12 @@ def main() -> int:
     )
     ap.add_argument(
         "--pred",
-        default="notebooks/RUL/FD001/FD001_Ozcan_AllRaws/predictions_cycle_all_rows.csv",
+        default="notebooks/RUL/C-MAPSS/FD001/FD001_AllRaws/predictions_cycle_all_rows.csv",
         help="Optional: predictions CSV to validate key alignment and to create a joined artefact.",
     )
     ap.add_argument(
         "--metrics-json",
-        default="notebooks/RUL/FD001/FD001_Ozcan_AllRaws/metrics_cycle_all_rows.json",
+        default="notebooks/RUL/C-MAPSS/FD001/FD001_AllRaws/metrics_cycle_all_rows.json",
         help="Optional: metrics JSON to enforce sensor set from pipeline feature_columns.",
     )
     ap.add_argument(

@@ -11,10 +11,10 @@ Paper pointers (for humans, not used programmatically):
   - RUL Score formula: Eq. (4) with a1=10, a2=13 (Ozcan PDF p. 10)
 
 Example:
-  python train_ozcan_lgbm_cat_fd001.py ^
+  python train_fd001_lgbm_cat.py ^
     --train Data/FD001/Sensor_Deleted/FD001-20260122T184021Z-1-001/train_FD001_norm.csv ^
     --test  Data/FD001/Sensor_Deleted/FD001-20260122T184021Z-1-001/test_FD001_norm.csv ^
-    --outdir outputs/ozcan_lgbm_cat_fd001
+    --outdir outputs/fd001_lgbm_cat
 """
 
 from __future__ import annotations
@@ -196,7 +196,7 @@ def main() -> int:
     ap.add_argument("--stacking-folds", type=int, default=5, help="Number of GroupKFold splits (default: 5).")
     ap.add_argument("--ridge-alpha", type=float, default=1.0, help="Ridge alpha for stacking meta-learner (default: 1.0).")
     ap.add_argument("--seed", type=int, default=42, help="Random seed for model init (default: 42).")
-    ap.add_argument("--outdir", default="outputs/ozcan_lgbm_cat_fd001", help="Output directory.")
+    ap.add_argument("--outdir", default="outputs/fd001_lgbm_cat", help="Output directory.")
     args = ap.parse_args()
 
     train_path = Path(args.train)

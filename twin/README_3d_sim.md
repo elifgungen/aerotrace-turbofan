@@ -2,13 +2,13 @@
 
 ## 1) Hybrid outputs uret (onerilen)
 ```powershell
-Set-Location "C:\Baran\Havelsan"
+Set-Location "<repo-root>"
 .\.venv\Scripts\python.exe twin/scripts/run_twin_hybrid_phase2.py
 ```
 
 ## 2) UI calistir (port 8518)
 ```powershell
-Set-Location "C:\Baran\Havelsan"
+Set-Location "<repo-root>"
 .\.venv\Scripts\python.exe -m streamlit run twin/app/streamlit_twin_3d.py --server.port 8518
 ```
 

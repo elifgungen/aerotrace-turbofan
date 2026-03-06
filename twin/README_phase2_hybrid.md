@@ -18,7 +18,7 @@ N-CMAPSS DS01-DS07 policy ciktilari ustunde hibrit risk fuzesi uretir.
 
 ## Calistirma
 ```powershell
-Set-Location "C:\Baran\Havelsan"
+Set-Location "<repo-root>"
 .\.venv\Scripts\python.exe twin/scripts/run_twin_hybrid_phase2.py
 ```
 

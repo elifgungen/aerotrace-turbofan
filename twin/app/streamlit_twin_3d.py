@@ -555,7 +555,7 @@ else:
 if not files:
     if source_mode == "hybrid_phase2":
         st.error(
-            "No hybrid outputs found. Run: .\\.venv\\Scripts\\python.exe 04_twin/scripts/run_twin_hybrid_phase2.py"
+            "No hybrid outputs found. Run: .\\.venv\\Scripts\\python.exe twin/scripts/run_twin_hybrid_phase2.py"
         )
     else:
         st.error(f"No policy file found under: {root}")
@@ -735,4 +735,3 @@ if st.session_state.get(play_state_key, False) and len(cycle_values) > 1:
         st.session_state[cycle_state_key] = int(cycle_values[cur_idx + 1])
         time.sleep(float(st.session_state[delay_key]) / 1000.0)
         st.rerun()
-

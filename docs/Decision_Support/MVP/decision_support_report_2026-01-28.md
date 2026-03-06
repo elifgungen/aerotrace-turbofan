@@ -87,7 +87,7 @@ Runner şu kontrolleri yapar:
 
 ```bash
 python demo/decision_support_runner.py \
-  --pred notebooks/RUL/FD001/FD001_Ozcan_AllRaws/predictions_cycle_all_rows.csv \
+  --pred notebooks/RUL/C-MAPSS/FD001/FD001_AllRaws/predictions_cycle_all_rows.csv \
   --rul-col pred_ensemble \
   --anomaly notebooks/Anomaly/jet-cube-turbofan-mvp/outputs/fd001_anomaly_scores.csv \
   --out "demo/demo output/fd001_decision_support_baseline_deviation.csv" \
@@ -100,7 +100,7 @@ python demo/decision_support_runner.py \
 
 ```bash
 python demo/decision_support_runner.py \
-  --pred notebooks/RUL/FD002/FD002_Ozcan_All/fd002_test_predictions_FD002_LOCAL_REGIMEAWARE_SENSOR_ZSCORE_K6_ONEHOT.csv \
+  --pred notebooks/RUL/C-MAPSS/FD002/FD002_All/fd002_test_predictions_FD002_LOCAL_REGIMEAWARE_SENSOR_ZSCORE_K6_ONEHOT.csv \
   --rul-col rul_pred \
   --anomaly notebooks/Anomaly/jet-cube-turbofan-mvp/outputs/anomaly/FD002/fd002_anomaly_test.csv \
   --out "demo/demo output/fd002_decision_support_with_anomaly.csv" \
@@ -125,7 +125,7 @@ Plot üretme:
 ```bash
 python demo/plot_decision_support_examples.py \
   --ds "demo/demo output/fd001_decision_support_baseline_deviation.csv" \
-  --pred "notebooks/RUL/FD001/FD001_Ozcan_AllRaws/predictions_cycle_all_rows.csv" \
+  --pred "notebooks/RUL/C-MAPSS/FD001/FD001_AllRaws/predictions_cycle_all_rows.csv" \
   --rul-col pred_ensemble \
   --anomaly "notebooks/Anomaly/jet-cube-turbofan-mvp/outputs/fd001_anomaly_scores.csv" \
   --out-dir "figures/decision_support" \
