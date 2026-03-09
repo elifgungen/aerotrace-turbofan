@@ -7,8 +7,7 @@ Bu fazda yeni model egitimi yoktur. Mevcut `rul_pred` ve `anomaly_score` ciktila
 ```powershell
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install -r readme_docs/requirements_demo.txt
-pip install pyyaml scipy scikit-learn shap
+pip install streamlit pandas numpy plotly pyyaml scipy scikit-learn shap
 ```
 
 ## 2) Twin input feed olusturma

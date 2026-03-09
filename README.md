@@ -17,10 +17,9 @@ The end-to-end workflow brings together four connected capabilities:
 
 | Path | Description |
 | --- | --- |
-| `guides/` | Quickstart guides, demo runbooks, data-source notes, and reproducibility references. |
 | `data/` | Raw, processed, and curated data assets used by the MVP. |
 | `notebooks/` | Notebook exports, model artefacts, and dataset-specific result files. |
-| `docs/` | Narrative reports, architecture notes, and final evaluation material. |
+| `docs/` | Narrative reports, architecture notes, review notes, and final evaluation material. |
 | `figures/` | Supporting visuals used in reports and presentations. |
 | `demo/` | Decision-support package, scripts, and generated outputs. |
 | `twin/` | Digital twin inputs and simulation-oriented assets. |
@@ -30,7 +29,6 @@ The end-to-end workflow brings together four connected capabilities:
 
 Choose the path that matches the review goal:
 
-- For repository-level orientation and demo instructions, start with [`guides/mvp_quickstart.md`](./guides/mvp_quickstart.md).
 - For the interactive browser experience, open [`webapp/README.md`](./webapp/README.md) and run the Vite application locally.
 - For decision-support logic and packaged outputs, inspect [`demo/`](./demo) together with the reports under [`docs/`](./docs).
 
