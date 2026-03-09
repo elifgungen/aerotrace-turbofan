@@ -1,0 +1,33 @@
+﻿{
+  "overall_ready": true,
+  "config_version": "phase2-hybrid-v1",
+  "split_mode": "all",
+  "datasets": [
+    {
+      "dataset": "DS03",
+      "policy_file": "twin/data/decision_support_v2_outputs/ncmapss_DS03_decision_support_v2.csv",
+      "rows": 1101,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "duplicates": 0,
+      "nonfinite_counts": {},
+      "canonical_split_ok": true,
+      "ready": true
+    },
+    {
+      "dataset": "DS04",
+      "policy_file": "twin/data/decision_support_v2_outputs/ncmapss_DS04_decision_support_v2.csv",
+      "rows": 856,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "duplicates": 0,
+      "nonfinite_counts": {},
+      "canonical_split_ok": true,
+      "ready": true
+    }
+  ]
+}

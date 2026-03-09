@@ -1,0 +1,2604 @@
+{
+ "datasetId": "FD002",
+ "datasetLabel": "C-MAPSS FD002",
+ "totalEngines": 259,
+ "totalCycles": 33991,
+ "labelCounts": {
+  "Planned Maintenance": 80,
+  "Normal Operation": 176,
+  "Enhanced Monitoring": 2,
+  "Immediate Maintenance": 1
+ },
+ "engines": [
+  {
+   "id": 1,
+   "maxCycle": 258,
+   "rul": 20.55,
+   "anomSmooth": 0.548974,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 30
+  },
+  {
+   "id": 2,
+   "maxCycle": 55,
+   "rul": 114.17,
+   "anomSmooth": 0.529076,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 3,
+   "maxCycle": 165,
+   "rul": 96.98,
+   "anomSmooth": 0.51628,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 4,
+   "maxCycle": 86,
+   "rul": 98.33,
+   "anomSmooth": 0.592213,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 8
+  },
+  {
+   "id": 5,
+   "maxCycle": 148,
+   "rul": 5.64,
+   "anomSmooth": 0.558028,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 6,
+   "maxCycle": 63,
+   "rul": 115.64,
+   "anomSmooth": 0.506804,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 7,
+   "maxCycle": 184,
+   "rul": 9.07,
+   "anomSmooth": 0.546603,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 19
+  },
+  {
+   "id": 8,
+   "maxCycle": 173,
+   "rul": 51.85,
+   "anomSmooth": 0.656631,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 6
+  },
+  {
+   "id": 9,
+   "maxCycle": 161,
+   "rul": 9.97,
+   "anomSmooth": 0.494037,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 5
+  },
+  {
+   "id": 10,
+   "maxCycle": 84,
+   "rul": 100.84,
+   "anomSmooth": 0.510258,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 11,
+   "maxCycle": 162,
+   "rul": 8.16,
+   "anomSmooth": 0.529939,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 3
+  },
+  {
+   "id": 12,
+   "maxCycle": 74,
+   "rul": 109.91,
+   "anomSmooth": 0.604572,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 13,
+   "maxCycle": 164,
+   "rul": 60.54,
+   "anomSmooth": 0.561581,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 4
+  },
+  {
+   "id": 14,
+   "maxCycle": 160,
+   "rul": 11.74,
+   "anomSmooth": 0.48902,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 11
+  },
+  {
+   "id": 15,
+   "maxCycle": 165,
+   "rul": 52.8,
+   "anomSmooth": 0.486165,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 8
+  },
+  {
+   "id": 16,
+   "maxCycle": 88,
+   "rul": 108.58,
+   "anomSmooth": 0.541189,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 17,
+   "maxCycle": 264,
+   "rul": 84.39,
+   "anomSmooth": 0.483532,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 18,
+   "maxCycle": 40,
+   "rul": 122.31,
+   "anomSmooth": 0.490031,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 19,
+   "maxCycle": 172,
+   "rul": 16.24,
+   "anomSmooth": 0.618061,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 20,
+   "maxCycle": 101,
+   "rul": 73.94,
+   "anomSmooth": 0.569113,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 21,
+   "maxCycle": 128,
+   "rul": 77.69,
+   "anomSmooth": 0.56655,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 22,
+   "maxCycle": 159,
+   "rul": 9.36,
+   "anomSmooth": 0.611929,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 23,
+   "maxCycle": 49,
+   "rul": 120.88,
+   "anomSmooth": 0.499869,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 24,
+   "maxCycle": 210,
+   "rul": 78.61,
+   "anomSmooth": 0.563154,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 25,
+   "maxCycle": 147,
+   "rul": 80.4,
+   "anomSmooth": 0.501196,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 26,
+   "maxCycle": 76,
+   "rul": 116.97,
+   "anomSmooth": 0.562466,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 27,
+   "maxCycle": 68,
+   "rul": 116.15,
+   "anomSmooth": 0.496807,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 28,
+   "maxCycle": 23,
+   "rul": 125.0,
+   "anomSmooth": 0.522206,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 29,
+   "maxCycle": 101,
+   "rul": 93.91,
+   "anomSmooth": 0.540702,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 30,
+   "maxCycle": 184,
+   "rul": 77.35,
+   "anomSmooth": 0.594641,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 4
+  },
+  {
+   "id": 31,
+   "maxCycle": 123,
+   "rul": 111.4,
+   "anomSmooth": 0.451286,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 32,
+   "maxCycle": 170,
+   "rul": 25.77,
+   "anomSmooth": 0.558337,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 5
+  },
+  {
+   "id": 33,
+   "maxCycle": 135,
+   "rul": 39.77,
+   "anomSmooth": 0.596495,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 9
+  },
+  {
+   "id": 34,
+   "maxCycle": 52,
+   "rul": 121.14,
+   "anomSmooth": 0.551034,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 35,
+   "maxCycle": 77,
+   "rul": 90.61,
+   "anomSmooth": 0.437046,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 36,
+   "maxCycle": 163,
+   "rul": 88.37,
+   "anomSmooth": 0.491692,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 37,
+   "maxCycle": 49,
+   "rul": 121.65,
+   "anomSmooth": 0.503226,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 38,
+   "maxCycle": 127,
+   "rul": 52.23,
+   "anomSmooth": 0.455473,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 6
+  },
+  {
+   "id": 39,
+   "maxCycle": 149,
+   "rul": 29.32,
+   "anomSmooth": 0.528083,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 23
+  },
+  {
+   "id": 40,
+   "maxCycle": 183,
+   "rul": 48.96,
+   "anomSmooth": 0.654693,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 19
+  },
+  {
+   "id": 41,
+   "maxCycle": 210,
+   "rul": 36.94,
+   "anomSmooth": 0.527145,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 25
+  },
+  {
+   "id": 42,
+   "maxCycle": 137,
+   "rul": 23.46,
+   "anomSmooth": 0.50849,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 9
+  },
+  {
+   "id": 43,
+   "maxCycle": 184,
+   "rul": 29.26,
+   "anomSmooth": 0.5254,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 14
+  },
+  {
+   "id": 44,
+   "maxCycle": 164,
+   "rul": 8.03,
+   "anomSmooth": 0.566953,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 45,
+   "maxCycle": 195,
+   "rul": 12.66,
+   "anomSmooth": 0.570807,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 6
+  },
+  {
+   "id": 46,
+   "maxCycle": 132,
+   "rul": 105.22,
+   "anomSmooth": 0.443734,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 5
+  },
+  {
+   "id": 47,
+   "maxCycle": 81,
+   "rul": 108.97,
+   "anomSmooth": 0.602277,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 48,
+   "maxCycle": 132,
+   "rul": 31.97,
+   "anomSmooth": 0.485858,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 6
+  },
+  {
+   "id": 49,
+   "maxCycle": 65,
+   "rul": 116.56,
+   "anomSmooth": 0.516419,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 50,
+   "maxCycle": 164,
+   "rul": 12.91,
+   "anomSmooth": 0.498426,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 11
+  },
+  {
+   "id": 51,
+   "maxCycle": 37,
+   "rul": 124.21,
+   "anomSmooth": 0.499181,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 52,
+   "maxCycle": 165,
+   "rul": 40.22,
+   "anomSmooth": 0.504722,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 21
+  },
+  {
+   "id": 53,
+   "maxCycle": 149,
+   "rul": 41.04,
+   "anomSmooth": 0.487258,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 9
+  },
+  {
+   "id": 54,
+   "maxCycle": 74,
+   "rul": 108.7,
+   "anomSmooth": 0.55374,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 6
+  },
+  {
+   "id": 55,
+   "maxCycle": 123,
+   "rul": 85.96,
+   "anomSmooth": 0.486456,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 56,
+   "maxCycle": 73,
+   "rul": 115.08,
+   "anomSmooth": 0.522806,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 57,
+   "maxCycle": 76,
+   "rul": 117.67,
+   "anomSmooth": 0.479443,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 4
+  },
+  {
+   "id": 58,
+   "maxCycle": 247,
+   "rul": 21.49,
+   "anomSmooth": 0.497911,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 14
+  },
+  {
+   "id": 59,
+   "maxCycle": 22,
+   "rul": 123.11,
+   "anomSmooth": 0.541599,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 60,
+   "maxCycle": 144,
+   "rul": 71.74,
+   "anomSmooth": 0.580056,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 61,
+   "maxCycle": 70,
+   "rul": 113.82,
+   "anomSmooth": 0.451923,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 62,
+   "maxCycle": 205,
+   "rul": 43.25,
+   "anomSmooth": 0.478784,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 63,
+   "maxCycle": 174,
+   "rul": 52.7,
+   "anomSmooth": 0.751576,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 15
+  },
+  {
+   "id": 64,
+   "maxCycle": 233,
+   "rul": 4.99,
+   "anomSmooth": 0.496961,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 20
+  },
+  {
+   "id": 65,
+   "maxCycle": 367,
+   "rul": 15.36,
+   "anomSmooth": 0.557475,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 21
+  },
+  {
+   "id": 66,
+   "maxCycle": 63,
+   "rul": 116.2,
+   "anomSmooth": 0.589481,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 67,
+   "maxCycle": 146,
+   "rul": 85.33,
+   "anomSmooth": 0.554698,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 3
+  },
+  {
+   "id": 68,
+   "maxCycle": 218,
+   "rul": 49.56,
+   "anomSmooth": 0.529998,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 9
+  },
+  {
+   "id": 69,
+   "maxCycle": 158,
+   "rul": 123.48,
+   "anomSmooth": 0.620822,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 3
+  },
+  {
+   "id": 70,
+   "maxCycle": 264,
+   "rul": 13.18,
+   "anomSmooth": 0.622666,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 23
+  },
+  {
+   "id": 71,
+   "maxCycle": 65,
+   "rul": 118.37,
+   "anomSmooth": 0.541712,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 72,
+   "maxCycle": 143,
+   "rul": 86.63,
+   "anomSmooth": 0.573154,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 73,
+   "maxCycle": 151,
+   "rul": 78.23,
+   "anomSmooth": 0.538957,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 74,
+   "maxCycle": 103,
+   "rul": 105.62,
+   "anomSmooth": 0.576203,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 75,
+   "maxCycle": 192,
+   "rul": 116.53,
+   "anomSmooth": 0.62074,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 15
+  },
+  {
+   "id": 76,
+   "maxCycle": 222,
+   "rul": 38.77,
+   "anomSmooth": 0.489195,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 13
+  },
+  {
+   "id": 77,
+   "maxCycle": 67,
+   "rul": 112.48,
+   "anomSmooth": 0.498876,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 78,
+   "maxCycle": 128,
+   "rul": 47.24,
+   "anomSmooth": 0.563354,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 79,
+   "maxCycle": 113,
+   "rul": 81.55,
+   "anomSmooth": 0.586055,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 80,
+   "maxCycle": 278,
+   "rul": 24.05,
+   "anomSmooth": 0.460675,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 21
+  },
+  {
+   "id": 81,
+   "maxCycle": 76,
+   "rul": 110.21,
+   "anomSmooth": 0.54185,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 82,
+   "maxCycle": 96,
+   "rul": 85.04,
+   "anomSmooth": 0.437658,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 83,
+   "maxCycle": 21,
+   "rul": 123.94,
+   "anomSmooth": 0.509373,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 84,
+   "maxCycle": 204,
+   "rul": 31.98,
+   "anomSmooth": 0.488268,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 12
+  },
+  {
+   "id": 85,
+   "maxCycle": 183,
+   "rul": 55.34,
+   "anomSmooth": 0.528605,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 6
+  },
+  {
+   "id": 86,
+   "maxCycle": 83,
+   "rul": 98.65,
+   "anomSmooth": 0.543504,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 6
+  },
+  {
+   "id": 87,
+   "maxCycle": 131,
+   "rul": 29.45,
+   "anomSmooth": 0.584926,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 18
+  },
+  {
+   "id": 88,
+   "maxCycle": 166,
+   "rul": 79.0,
+   "anomSmooth": 0.535761,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 89,
+   "maxCycle": 59,
+   "rul": 117.48,
+   "anomSmooth": 0.482832,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 90,
+   "maxCycle": 163,
+   "rul": 5.72,
+   "anomSmooth": 0.542656,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 91,
+   "maxCycle": 278,
+   "rul": 16.11,
+   "anomSmooth": 0.546623,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 49
+  },
+  {
+   "id": 92,
+   "maxCycle": 123,
+   "rul": 87.5,
+   "anomSmooth": 0.462048,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 93,
+   "maxCycle": 76,
+   "rul": 107.88,
+   "anomSmooth": 0.558894,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 94,
+   "maxCycle": 117,
+   "rul": 76.51,
+   "anomSmooth": 0.578501,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 19
+  },
+  {
+   "id": 95,
+   "maxCycle": 78,
+   "rul": 100.6,
+   "anomSmooth": 0.455213,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 4
+  },
+  {
+   "id": 96,
+   "maxCycle": 140,
+   "rul": 52.76,
+   "anomSmooth": 0.48852,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 12
+  },
+  {
+   "id": 97,
+   "maxCycle": 213,
+   "rul": 20.01,
+   "anomSmooth": 0.53875,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 19
+  },
+  {
+   "id": 98,
+   "maxCycle": 113,
+   "rul": 65.79,
+   "anomSmooth": 0.544496,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 99,
+   "maxCycle": 163,
+   "rul": 22.04,
+   "anomSmooth": 0.497231,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 100,
+   "maxCycle": 149,
+   "rul": 12.32,
+   "anomSmooth": 0.48494,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 3
+  },
+  {
+   "id": 101,
+   "maxCycle": 38,
+   "rul": 123.68,
+   "anomSmooth": 0.486104,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 102,
+   "maxCycle": 122,
+   "rul": 1.6,
+   "anomSmooth": 0.470153,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 9
+  },
+  {
+   "id": 103,
+   "maxCycle": 186,
+   "rul": 7.56,
+   "anomSmooth": 0.643272,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 22
+  },
+  {
+   "id": 104,
+   "maxCycle": 141,
+   "rul": 77.04,
+   "anomSmooth": 0.642602,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 4
+  },
+  {
+   "id": 105,
+   "maxCycle": 61,
+   "rul": 115.84,
+   "anomSmooth": 0.556032,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 5
+  },
+  {
+   "id": 106,
+   "maxCycle": 72,
+   "rul": 111.55,
+   "anomSmooth": 0.55226,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 107,
+   "maxCycle": 132,
+   "rul": 56.13,
+   "anomSmooth": 0.581525,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 8
+  },
+  {
+   "id": 108,
+   "maxCycle": 174,
+   "rul": 104.65,
+   "anomSmooth": 0.542295,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 109,
+   "maxCycle": 144,
+   "rul": 42.31,
+   "anomSmooth": 0.507789,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 110,
+   "maxCycle": 219,
+   "rul": 76.34,
+   "anomSmooth": 0.516196,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 111,
+   "maxCycle": 131,
+   "rul": 10.82,
+   "anomSmooth": 0.525785,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 6
+  },
+  {
+   "id": 112,
+   "maxCycle": 109,
+   "rul": 74.65,
+   "anomSmooth": 0.592752,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 113,
+   "maxCycle": 45,
+   "rul": 123.03,
+   "anomSmooth": 0.585548,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 114,
+   "maxCycle": 153,
+   "rul": 63.15,
+   "anomSmooth": 0.470299,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 115,
+   "maxCycle": 210,
+   "rul": 54.87,
+   "anomSmooth": 0.604851,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 4
+  },
+  {
+   "id": 116,
+   "maxCycle": 171,
+   "rul": 9.38,
+   "anomSmooth": 0.56448,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 11
+  },
+  {
+   "id": 117,
+   "maxCycle": 55,
+   "rul": 118.66,
+   "anomSmooth": 0.547782,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 118,
+   "maxCycle": 97,
+   "rul": 101.05,
+   "anomSmooth": 0.568366,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 119,
+   "maxCycle": 202,
+   "rul": 108.92,
+   "anomSmooth": 0.532462,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 120,
+   "maxCycle": 160,
+   "rul": 31.41,
+   "anomSmooth": 0.572927,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 5
+  },
+  {
+   "id": 121,
+   "maxCycle": 59,
+   "rul": 120.93,
+   "anomSmooth": 0.478906,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 122,
+   "maxCycle": 29,
+   "rul": 124.4,
+   "anomSmooth": 0.638502,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 123,
+   "maxCycle": 61,
+   "rul": 112.45,
+   "anomSmooth": 0.489906,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 124,
+   "maxCycle": 149,
+   "rul": 4.83,
+   "anomSmooth": 0.526753,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 125,
+   "maxCycle": 79,
+   "rul": 104.46,
+   "anomSmooth": 0.579955,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 126,
+   "maxCycle": 99,
+   "rul": 98.39,
+   "anomSmooth": 0.477885,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 127,
+   "maxCycle": 126,
+   "rul": 61.28,
+   "anomSmooth": 0.580756,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 128,
+   "maxCycle": 110,
+   "rul": 91.38,
+   "anomSmooth": 0.59077,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 129,
+   "maxCycle": 218,
+   "rul": 79.55,
+   "anomSmooth": 0.495058,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 3
+  },
+  {
+   "id": 130,
+   "maxCycle": 141,
+   "rul": 75.4,
+   "anomSmooth": 0.784971,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 19
+  },
+  {
+   "id": 131,
+   "maxCycle": 73,
+   "rul": 119.34,
+   "anomSmooth": 0.661545,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 132,
+   "maxCycle": 122,
+   "rul": 63.62,
+   "anomSmooth": 0.549153,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 4
+  },
+  {
+   "id": 133,
+   "maxCycle": 186,
+   "rul": 48.15,
+   "anomSmooth": 0.478402,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 11
+  },
+  {
+   "id": 134,
+   "maxCycle": 186,
+   "rul": 1.57,
+   "anomSmooth": 0.551017,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 135,
+   "maxCycle": 120,
+   "rul": 119.64,
+   "anomSmooth": 0.502367,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 136,
+   "maxCycle": 77,
+   "rul": 102.5,
+   "anomSmooth": 0.515507,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 137,
+   "maxCycle": 226,
+   "rul": 79.76,
+   "anomSmooth": 0.567571,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 138,
+   "maxCycle": 200,
+   "rul": 5.92,
+   "anomSmooth": 0.54481,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 14
+  },
+  {
+   "id": 139,
+   "maxCycle": 116,
+   "rul": 52.26,
+   "anomSmooth": 0.512187,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 140,
+   "maxCycle": 306,
+   "rul": 64.69,
+   "anomSmooth": 0.492576,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 16
+  },
+  {
+   "id": 141,
+   "maxCycle": 69,
+   "rul": 113.68,
+   "anomSmooth": 0.550532,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 142,
+   "maxCycle": 163,
+   "rul": 31.92,
+   "anomSmooth": 0.519467,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 26
+  },
+  {
+   "id": 143,
+   "maxCycle": 226,
+   "rul": 89.95,
+   "anomSmooth": 0.518731,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 144,
+   "maxCycle": 143,
+   "rul": 58.44,
+   "anomSmooth": 0.566193,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 4
+  },
+  {
+   "id": 145,
+   "maxCycle": 142,
+   "rul": 115.43,
+   "anomSmooth": 0.53625,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 146,
+   "maxCycle": 144,
+   "rul": 11.42,
+   "anomSmooth": 0.50277,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 147,
+   "maxCycle": 78,
+   "rul": 99.53,
+   "anomSmooth": 0.486729,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 148,
+   "maxCycle": 157,
+   "rul": 10.92,
+   "anomSmooth": 0.620953,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 19
+  },
+  {
+   "id": 149,
+   "maxCycle": 70,
+   "rul": 113.75,
+   "anomSmooth": 0.576368,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 150,
+   "maxCycle": 196,
+   "rul": 49.24,
+   "anomSmooth": 0.520104,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 3
+  },
+  {
+   "id": 151,
+   "maxCycle": 141,
+   "rul": 88.86,
+   "anomSmooth": 0.523178,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 152,
+   "maxCycle": 90,
+   "rul": 96.17,
+   "anomSmooth": 0.484397,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 153,
+   "maxCycle": 146,
+   "rul": 94.7,
+   "anomSmooth": 0.534311,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 154,
+   "maxCycle": 58,
+   "rul": 118.73,
+   "anomSmooth": 0.592147,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 155,
+   "maxCycle": 72,
+   "rul": 118.36,
+   "anomSmooth": 0.509419,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 6
+  },
+  {
+   "id": 156,
+   "maxCycle": 75,
+   "rul": 111.19,
+   "anomSmooth": 0.559233,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 157,
+   "maxCycle": 161,
+   "rul": 121.38,
+   "anomSmooth": 0.584368,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 158,
+   "maxCycle": 171,
+   "rul": 16.33,
+   "anomSmooth": 0.613867,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 11
+  },
+  {
+   "id": 159,
+   "maxCycle": 187,
+   "rul": 7.73,
+   "anomSmooth": 0.513122,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 19
+  },
+  {
+   "id": 160,
+   "maxCycle": 124,
+   "rul": 61.66,
+   "anomSmooth": 0.509788,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 8
+  },
+  {
+   "id": 161,
+   "maxCycle": 174,
+   "rul": 18.06,
+   "anomSmooth": 0.568353,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 13
+  },
+  {
+   "id": 162,
+   "maxCycle": 185,
+   "rul": 59.17,
+   "anomSmooth": 0.444792,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 163,
+   "maxCycle": 144,
+   "rul": 85.48,
+   "anomSmooth": 0.507963,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 164,
+   "maxCycle": 199,
+   "rul": 16.65,
+   "anomSmooth": 0.45005,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 165,
+   "maxCycle": 35,
+   "rul": 123.06,
+   "anomSmooth": 0.524996,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 166,
+   "maxCycle": 97,
+   "rul": 88.17,
+   "anomSmooth": 0.524119,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 167,
+   "maxCycle": 78,
+   "rul": 109.31,
+   "anomSmooth": 0.555996,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 168,
+   "maxCycle": 107,
+   "rul": 88.97,
+   "anomSmooth": 0.513615,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 169,
+   "maxCycle": 80,
+   "rul": 101.12,
+   "anomSmooth": 0.512585,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 170,
+   "maxCycle": 85,
+   "rul": 105.96,
+   "anomSmooth": 0.463223,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 171,
+   "maxCycle": 243,
+   "rul": 33.41,
+   "anomSmooth": 0.460014,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 15
+  },
+  {
+   "id": 172,
+   "maxCycle": 128,
+   "rul": 79.83,
+   "anomSmooth": 0.465012,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 173,
+   "maxCycle": 117,
+   "rul": 13.57,
+   "anomSmooth": 0.521707,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 3
+  },
+  {
+   "id": 174,
+   "maxCycle": 51,
+   "rul": 120.41,
+   "anomSmooth": 0.488283,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 175,
+   "maxCycle": 83,
+   "rul": 113.06,
+   "anomSmooth": 0.515843,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 176,
+   "maxCycle": 200,
+   "rul": 36.2,
+   "anomSmooth": 0.507626,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 177,
+   "maxCycle": 191,
+   "rul": 8.13,
+   "anomSmooth": 0.53963,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 15
+  },
+  {
+   "id": 178,
+   "maxCycle": 54,
+   "rul": 120.31,
+   "anomSmooth": 0.479092,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 179,
+   "maxCycle": 156,
+   "rul": 30.63,
+   "anomSmooth": 0.500144,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 13
+  },
+  {
+   "id": 180,
+   "maxCycle": 154,
+   "rul": 81.65,
+   "anomSmooth": 0.562567,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 10
+  },
+  {
+   "id": 181,
+   "maxCycle": 199,
+   "rul": 50.66,
+   "anomSmooth": 0.562565,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 182,
+   "maxCycle": 134,
+   "rul": 9.12,
+   "anomSmooth": 0.484546,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 5
+  },
+  {
+   "id": 183,
+   "maxCycle": 150,
+   "rul": 81.28,
+   "anomSmooth": 0.490132,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 184,
+   "maxCycle": 64,
+   "rul": 115.67,
+   "anomSmooth": 0.547935,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 13
+  },
+  {
+   "id": 185,
+   "maxCycle": 254,
+   "rul": 10.43,
+   "anomSmooth": 0.698318,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 27
+  },
+  {
+   "id": 186,
+   "maxCycle": 166,
+   "rul": 6.8,
+   "anomSmooth": 0.47019,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 11
+  },
+  {
+   "id": 187,
+   "maxCycle": 84,
+   "rul": 108.13,
+   "anomSmooth": 0.559058,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 188,
+   "maxCycle": 86,
+   "rul": 103.45,
+   "anomSmooth": 0.530019,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 189,
+   "maxCycle": 178,
+   "rul": 41.46,
+   "anomSmooth": 0.455668,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 190,
+   "maxCycle": 158,
+   "rul": 18.09,
+   "anomSmooth": 0.550735,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 191,
+   "maxCycle": 95,
+   "rul": 89.63,
+   "anomSmooth": 0.443459,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 192,
+   "maxCycle": 161,
+   "rul": 20.81,
+   "anomSmooth": 0.531045,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 5
+  },
+  {
+   "id": 193,
+   "maxCycle": 245,
+   "rul": 43.03,
+   "anomSmooth": 0.499218,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 17
+  },
+  {
+   "id": 194,
+   "maxCycle": 50,
+   "rul": 120.07,
+   "anomSmooth": 0.534311,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 195,
+   "maxCycle": 262,
+   "rul": 61.03,
+   "anomSmooth": 0.455852,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 196,
+   "maxCycle": 109,
+   "rul": 107.07,
+   "anomSmooth": 0.45066,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 197,
+   "maxCycle": 59,
+   "rul": 119.63,
+   "anomSmooth": 0.492575,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 198,
+   "maxCycle": 120,
+   "rul": 80.52,
+   "anomSmooth": 0.658937,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 199,
+   "maxCycle": 117,
+   "rul": 116.5,
+   "anomSmooth": 0.487877,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 200,
+   "maxCycle": 60,
+   "rul": 115.26,
+   "anomSmooth": 0.430702,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 201,
+   "maxCycle": 25,
+   "rul": 124.7,
+   "anomSmooth": 0.457153,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 202,
+   "maxCycle": 124,
+   "rul": 84.23,
+   "anomSmooth": 0.608293,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 3
+  },
+  {
+   "id": 203,
+   "maxCycle": 115,
+   "rul": 107.39,
+   "anomSmooth": 0.502758,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 204,
+   "maxCycle": 41,
+   "rul": 122.56,
+   "anomSmooth": 0.518541,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 205,
+   "maxCycle": 31,
+   "rul": 121.87,
+   "anomSmooth": 0.442539,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 206,
+   "maxCycle": 162,
+   "rul": 54.25,
+   "anomSmooth": 0.583144,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 10
+  },
+  {
+   "id": 207,
+   "maxCycle": 141,
+   "rul": 72.7,
+   "anomSmooth": 0.499643,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 208,
+   "maxCycle": 166,
+   "rul": 23.07,
+   "anomSmooth": 0.506832,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 12
+  },
+  {
+   "id": 209,
+   "maxCycle": 131,
+   "rul": 73.02,
+   "anomSmooth": 0.50859,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 2
+  },
+  {
+   "id": 210,
+   "maxCycle": 182,
+   "rul": 0.36,
+   "anomSmooth": 0.509324,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 7
+  },
+  {
+   "id": 211,
+   "maxCycle": 155,
+   "rul": 12.33,
+   "anomSmooth": 0.550629,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 9
+  },
+  {
+   "id": 212,
+   "maxCycle": 187,
+   "rul": 87.99,
+   "anomSmooth": 0.557065,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 213,
+   "maxCycle": 159,
+   "rul": 83.07,
+   "anomSmooth": 0.557263,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 4
+  },
+  {
+   "id": 214,
+   "maxCycle": 75,
+   "rul": 108.63,
+   "anomSmooth": 0.448603,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 215,
+   "maxCycle": 71,
+   "rul": 107.79,
+   "anomSmooth": 0.545749,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 216,
+   "maxCycle": 100,
+   "rul": 73.88,
+   "anomSmooth": 0.487828,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 217,
+   "maxCycle": 49,
+   "rul": 119.96,
+   "anomSmooth": 0.52692,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 218,
+   "maxCycle": 33,
+   "rul": 123.31,
+   "anomSmooth": 0.463811,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 219,
+   "maxCycle": 161,
+   "rul": 98.4,
+   "anomSmooth": 0.599221,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 220,
+   "maxCycle": 54,
+   "rul": 119.94,
+   "anomSmooth": 0.46266,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 221,
+   "maxCycle": 55,
+   "rul": 118.35,
+   "anomSmooth": 0.483365,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 222,
+   "maxCycle": 180,
+   "rul": 69.51,
+   "anomSmooth": 0.519753,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 18
+  },
+  {
+   "id": 223,
+   "maxCycle": 29,
+   "rul": 125.0,
+   "anomSmooth": 0.518578,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 224,
+   "maxCycle": 43,
+   "rul": 123.02,
+   "anomSmooth": 0.521729,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 225,
+   "maxCycle": 166,
+   "rul": 3.36,
+   "anomSmooth": 0.499733,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 21
+  },
+  {
+   "id": 226,
+   "maxCycle": 165,
+   "rul": 70.25,
+   "anomSmooth": 0.570109,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 227,
+   "maxCycle": 180,
+   "rul": 5.48,
+   "anomSmooth": 0.570932,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 17
+  },
+  {
+   "id": 228,
+   "maxCycle": 44,
+   "rul": 120.57,
+   "anomSmooth": 0.452902,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 229,
+   "maxCycle": 109,
+   "rul": 76.24,
+   "anomSmooth": 0.551042,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 230,
+   "maxCycle": 125,
+   "rul": 109.01,
+   "anomSmooth": 0.546402,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 231,
+   "maxCycle": 187,
+   "rul": 8.03,
+   "anomSmooth": 0.546473,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 17
+  },
+  {
+   "id": 232,
+   "maxCycle": 159,
+   "rul": 58.59,
+   "anomSmooth": 0.506623,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 233,
+   "maxCycle": 40,
+   "rul": 121.21,
+   "anomSmooth": 0.52539,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 234,
+   "maxCycle": 147,
+   "rul": 103.56,
+   "anomSmooth": 0.59609,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 235,
+   "maxCycle": 102,
+   "rul": 96.9,
+   "anomSmooth": 0.503102,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 236,
+   "maxCycle": 274,
+   "rul": 21.41,
+   "anomSmooth": 0.578904,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 21
+  },
+  {
+   "id": 237,
+   "maxCycle": 235,
+   "rul": 36.84,
+   "anomSmooth": 0.501732,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 11
+  },
+  {
+   "id": 238,
+   "maxCycle": 94,
+   "rul": 112.49,
+   "anomSmooth": 0.583465,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 239,
+   "maxCycle": 106,
+   "rul": 78.12,
+   "anomSmooth": 0.532175,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 240,
+   "maxCycle": 50,
+   "rul": 122.06,
+   "anomSmooth": 0.506309,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 241,
+   "maxCycle": 44,
+   "rul": 122.86,
+   "anomSmooth": 0.574003,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 242,
+   "maxCycle": 194,
+   "rul": 16.41,
+   "anomSmooth": 0.556611,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 22
+  },
+  {
+   "id": 243,
+   "maxCycle": 40,
+   "rul": 121.91,
+   "anomSmooth": 0.588969,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 244,
+   "maxCycle": 49,
+   "rul": 119.2,
+   "anomSmooth": 0.538897,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 245,
+   "maxCycle": 265,
+   "rul": 11.24,
+   "anomSmooth": 0.481928,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 11
+  },
+  {
+   "id": 246,
+   "maxCycle": 80,
+   "rul": 105.71,
+   "anomSmooth": 0.608452,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 247,
+   "maxCycle": 87,
+   "rul": 116.93,
+   "anomSmooth": 0.587337,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 248,
+   "maxCycle": 162,
+   "rul": 55.6,
+   "anomSmooth": 0.479862,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 249,
+   "maxCycle": 36,
+   "rul": 122.93,
+   "anomSmooth": 0.58704,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 1
+  },
+  {
+   "id": 250,
+   "maxCycle": 234,
+   "rul": 16.45,
+   "anomSmooth": 0.571204,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 13
+  },
+  {
+   "id": 251,
+   "maxCycle": 64,
+   "rul": 115.52,
+   "anomSmooth": 0.580827,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 252,
+   "maxCycle": 249,
+   "rul": 5.74,
+   "anomSmooth": 0.509354,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 15
+  },
+  {
+   "id": 253,
+   "maxCycle": 139,
+   "rul": 42.41,
+   "anomSmooth": 0.54105,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 9
+  },
+  {
+   "id": 254,
+   "maxCycle": 131,
+   "rul": 47.08,
+   "anomSmooth": 0.456605,
+   "label": "Planned Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 5
+  },
+  {
+   "id": 255,
+   "maxCycle": 150,
+   "rul": 104.61,
+   "anomSmooth": 0.52244,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 256,
+   "maxCycle": 59,
+   "rul": 115.61,
+   "anomSmooth": 0.502114,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 257,
+   "maxCycle": 199,
+   "rul": 80.14,
+   "anomSmooth": 0.498795,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 258,
+   "maxCycle": 98,
+   "rul": 108.24,
+   "anomSmooth": 0.539898,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 0
+  },
+  {
+   "id": 259,
+   "maxCycle": 123,
+   "rul": 92.98,
+   "anomSmooth": 0.5517,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.6827,
+   "transitions": 9
+  }
+ ]
+}

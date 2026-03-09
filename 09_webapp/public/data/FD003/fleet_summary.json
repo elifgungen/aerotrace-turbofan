@@ -1,0 +1,1013 @@
+{
+ "datasetId": "FD003",
+ "datasetLabel": "C-MAPSS FD003",
+ "totalEngines": 100,
+ "totalCycles": 16596,
+ "labelCounts": {
+  "Immediate Maintenance": 26,
+  "Enhanced Monitoring": 61,
+  "Normal Operation": 13
+ },
+ "engines": [
+  {
+   "id": 1,
+   "maxCycle": 233,
+   "rul": 41.8,
+   "anomSmooth": 0.991902,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 20
+  },
+  {
+   "id": 2,
+   "maxCycle": 124,
+   "rul": 81.62,
+   "anomSmooth": 0.682884,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 11
+  },
+  {
+   "id": 3,
+   "maxCycle": 234,
+   "rul": 27.36,
+   "anomSmooth": 0.99795,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 4,
+   "maxCycle": 68,
+   "rul": 117.33,
+   "anomSmooth": 0.368834,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 0
+  },
+  {
+   "id": 5,
+   "maxCycle": 138,
+   "rul": 120.8,
+   "anomSmooth": 0.842526,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 11
+  },
+  {
+   "id": 6,
+   "maxCycle": 64,
+   "rul": 116.67,
+   "anomSmooth": 0.402778,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 2
+  },
+  {
+   "id": 7,
+   "maxCycle": 158,
+   "rul": 65.15,
+   "anomSmooth": 0.559099,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 5
+  },
+  {
+   "id": 8,
+   "maxCycle": 192,
+   "rul": 73.98,
+   "anomSmooth": 0.750147,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 17
+  },
+  {
+   "id": 9,
+   "maxCycle": 238,
+   "rul": 77.53,
+   "anomSmooth": 0.835011,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 11
+  },
+  {
+   "id": 10,
+   "maxCycle": 131,
+   "rul": 91.24,
+   "anomSmooth": 0.773968,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 3
+  },
+  {
+   "id": 11,
+   "maxCycle": 103,
+   "rul": 68.81,
+   "anomSmooth": 0.468756,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 6
+  },
+  {
+   "id": 12,
+   "maxCycle": 146,
+   "rul": 83.75,
+   "anomSmooth": 0.464354,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 13,
+   "maxCycle": 65,
+   "rul": 111.93,
+   "anomSmooth": 0.442167,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 1
+  },
+  {
+   "id": 14,
+   "maxCycle": 169,
+   "rul": 36.77,
+   "anomSmooth": 0.844998,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 15,
+   "maxCycle": 112,
+   "rul": 110.06,
+   "anomSmooth": 0.615343,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 15
+  },
+  {
+   "id": 16,
+   "maxCycle": 126,
+   "rul": 104.65,
+   "anomSmooth": 0.859339,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 7
+  },
+  {
+   "id": 17,
+   "maxCycle": 230,
+   "rul": 111.14,
+   "anomSmooth": 0.583944,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 18,
+   "maxCycle": 244,
+   "rul": 120.2,
+   "anomSmooth": 0.589618,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 15
+  },
+  {
+   "id": 19,
+   "maxCycle": 115,
+   "rul": 109.53,
+   "anomSmooth": 0.50063,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 8
+  },
+  {
+   "id": 20,
+   "maxCycle": 207,
+   "rul": 68.87,
+   "anomSmooth": 0.995875,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 15
+  },
+  {
+   "id": 21,
+   "maxCycle": 263,
+   "rul": 23.46,
+   "anomSmooth": 0.999993,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 22,
+   "maxCycle": 119,
+   "rul": 117.45,
+   "anomSmooth": 0.564108,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 11
+  },
+  {
+   "id": 23,
+   "maxCycle": 405,
+   "rul": 68.96,
+   "anomSmooth": 0.993705,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 53
+  },
+  {
+   "id": 24,
+   "maxCycle": 475,
+   "rul": 8.24,
+   "anomSmooth": 1.0,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 34
+  },
+  {
+   "id": 25,
+   "maxCycle": 169,
+   "rul": 70.98,
+   "anomSmooth": 0.670757,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 13
+  },
+  {
+   "id": 26,
+   "maxCycle": 130,
+   "rul": 11.96,
+   "anomSmooth": 0.990323,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 27,
+   "maxCycle": 104,
+   "rul": 112.92,
+   "anomSmooth": 0.51178,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 5
+  },
+  {
+   "id": 28,
+   "maxCycle": 70,
+   "rul": 119.62,
+   "anomSmooth": 0.467267,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 3
+  },
+  {
+   "id": 29,
+   "maxCycle": 89,
+   "rul": 106.72,
+   "anomSmooth": 0.452323,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 5
+  },
+  {
+   "id": 30,
+   "maxCycle": 333,
+   "rul": 80.08,
+   "anomSmooth": 0.892396,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 23
+  },
+  {
+   "id": 31,
+   "maxCycle": 152,
+   "rul": 79.87,
+   "anomSmooth": 0.762391,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 11
+  },
+  {
+   "id": 32,
+   "maxCycle": 120,
+   "rul": 40.29,
+   "anomSmooth": 0.678369,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 33,
+   "maxCycle": 180,
+   "rul": 81.99,
+   "anomSmooth": 0.701844,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 34,
+   "maxCycle": 105,
+   "rul": 80.41,
+   "anomSmooth": 0.442583,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 35,
+   "maxCycle": 144,
+   "rul": 103.15,
+   "anomSmooth": 0.731461,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 13
+  },
+  {
+   "id": 36,
+   "maxCycle": 90,
+   "rul": 120.37,
+   "anomSmooth": 0.422927,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 3
+  },
+  {
+   "id": 37,
+   "maxCycle": 47,
+   "rul": 124.76,
+   "anomSmooth": 0.370103,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 0
+  },
+  {
+   "id": 38,
+   "maxCycle": 133,
+   "rul": 32.53,
+   "anomSmooth": 0.873278,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 6
+  },
+  {
+   "id": 39,
+   "maxCycle": 310,
+   "rul": 12.93,
+   "anomSmooth": 0.999873,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 18
+  },
+  {
+   "id": 40,
+   "maxCycle": 313,
+   "rul": 42.41,
+   "anomSmooth": 0.999781,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 26
+  },
+  {
+   "id": 41,
+   "maxCycle": 101,
+   "rul": 109.67,
+   "anomSmooth": 0.462264,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 15
+  },
+  {
+   "id": 42,
+   "maxCycle": 87,
+   "rul": 93.43,
+   "anomSmooth": 0.40767,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 0
+  },
+  {
+   "id": 43,
+   "maxCycle": 133,
+   "rul": 112.51,
+   "anomSmooth": 0.601746,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 15
+  },
+  {
+   "id": 44,
+   "maxCycle": 146,
+   "rul": 69.2,
+   "anomSmooth": 0.543362,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 45,
+   "maxCycle": 88,
+   "rul": 117.01,
+   "anomSmooth": 0.408786,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 6
+  },
+  {
+   "id": 46,
+   "maxCycle": 180,
+   "rul": 4.7,
+   "anomSmooth": 0.999998,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 8
+  },
+  {
+   "id": 47,
+   "maxCycle": 56,
+   "rul": 121.59,
+   "anomSmooth": 0.35976,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 2
+  },
+  {
+   "id": 48,
+   "maxCycle": 179,
+   "rul": 58.56,
+   "anomSmooth": 0.703074,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 23
+  },
+  {
+   "id": 49,
+   "maxCycle": 211,
+   "rul": 123.56,
+   "anomSmooth": 0.76511,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 17
+  },
+  {
+   "id": 50,
+   "maxCycle": 147,
+   "rul": 15.76,
+   "anomSmooth": 0.907147,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 8
+  },
+  {
+   "id": 51,
+   "maxCycle": 118,
+   "rul": 93.18,
+   "anomSmooth": 0.483691,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 5
+  },
+  {
+   "id": 52,
+   "maxCycle": 38,
+   "rul": 123.45,
+   "anomSmooth": 0.333134,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 0
+  },
+  {
+   "id": 53,
+   "maxCycle": 108,
+   "rul": 100.77,
+   "anomSmooth": 0.473963,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 5
+  },
+  {
+   "id": 54,
+   "maxCycle": 50,
+   "rul": 122.69,
+   "anomSmooth": 0.393268,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 6
+  },
+  {
+   "id": 55,
+   "maxCycle": 203,
+   "rul": 48.85,
+   "anomSmooth": 0.817215,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 16
+  },
+  {
+   "id": 56,
+   "maxCycle": 162,
+   "rul": 85.52,
+   "anomSmooth": 0.634079,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 57,
+   "maxCycle": 158,
+   "rul": 81.56,
+   "anomSmooth": 0.666993,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 15
+  },
+  {
+   "id": 58,
+   "maxCycle": 119,
+   "rul": 74.54,
+   "anomSmooth": 0.712879,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 7
+  },
+  {
+   "id": 59,
+   "maxCycle": 149,
+   "rul": 39.88,
+   "anomSmooth": 0.788247,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 8
+  },
+  {
+   "id": 60,
+   "maxCycle": 112,
+   "rul": 98.08,
+   "anomSmooth": 0.392805,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 61,
+   "maxCycle": 78,
+   "rul": 123.5,
+   "anomSmooth": 0.406876,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 8
+  },
+  {
+   "id": 62,
+   "maxCycle": 224,
+   "rul": 79.4,
+   "anomSmooth": 0.869373,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 5
+  },
+  {
+   "id": 63,
+   "maxCycle": 137,
+   "rul": 114.99,
+   "anomSmooth": 0.598116,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 64,
+   "maxCycle": 271,
+   "rul": 31.98,
+   "anomSmooth": 0.999684,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 65,
+   "maxCycle": 79,
+   "rul": 123.29,
+   "anomSmooth": 0.360647,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 0
+  },
+  {
+   "id": 66,
+   "maxCycle": 122,
+   "rul": 81.09,
+   "anomSmooth": 0.469032,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 15
+  },
+  {
+   "id": 67,
+   "maxCycle": 186,
+   "rul": 92.4,
+   "anomSmooth": 0.705706,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 68,
+   "maxCycle": 188,
+   "rul": 118.68,
+   "anomSmooth": 0.689604,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 11
+  },
+  {
+   "id": 69,
+   "maxCycle": 105,
+   "rul": 114.05,
+   "anomSmooth": 0.496585,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 5
+  },
+  {
+   "id": 70,
+   "maxCycle": 84,
+   "rul": 98.18,
+   "anomSmooth": 0.464151,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 3
+  },
+  {
+   "id": 71,
+   "maxCycle": 367,
+   "rul": 29.65,
+   "anomSmooth": 0.9998,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 18
+  },
+  {
+   "id": 72,
+   "maxCycle": 232,
+   "rul": 65.26,
+   "anomSmooth": 0.999304,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 13
+  },
+  {
+   "id": 73,
+   "maxCycle": 109,
+   "rul": 106.71,
+   "anomSmooth": 0.448179,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 5
+  },
+  {
+   "id": 74,
+   "maxCycle": 68,
+   "rul": 124.84,
+   "anomSmooth": 0.377385,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 4
+  },
+  {
+   "id": 75,
+   "maxCycle": 191,
+   "rul": 50.13,
+   "anomSmooth": 0.960497,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 3
+  },
+  {
+   "id": 76,
+   "maxCycle": 180,
+   "rul": 61.2,
+   "anomSmooth": 0.963402,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 77,
+   "maxCycle": 381,
+   "rul": 82.13,
+   "anomSmooth": 0.993066,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 78,
+   "maxCycle": 279,
+   "rul": 23.28,
+   "anomSmooth": 0.999941,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 16
+  },
+  {
+   "id": 79,
+   "maxCycle": 170,
+   "rul": 21.75,
+   "anomSmooth": 0.880733,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 80,
+   "maxCycle": 85,
+   "rul": 123.07,
+   "anomSmooth": 0.63893,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 7
+  },
+  {
+   "id": 81,
+   "maxCycle": 155,
+   "rul": 22.61,
+   "anomSmooth": 0.999923,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 6
+  },
+  {
+   "id": 82,
+   "maxCycle": 194,
+   "rul": 3.96,
+   "anomSmooth": 0.999999,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 8
+  },
+  {
+   "id": 83,
+   "maxCycle": 168,
+   "rul": 88.56,
+   "anomSmooth": 0.427839,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 13
+  },
+  {
+   "id": 84,
+   "maxCycle": 76,
+   "rul": 115.93,
+   "anomSmooth": 0.430952,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 5
+  },
+  {
+   "id": 85,
+   "maxCycle": 118,
+   "rul": 81.18,
+   "anomSmooth": 0.822053,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 86,
+   "maxCycle": 174,
+   "rul": 13.25,
+   "anomSmooth": 0.971846,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 24
+  },
+  {
+   "id": 87,
+   "maxCycle": 218,
+   "rul": 83.73,
+   "anomSmooth": 0.856098,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 88,
+   "maxCycle": 41,
+   "rul": 125.0,
+   "anomSmooth": 0.339638,
+   "label": "Normal Operation",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 1
+  },
+  {
+   "id": 89,
+   "maxCycle": 120,
+   "rul": 69.05,
+   "anomSmooth": 0.949096,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 3
+  },
+  {
+   "id": 90,
+   "maxCycle": 206,
+   "rul": 65.99,
+   "anomSmooth": 0.893731,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 7
+  },
+  {
+   "id": 91,
+   "maxCycle": 56,
+   "rul": 114.61,
+   "anomSmooth": 0.44415,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 1
+  },
+  {
+   "id": 92,
+   "maxCycle": 266,
+   "rul": 12.22,
+   "anomSmooth": 0.999996,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  },
+  {
+   "id": 93,
+   "maxCycle": 158,
+   "rul": 112.09,
+   "anomSmooth": 0.933406,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 19
+  },
+  {
+   "id": 94,
+   "maxCycle": 333,
+   "rul": 8.09,
+   "anomSmooth": 0.999996,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 20
+  },
+  {
+   "id": 95,
+   "maxCycle": 213,
+   "rul": 109.74,
+   "anomSmooth": 0.81848,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 13
+  },
+  {
+   "id": 96,
+   "maxCycle": 358,
+   "rul": 103.94,
+   "anomSmooth": 0.870592,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 15
+  },
+  {
+   "id": 97,
+   "maxCycle": 95,
+   "rul": 121.27,
+   "anomSmooth": 0.469919,
+   "label": "Enhanced Monitoring",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 9
+  },
+  {
+   "id": 98,
+   "maxCycle": 182,
+   "rul": 15.46,
+   "anomSmooth": 0.996689,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 14
+  },
+  {
+   "id": 99,
+   "maxCycle": 289,
+   "rul": 9.28,
+   "anomSmooth": 0.999994,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 18
+  },
+  {
+   "id": 100,
+   "maxCycle": 247,
+   "rul": 33.2,
+   "anomSmooth": 0.998726,
+   "label": "Immediate Maintenance",
+   "theta": 50.0,
+   "alphaHigh": 0.4218,
+   "transitions": 12
+  }
+ ]
+}

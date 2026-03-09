@@ -1,0 +1,19 @@
+{
+  "cap": 125.0,
+  "smooth_window": 5,
+  "theta_warn": 50.0,
+  "theta_critical": 20.0,
+  "theta_rul": 50.0,
+  "alpha_mode": "target_arl_on_healthy_first_n",
+  "alpha_target_arl_warn": 200,
+  "alpha_target_arl_critical": 1000,
+  "calib_healthy_first_n": 20,
+  "alpha_fit_on": "healthy_first_n_cycles_per_engine",
+  "anom_debounce_warn_up": 3,
+  "anom_debounce_critical_up": 2,
+  "anom_debounce_down": 3,
+  "alpha_hysteresis_delta": 0.05,
+  "calibration_scope": "last_cycle_per_engine",
+  "allow_missing_anomaly": false,
+  "policy_version": "v2"
+}

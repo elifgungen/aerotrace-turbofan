@@ -1,0 +1,103 @@
+{
+  "variant": "A",
+  "cap": 125,
+  "tau": 15,
+  "train_csv": "/content/train_FD004_global_zscore_regime_onehot_k6.csv",
+  "test_csv": "/content/test_FD004_global_zscore_regime_onehot_k6.csv",
+  "scaler_json": "/content/fd004_regime_k6_model.json",
+  "label_col": "RUL",
+  "n_train": 61249,
+  "n_test": 41214,
+  "n_features": 31,
+  "feature_cols": [
+    "cycle",
+    "os1",
+    "os2",
+    "os3",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "regime_0",
+    "regime_1",
+    "regime_2",
+    "regime_3",
+    "regime_4",
+    "regime_5"
+  ],
+  "note": "engine_id feature olarak kullanılmadı; sadece GroupKFold/raporlama için.",
+  "scaler_meta": {
+    "k": 6,
+    "random_state": 42,
+    "clustering_features": [
+      "os1",
+      "os2",
+      "os3"
+    ],
+    "centroids": [
+      [
+        1.2180165294455383,
+        0.8662532685862737,
+        0.41877934831064567
+      ],
+      [
+        -0.946965478619346,
+        -1.0326358275758831,
+        0.41877934831065133
+      ],
+      [
+        0.06787417507471873,
+        0.15821190234110688,
+        -2.3878533581866876
+      ],
+      [
+        -0.27040963108495736,
+        0.41569565082329235,
+        0.41877934831065156
+      ],
+      [
+        -1.623622693022812,
+        -1.837289527490671,
+        0.41877934831065133
+      ],
+      [
+        0.744429536378634,
+        0.8662908449578282,
+        0.41877934831065144
+      ]
+    ],
+    "train_cluster_counts": {
+      "0": 15395,
+      "1": 9224,
+      "2": 9139,
+      "3": 9091,
+      "4": 9238,
+      "5": 9162
+    },
+    "test_cluster_counts": {
+      "0": 10382,
+      "1": 6185,
+      "2": 6107,
+      "3": 6254,
+      "4": 6054,
+      "5": 6232
+    }
+  }
+}

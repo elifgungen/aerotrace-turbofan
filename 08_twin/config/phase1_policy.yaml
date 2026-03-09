@@ -1,0 +1,22 @@
+policy_version: phase1-v1
+split_mode: all
+
+thresholds:
+  # RUL threshold in cycles for low-life condition
+  theta_rul: 35.0
+  # High / low anomaly thresholds for hysteresis
+  alpha_high: 0.75
+  alpha_low: 0.60
+
+logic:
+  # Consecutive rows needed to switch ON anomaly state
+  debounce_on: 2
+  # Consecutive rows needed to switch OFF anomaly state
+  debounce_off: 3
+  # If true: immediate maintenance requires both low RUL and anomaly ON
+  immediate_requires_anomaly_on: true
+
+notes:
+  - "Phase-1 policy tuned for missed-alarm-sensitive operation."
+  - "Adjust theta/alpha after first replay calibration report."
+

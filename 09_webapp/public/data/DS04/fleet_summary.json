@@ -1,0 +1,111 @@
+{
+ "datasetId": "DS04",
+ "datasetLabel": "N-CMAPSS DS04",
+ "totalEngines": 10,
+ "totalCycles": 856,
+ "labelCounts": {
+  "Planned Maintenance": 10
+ },
+ "engines": [
+  {
+   "id": 1,
+   "maxCycle": 87,
+   "rul": 6.31,
+   "anomSmooth": 0.194413,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 1
+  },
+  {
+   "id": 2,
+   "maxCycle": 73,
+   "rul": 7.2,
+   "anomSmooth": 0.001124,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 1
+  },
+  {
+   "id": 3,
+   "maxCycle": 100,
+   "rul": 8.03,
+   "anomSmooth": 0.00055,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 1
+  },
+  {
+   "id": 4,
+   "maxCycle": 69,
+   "rul": 7.7,
+   "anomSmooth": 0.003892,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 3
+  },
+  {
+   "id": 5,
+   "maxCycle": 100,
+   "rul": 6.53,
+   "anomSmooth": 0.353031,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 1
+  },
+  {
+   "id": 6,
+   "maxCycle": 83,
+   "rul": 6.19,
+   "anomSmooth": 0.524509,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 1
+  },
+  {
+   "id": 7,
+   "maxCycle": 87,
+   "rul": 11.17,
+   "anomSmooth": 0.167221,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 5
+  },
+  {
+   "id": 8,
+   "maxCycle": 99,
+   "rul": 11.91,
+   "anomSmooth": 0.157378,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 3
+  },
+  {
+   "id": 9,
+   "maxCycle": 73,
+   "rul": 15.86,
+   "anomSmooth": 0.172092,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 1
+  },
+  {
+   "id": 10,
+   "maxCycle": 85,
+   "rul": 12.94,
+   "anomSmooth": 0.059196,
+   "label": "Planned Maintenance",
+   "theta": 30.0,
+   "alphaHigh": 0.247,
+   "transitions": 1
+  }
+ ]
+}

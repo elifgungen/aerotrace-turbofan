@@ -1,0 +1,49 @@
+{
+  "method": "mahalanobis",
+  "n_features": 72,
+  "chi2_df": 72,
+  "dataset": "DS06",
+  "feature_count": 72,
+  "feature_sample": [
+    "W_0_max",
+    "W_0_mean",
+    "W_0_min",
+    "W_0_std",
+    "W_1_max",
+    "W_1_mean",
+    "W_1_min",
+    "W_1_std",
+    "W_2_max",
+    "W_2_mean"
+  ],
+  "meta_columns": [
+    "engine_id",
+    "cycle",
+    "Fc",
+    "hs",
+    "n_samples_in_cycle",
+    "RUL"
+  ],
+  "train_rows": 475,
+  "test_rows": 322,
+  "train_anomaly_raw_stats": {
+    "min": 9.684491009950946,
+    "q25": 20.06147344250278,
+    "median": 26.605127560295188,
+    "q75": 35.29001029131591,
+    "max": 187.66692255369918,
+    "mean": 30.37495902665612,
+    "std": 17.250681219957333
+  },
+  "train_anomaly_score_stats": {
+    "min": 0.0,
+    "q25": 1.8071083518478304e-10,
+    "median": 2.0139774492555773e-07,
+    "q75": 8.27605301479406e-05,
+    "max": 0.9999999999970791,
+    "mean": 0.032483624588059305,
+    "std": 0.13969049654790933
+  },
+  "forbidden_pattern": "(^rul$|^rul_.*|.*_rul.*|^rul_pred$|^pred.*|^target.*|^label.*)",
+  "contract_enforced": true
+}

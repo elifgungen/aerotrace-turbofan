@@ -1,0 +1,26 @@
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+
+# Local outputs / caches
+*.tmp
+*.log
+*.bak
+
+# Keep repository focused: large model binaries should stay outside Git history
+*.pkl
+*.npz
+*.ubj

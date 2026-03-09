@@ -1,0 +1,127 @@
+{
+  "DS01": {
+    "status": "ok",
+    "v1_rows": 894,
+    "v2_rows": 894,
+    "v1_labels": {
+      "Normal Operation": 845,
+      "Enhanced Monitoring": 46,
+      "Planned Maintenance": 3
+    },
+    "v2_labels": {
+      "Normal Operation": 591,
+      "Planned Maintenance": 302,
+      "Immediate Maintenance": 1
+    },
+    "run_id": "ds-20260211T154143Z-814aa2e321",
+    "stdout_tail": "[v2] dataset=ncmapss out=/Users/elifgungen/Downloads/JET-CUBE 3/OUTPUTS/ncmapss_DS01_decision_support_v2.csv join_keys=dataset_id,split,engine_id,cycle rows=894"
+  },
+  "DS02": {
+    "status": "ok",
+    "v1_rows": 648,
+    "v2_rows": 648,
+    "v1_labels": {
+      "Normal Operation": 552,
+      "Enhanced Monitoring": 93,
+      "Planned Maintenance": 3
+    },
+    "v2_labels": {
+      "Normal Operation": 407,
+      "Planned Maintenance": 222,
+      "Enhanced Monitoring": 17,
+      "Immediate Maintenance": 2
+    },
+    "run_id": "ds-20260211T154144Z-814aa2e321",
+    "stdout_tail": "[v2] dataset=ncmapss out=/Users/elifgungen/Downloads/JET-CUBE 3/OUTPUTS/ncmapss_DS02_decision_support_v2.csv join_keys=dataset_id,split,engine_id,cycle rows=648"
+  },
+  "DS03": {
+    "status": "ok",
+    "v1_rows": 1101,
+    "v2_rows": 1101,
+    "v1_labels": {
+      "Normal Operation": 872,
+      "Planned Maintenance": 204,
+      "Immediate Maintenance": 18,
+      "Enhanced Monitoring": 7
+    },
+    "v2_labels": {
+      "Normal Operation": 568,
+      "Planned Maintenance": 523,
+      "Immediate Maintenance": 9,
+      "Enhanced Monitoring": 1
+    },
+    "run_id": "ds-20260211T154144Z-814aa2e321",
+    "stdout_tail": "[v2] dataset=ncmapss out=/Users/elifgungen/Downloads/JET-CUBE 3/OUTPUTS/ncmapss_DS03_decision_support_v2.csv join_keys=dataset_id,split,engine_id,cycle rows=1101"
+  },
+  "DS04": {
+    "status": "ok",
+    "v1_rows": 856,
+    "v2_rows": 856,
+    "v1_labels": {
+      "Normal Operation": 803,
+      "Planned Maintenance": 44,
+      "Enhanced Monitoring": 7,
+      "Immediate Maintenance": 2
+    },
+    "v2_labels": {
+      "Normal Operation": 662,
+      "Planned Maintenance": 191,
+      "Enhanced Monitoring": 3
+    },
+    "run_id": "ds-20260211T154145Z-814aa2e321",
+    "stdout_tail": "[v2] dataset=ncmapss out=/Users/elifgungen/Downloads/JET-CUBE 3/OUTPUTS/ncmapss_DS04_decision_support_v2.csv join_keys=dataset_id,split,engine_id,cycle rows=856"
+  },
+  "DS05": {
+    "status": "ok",
+    "v1_rows": 818,
+    "v2_rows": 818,
+    "v1_labels": {
+      "Normal Operation": 801,
+      "Enhanced Monitoring": 14,
+      "Planned Maintenance": 3
+    },
+    "v2_labels": {
+      "Normal Operation": 521,
+      "Planned Maintenance": 294,
+      "Immediate Maintenance": 2,
+      "Enhanced Monitoring": 1
+    },
+    "run_id": "ds-20260211T154145Z-814aa2e321",
+    "stdout_tail": "[v2] dataset=ncmapss out=/Users/elifgungen/Downloads/JET-CUBE 3/OUTPUTS/ncmapss_DS05_decision_support_v2.csv join_keys=dataset_id,split,engine_id,cycle rows=818"
+  },
+  "DS06": {
+    "status": "ok",
+    "v1_rows": 797,
+    "v2_rows": 797,
+    "v1_labels": {
+      "Normal Operation": 782,
+      "Enhanced Monitoring": 11,
+      "Planned Maintenance": 4
+    },
+    "v2_labels": {
+      "Normal Operation": 541,
+      "Planned Maintenance": 244,
+      "Immediate Maintenance": 12
+    },
+    "run_id": "ds-20260211T154146Z-814aa2e321",
+    "stdout_tail": "[v2] dataset=ncmapss out=/Users/elifgungen/Downloads/JET-CUBE 3/OUTPUTS/ncmapss_DS06_decision_support_v2.csv join_keys=dataset_id,split,engine_id,cycle rows=797"
+  },
+  "DS07": {
+    "status": "ok",
+    "v1_rows": 812,
+    "v2_rows": 812,
+    "v1_labels": {
+      "Normal Operation": 788,
+      "Enhanced Monitoring": 20,
+      "Planned Maintenance": 4
+    },
+    "v2_labels": {
+      "Normal Operation": 550,
+      "Planned Maintenance": 260,
+      "Immediate Maintenance": 1,
+      "Enhanced Monitoring": 1
+    },
+    "run_id": "ds-20260211T154146Z-814aa2e321",
+    "stdout_tail": "[v2] dataset=ncmapss out=/Users/elifgungen/Downloads/JET-CUBE 3/OUTPUTS/ncmapss_DS07_decision_support_v2.csv join_keys=dataset_id,split,engine_id,cycle rows=812"
+  }
+}

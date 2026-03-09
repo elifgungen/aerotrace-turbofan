@@ -1,0 +1,57 @@
+{
+  "fd001_decision_support_v2.csv": {
+    "rows": 13096,
+    "run_id": [
+      "ds-20260211T151227Z-814aa2e321"
+    ],
+    "policy_version": [
+      "v2"
+    ],
+    "theta_rul_used": [
+      30.0
+    ],
+    "alpha_high_used": [
+      0.8591597104588709
+    ],
+    "alpha_low_used": [
+      0.7732437394129837
+    ],
+    "rul_le_theta_rate": 0.017486255345143555,
+    "anom_on_rate": 0.026802076970067198,
+    "decision_dist": {
+      "Normal Operation": 12670,
+      "Enhanced Monitoring": 197,
+      "Immediate Maintenance": 154,
+      "Planned Maintenance": 75
+    }
+  },
+  "ncmapss_DS01_decision_support_v2.csv": {
+    "rows": 894,
+    "run_id": [
+      "ds-20260211T151228Z-814aa2e321"
+    ],
+    "policy_version": [
+      "v2"
+    ],
+    "theta_rul_used": [
+      30.0
+    ],
+    "alpha_high_used": [
+      0.2244259483191497
+    ],
+    "alpha_low_used": [
+      0.2019833534872347
+    ],
+    "rul_le_theta_rate": 0.3389261744966443,
+    "anom_on_rate": 0.0011185682326621924,
+    "decision_dist": {
+      "Normal Operation": 591,
+      "Planned Maintenance": 302,
+      "Immediate Maintenance": 1
+    },
+    "split_dist": {
+      "train": 553,
+      "test": 341
+    }
+  }
+}

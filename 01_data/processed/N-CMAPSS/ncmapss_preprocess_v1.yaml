@@ -1,0 +1,52 @@
+version: 1.0.0
+
+# n-CMAPSS Preprocessing Pipeline Configuration
+# This config controls all pipeline stages and ensures reproducibility.
+
+# Data paths
+paths:
+  h5_root: data/raw/ncmapss/extracted/data_set
+  interim_root: data/interim/ncmapss
+  processed_root: data/processed/ncmapss_norm
+  exports_root: data/exports/ncmapss_v0_packages
+
+# Split strategy
+split:
+  strategy: engine  # split by engine_id (train/test already in h5)
+
+# Feature extraction / aggregation
+aggregation:
+  strategy: cycle_features
+  decimate: 10
+  aggregations:
+    - mean
+    - std
+    - min
+    - max
+  a_columns:
+    engine_id: 0
+    cycle: 1
+    Fc: 2
+    hs: 3
+
+# Normalization
+normalization:
+  strategy: global_zscore
+  ddof: 1
+  zero_variance_floor: 1.0  # NoDrop: floor std to 1.0 instead of dropping
+
+# Output naming
+output:
+  variant_name: V0_global_zscore_nodrop
+  train_prefix: train
+  test_prefix: test
+  scaler_prefix: scaler
+
+# Meta columns (NOT normalized)
+meta_columns:
+  - engine_id
+  - cycle
+  - Fc
+  - hs
+  - n_samples_in_cycle
+  - RUL

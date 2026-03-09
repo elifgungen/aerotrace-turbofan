@@ -1,0 +1,12 @@
+﻿feature_group,feature_pattern,description,unit,sampling_frequency_hz,max_latency_ms,missing_data_policy,target_component,mapping_status,notes
+meta,engine_id,Engine identifier,NA,NA,NA,REJECT_IF_MISSING,Global,DONE,Key field
+meta,cycle,Cycle index,cycle,per_cycle,NA,REJECT_IF_MISSING,Global,DONE,Key field
+meta,Fc,Flight condition id,category,per_cycle,NA,FILL_PREVIOUS,Global,DONE,Operating context
+meta,hs,Health state index,category,per_cycle,NA,FILL_PREVIOUS,Global,DONE,Operating context
+meta,n_samples_in_cycle,Raw sample count,count,per_cycle,NA,REJECT_IF_MISSING,Global,DONE,Quality signal
+rul,RUL,Remaining useful life (label),cycle,per_cycle,NA,REJECT_IF_MISSING,Global,DONE,Training label
+sensor,W_*,Virtual flow/thermo aggregate features (mean/std/min/max),normalized,per_cycle,60000,CLIP_AND_FLAG,TBD,PENDING,Need raw variable mapping from N-CMAPSS dictionary
+sensor,Xs_*,Virtual sensor aggregate features (mean/std/min/max),normalized,per_cycle,60000,CLIP_AND_FLAG,TBD,PENDING,Need raw variable mapping from N-CMAPSS dictionary
+policy,rul_pred,Model predicted RUL,cycle,300,60000,HOLD_LAST,Global,DONE,RUL model output
+policy,anomaly_score_smoothed,Smoothed anomaly score,score,30,60000,HOLD_LAST,Global,DONE,Anomaly model output
+policy,decision_label,Decision support state,label,30,60000,HOLD_LAST,Global,DONE,Policy output

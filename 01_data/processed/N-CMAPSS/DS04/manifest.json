@@ -1,0 +1,58 @@
+{
+  "manifest_version": "1.0",
+  "dataset_name": "DS04",
+  "timestamp": "2026-02-05T12:42:33+00:00",
+  "input": {
+    "path": "/Users/elifsena/jet-cube-turbofan-mvp/data/raw/ncmapss/extracted/data_set/N-CMAPSS_DS04.h5",
+    "sha256": "2b58cbb78497679fadafe0761203b2ae3b0e4e1193039dc34ca25f17ecaeb2e6"
+  },
+  "config": {
+    "path": "/Users/elifsena/jet-cube-turbofan-mvp/config/ncmapss_preprocess_v1.yaml",
+    "version": "1.0.0",
+    "sha256": "8170583e7669f3f94d2bc493cfc205c393baecaa3a3f13529a102d59f18e1dfe"
+  },
+  "cli_command": "python -m ncmapss_preprocess --ds DS04 --config /Users/elifsena/jet-cube-turbofan-mvp/config/ncmapss_preprocess_v1.yaml",
+  "outputs": {
+    "train_DS04_v0.csv": {
+      "path": "/Users/elifsena/jet-cube-turbofan-mvp/data/processed/ncmapss_norm/DS04/V0_global_zscore_nodrop/train_DS04_v0.csv",
+      "sha256": "197e4d409dc014dffb0d90a1fa5388123d75e3c03282c79c414bd6bf69d15264"
+    },
+    "test_DS04_v0.csv": {
+      "path": "/Users/elifsena/jet-cube-turbofan-mvp/data/processed/ncmapss_norm/DS04/V0_global_zscore_nodrop/test_DS04_v0.csv",
+      "sha256": "fcf357c31473357bc07eabfb06166c8c68d9ecba48b41260bd547907e87cef1f"
+    },
+    "scaler_DS04_v0.json": {
+      "path": "/Users/elifsena/jet-cube-turbofan-mvp/data/processed/ncmapss_norm/DS04/V0_global_zscore_nodrop/scaler_DS04_v0.json",
+      "sha256": "909d5191b19bc8a7a5c1198d5e56c50a2c8cc4b71cb653929d93ef93d8c8d542"
+    },
+    "README.md": {
+      "path": "/Users/elifsena/jet-cube-turbofan-mvp/data/processed/ncmapss_norm/DS04/V0_global_zscore_nodrop/README.md",
+      "sha256": "fada2e8f734d55da4b395be253b925cc71471b1cb12728a9857415c7e39b4ab4"
+    }
+  },
+  "environment": {
+    "python_version": "3.11.8",
+    "packages": {
+      "h5py": "3.15.1",
+      "pandas": "3.0.0",
+      "numpy": "2.2.6",
+      "scipy": "1.17.0",
+      "pyyaml": "not installed",
+      "scikit-learn": "not installed"
+    },
+    "git_commit": "9f848bb85d1f92cd1f9e0abedbf5b5aa4efb9155",
+    "git_dirty": true
+  },
+  "extra": {
+    "train_shape": [
+      512,
+      78
+    ],
+    "test_shape": [
+      344,
+      78
+    ],
+    "n_features": 72,
+    "n_floored_cols": 0
+  }
+}

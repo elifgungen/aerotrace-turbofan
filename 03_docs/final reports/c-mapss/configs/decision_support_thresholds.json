@@ -1,0 +1,12 @@
+{
+  "cap": 125.0,
+  "smooth_window": 1,
+  "theta_rul": 50.0,
+  "alpha_mode": "target_arl_on_healthy_first_n",
+  "alpha_target_arl_warn": 200,
+  "calib_healthy_first_n": 20,
+  "alpha_fit_on": "healthy_first_n_cycles_per_engine",
+  "calibration_scope": "all_rows",
+  "allow_missing_anomaly": false,
+  "policy_version": "decision_support_v1"
+}

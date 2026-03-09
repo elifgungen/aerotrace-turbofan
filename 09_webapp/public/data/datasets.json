@@ -1,0 +1,115 @@
+[
+  {
+    "id": "FD001",
+    "label": "C-MAPSS FD001",
+    "engines": 100,
+    "cycles": 13096,
+    "labels": {
+      "Normal Operation": 75,
+      "Immediate Maintenance": 14,
+      "Planned Maintenance": 5,
+      "Enhanced Monitoring": 6
+    }
+  },
+  {
+    "id": "FD002",
+    "label": "C-MAPSS FD002",
+    "engines": 259,
+    "cycles": 33991,
+    "labels": {
+      "Planned Maintenance": 80,
+      "Normal Operation": 176,
+      "Enhanced Monitoring": 2,
+      "Immediate Maintenance": 1
+    }
+  },
+  {
+    "id": "FD003",
+    "label": "C-MAPSS FD003",
+    "engines": 100,
+    "cycles": 16596,
+    "labels": {
+      "Immediate Maintenance": 26,
+      "Enhanced Monitoring": 61,
+      "Normal Operation": 13
+    }
+  },
+  {
+    "id": "FD004",
+    "label": "C-MAPSS FD004",
+    "engines": 248,
+    "cycles": 41214,
+    "labels": {
+      "Planned Maintenance": 73,
+      "Normal Operation": 171,
+      "Enhanced Monitoring": 2,
+      "Immediate Maintenance": 2
+    }
+  },
+  {
+    "id": "DS01",
+    "label": "N-CMAPSS DS01",
+    "engines": 10,
+    "cycles": 894,
+    "labels": {
+      "Planned Maintenance": 10
+    }
+  },
+  {
+    "id": "DS02",
+    "label": "N-CMAPSS DS02",
+    "engines": 9,
+    "cycles": 648,
+    "labels": {
+      "Planned Maintenance": 9
+    }
+  },
+  {
+    "id": "DS03",
+    "label": "N-CMAPSS DS03",
+    "engines": 15,
+    "cycles": 1101,
+    "labels": {
+      "Planned Maintenance": 13,
+      "Immediate Maintenance": 2
+    }
+  },
+  {
+    "id": "DS04",
+    "label": "N-CMAPSS DS04",
+    "engines": 10,
+    "cycles": 856,
+    "labels": {
+      "Planned Maintenance": 10
+    }
+  },
+  {
+    "id": "DS05",
+    "label": "N-CMAPSS DS05",
+    "engines": 10,
+    "cycles": 818,
+    "labels": {
+      "Planned Maintenance": 9,
+      "Immediate Maintenance": 1
+    }
+  },
+  {
+    "id": "DS06",
+    "label": "N-CMAPSS DS06",
+    "engines": 10,
+    "cycles": 797,
+    "labels": {
+      "Planned Maintenance": 8,
+      "Immediate Maintenance": 2
+    }
+  },
+  {
+    "id": "DS07",
+    "label": "N-CMAPSS DS07",
+    "engines": 10,
+    "cycles": 812,
+    "labels": {
+      "Planned Maintenance": 10
+    }
+  }
+]

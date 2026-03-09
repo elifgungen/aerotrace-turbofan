@@ -1,0 +1,13 @@
+{
+  "dataset": "DS01",
+  "method": "mahalanobis",
+  "seed": 42,
+  "contamination": 0.02,
+  "chunksize": 50000,
+  "input_root": "/content/drive/MyDrive/JETCUBE_NCMAPSS",
+  "output_root": "/content/drive/MyDrive/JETCUBE_NCMAPSS/OUTPUTS",
+  "train_csv": "/content/drive/MyDrive/JETCUBE_NCMAPSS/DS01/train_DS01_v0.csv",
+  "test_csv": "/content/drive/MyDrive/JETCUBE_NCMAPSS/DS01/test_DS01_v0.csv",
+  "scaler_json": "/content/drive/MyDrive/JETCUBE_NCMAPSS/DS01/scaler_DS01_v0.json",
+  "output_csv": "/content/drive/MyDrive/JETCUBE_NCMAPSS/OUTPUTS/ncmapss_DS01_anomaly_scores.csv"
+}

@@ -1,0 +1,53 @@
+{
+  "generated_utc": "2026-01-27T13:05:17+00:00",
+  "oof_path": "02_notebooks_exports/RUL/FD002/FD002_Ozcan_All/fd002_oof_predictions_FD002_LOCAL_REGIMEAWARE_SENSOR_ZSCORE_K6_ONEHOT.csv",
+  "rows": 53759,
+  "unique_engines": 260,
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "blocker_engine_multi_fold_count": 0,
+  "blocker_engine_multi_fold_sample": {},
+  "per_fold_evidence": [
+    {
+      "fold": 1,
+      "valid_rows": 10755,
+      "valid_engines": 52,
+      "train_engines": 208,
+      "engine_overlap": 0
+    },
+    {
+      "fold": 2,
+      "valid_rows": 10749,
+      "valid_engines": 52,
+      "train_engines": 208,
+      "engine_overlap": 0
+    },
+    {
+      "fold": 3,
+      "valid_rows": 10753,
+      "valid_engines": 52,
+      "train_engines": 208,
+      "engine_overlap": 0
+    },
+    {
+      "fold": 4,
+      "valid_rows": 10753,
+      "valid_engines": 52,
+      "train_engines": 208,
+      "engine_overlap": 0
+    },
+    {
+      "fold": 5,
+      "valid_rows": 10749,
+      "valid_engines": 52,
+      "train_engines": 208,
+      "engine_overlap": 0
+    }
+  ],
+  "passed": true
+}
