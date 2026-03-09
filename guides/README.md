@@ -13,4 +13,4 @@ This directory contains the repository's curated guides. Each document in this f
 
 ## Legacy Drafts
 
-Legacy draft material that was removed from the main navigation is archived in [`docs/HATALI_00_README_ARSIVI.md`](../docs/HATALI_00_README_ARSIVI.md). That archive is retained only for rewrite tracking and should not be treated as the active guide set.
+Legacy `00_README` material was removed from the public guide set during cleanup. Only validated guides in this directory should be treated as active documentation.

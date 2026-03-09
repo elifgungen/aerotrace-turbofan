@@ -14,7 +14,3 @@ This note records how each legacy `00_README` document was handled during the Gi
 | `anomaly_pipeline.md` | Not republished as an active guide because the referenced rebuild scripts and configs are not present as a validated public workflow. |
 | `repro_commands.md` | Not republished as an active guide for the same reason: the command chain references missing public scripts. |
 | `requirements_demo.txt` | Reintroduced only as validated dependency files where needed: [`demo/streamlit_dashboard/requirements_demo.txt`](../demo/streamlit_dashboard/requirements_demo.txt) and [`twin/requirements_twin.txt`](../twin/requirements_twin.txt). |
-
-## Archive
-
-The original draft content remains available in [`docs/HATALI_00_README_ARSIVI.md`](../docs/HATALI_00_README_ARSIVI.md) for rewrite tracking.

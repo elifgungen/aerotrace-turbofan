@@ -58,4 +58,3 @@ This policy is intentionally deterministic and traceable so that every recommend
 
 - Documentation in the repository is primarily in Turkish, with technical terms preserved in English where useful.
 - Large training binaries are intentionally excluded from version control to keep the public history reviewable.
-- Legacy draft documentation that was pulled from public navigation is preserved in [`docs/HATALI_00_README_ARSIVI.md`](./docs/HATALI_00_README_ARSIVI.md) for rewrite tracking only.

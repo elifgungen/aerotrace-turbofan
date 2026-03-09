@@ -42,4 +42,3 @@ These directories are useful for review and traceability, but they should not be
 
 - Use [`demo/decision_support_v2_outputs/`](../demo/decision_support_v2_outputs) when you want flat files that are easy to browse in the Streamlit dashboard.
 - Use [`data/processed/outputs/`](../data/processed/outputs) when you want the fuller dataset-family structure.
-- Treat archived references in [`docs/HATALI_00_README_ARSIVI.md`](../docs/HATALI_00_README_ARSIVI.md) as historical notes, not canonical data instructions.
