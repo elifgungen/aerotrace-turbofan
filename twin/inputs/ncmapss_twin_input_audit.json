@@ -1,0 +1,44 @@
+{
+  "overall_ready": true,
+  "split_mode": "all",
+  "datasets": [
+    {
+      "dataset": "DS03",
+      "rul_file": "../notebooks/RUL/N-CMAPSS/DS03/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+      "anomaly_file": "../notebooks/Anomaly/N-CMAPSS/OUTPUTS/ncmapss_DS03_anomaly_scores.csv",
+      "output_file": "inputs/ncmapss_DS03_twin_feed.csv",
+      "rul_rows": 1101,
+      "anomaly_rows": 1101,
+      "output_rows": 1101,
+      "rul_duplicates": 0,
+      "anomaly_duplicates": 0,
+      "rul_only_keys": 0,
+      "anomaly_only_keys": 0,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "ready": true,
+      "notes": []
+    },
+    {
+      "dataset": "DS04",
+      "rul_file": "../notebooks/RUL/N-CMAPSS/DS04/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+      "anomaly_file": "../notebooks/Anomaly/N-CMAPSS/OUTPUTS/ncmapss_DS04_anomaly_scores.csv",
+      "output_file": "inputs/ncmapss_DS04_twin_feed.csv",
+      "rul_rows": 856,
+      "anomaly_rows": 856,
+      "output_rows": 856,
+      "rul_duplicates": 0,
+      "anomaly_duplicates": 0,
+      "rul_only_keys": 0,
+      "anomaly_only_keys": 0,
+      "split_values": [
+        "test",
+        "train"
+      ],
+      "ready": true,
+      "notes": []
+    }
+  ]
+}

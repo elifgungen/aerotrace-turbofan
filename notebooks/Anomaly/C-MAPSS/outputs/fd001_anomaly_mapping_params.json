@@ -1,0 +1,48 @@
+{
+  "method": "baseline_deviation_rms_zscore",
+  "baseline_n": 20,
+  "eps": 1e-06,
+  "agg": "rms",
+  "topk": 3,
+  "include_os": false,
+  "sensor_columns": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21"
+  ],
+  "mapping": {
+    "mode": "sigmoid",
+    "k": 1.0,
+    "c": 1.2089358526844107
+  },
+  "fit_mapping_on": "train",
+  "smooth_window": 5,
+  "export_score_col": "anomaly_score",
+  "input_paths": {
+    "train": "data/processed/CMAPSS_full_norm/FD001/train_FD001_full_norm.csv",
+    "test": "data/processed/CMAPSS_full_norm/FD001/test_FD001_full_norm.csv",
+    "pred": "notebooks/RUL/FD001/FD001_Ozcan_AllRaws/predictions_cycle_all_rows.csv",
+    "metrics_json": "notebooks/RUL/FD001/FD001_Ozcan_AllRaws/metrics_cycle_all_rows.json"
+  },
+  "output_paths": {
+    "anomaly_scores": "notebooks/Anomaly/jet-cube-turbofan-mvp/outputs/fd001_anomaly_scores.csv"
+  }
+}

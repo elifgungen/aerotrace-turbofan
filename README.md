@@ -17,22 +17,22 @@ The end-to-end workflow brings together four connected capabilities:
 
 | Path | Description |
 | --- | --- |
-| `00_README/` | Quickstart guides, demo runbooks, data-source notes, and reproducibility references. |
-| `01_data/` | Raw, processed, and curated data assets used by the MVP. |
-| `02_notebooks_exports/` | Notebook exports, model artefacts, and dataset-specific result files. |
-| `03_docs/` | Narrative reports, architecture notes, and final evaluation material. |
-| `04_figures/` | Supporting visuals used in reports and presentations. |
-| `05_demo/` | Decision-support package, scripts, and generated outputs. |
-| `08_twin/` | Digital twin inputs and simulation-oriented assets. |
-| `09_webapp/` | Interactive web application for dataset exploration, fleet review, and engine-level analysis. |
+| `guides/` | Quickstart guides, demo runbooks, data-source notes, and reproducibility references. |
+| `data/` | Raw, processed, and curated data assets used by the MVP. |
+| `notebooks/` | Notebook exports, model artefacts, and dataset-specific result files. |
+| `docs/` | Narrative reports, architecture notes, and final evaluation material. |
+| `figures/` | Supporting visuals used in reports and presentations. |
+| `demo/` | Decision-support package, scripts, and generated outputs. |
+| `twin/` | Digital twin inputs and simulation-oriented assets. |
+| `webapp/` | Interactive web application for dataset exploration, fleet review, and engine-level analysis. |
 
 ## Quick Start
 
 Choose the path that matches the review goal:
 
-- For repository-level orientation and demo instructions, start with [`00_README/mvp_quickstart.md`](./00_README/mvp_quickstart.md).
-- For the interactive browser experience, open [`09_webapp/README.md`](./09_webapp/README.md) and run the Vite application locally.
-- For decision-support logic and packaged outputs, inspect [`05_demo/`](./05_demo) together with the reports under [`03_docs/`](./03_docs).
+- For repository-level orientation and demo instructions, start with [`guides/mvp_quickstart.md`](./guides/mvp_quickstart.md).
+- For the interactive browser experience, open [`webapp/README.md`](./webapp/README.md) and run the Vite application locally.
+- For decision-support logic and packaged outputs, inspect [`demo/`](./demo) together with the reports under [`docs/`](./docs).
 
 ## Maintenance Triage Logic
 
