@@ -16,9 +16,12 @@ import plotly.graph_objects as go
 import streamlit as st
 
 
-RE_DECISION_SUPPORT = re.compile(r"^(?:fd\d{3}|ncmapss_DS\d{2})_decision_support_v2\.csv$", re.IGNORECASE)
-RE_ANOMALY = re.compile(r"^(?:fd\d{3}|ncmapss_DS\d{2})_anomaly_scores\.csv$", re.IGNORECASE)
-RE_RUL = re.compile(r"^(?:fd\d{3}|ncmapss_DS\d{2})_rul_predictions.*\.csv$", re.IGNORECASE)
+RE_DECISION_SUPPORT = re.compile(
+    r"^(?P<ds>fd\d{3}|ncmapss_DS\d{2})_decision_support(?:_v2)?\.csv$",
+    re.IGNORECASE,
+)
+RE_ANOMALY = re.compile(r"^(?P<ds>fd\d{3}|ncmapss_DS\d{2})_anomaly_scores\.csv$", re.IGNORECASE)
+RE_RUL = re.compile(r"^(?P<ds>fd\d{3}|ncmapss_DS\d{2})_rul_predictions.*\.csv$", re.IGNORECASE)
 
 
 CANONICAL_DECISION_SUPPORT_COLS = [
@@ -90,8 +93,14 @@ def _safe_relpath(p: Path) -> str:
         return str(p)
 
 
-def canonical_dataset_ids() -> List[str]:
-    return [f"FD{i:03d}" for i in range(1, 5)]
+def normalize_dataset_id(raw: str) -> str:
+    token = str(raw).strip()
+    if not token:
+        return "UNKNOWN"
+    upper = token.upper()
+    if upper.startswith("NCMAPSS_"):
+        return upper.replace("NCMAPSS_", "")
+    return upper
 
 
 def expected_paths_for_dataset(outdir: Path, dataset_id: str) -> Dict[str, Path]:
@@ -118,17 +127,17 @@ def discover_datasets(outputs_path: str) -> Dict[str, DatasetFiles]:
         name = child.name
         m = RE_DECISION_SUPPORT.match(name)
         if m:
-            ds = f"FD{m.group(1)}"
+            ds = normalize_dataset_id(m.group("ds"))
             datasets.setdefault(ds, {})["decision_support"] = child
             continue
         m = RE_ANOMALY.match(name)
         if m:
-            ds = f"FD{m.group(1)}"
+            ds = normalize_dataset_id(m.group("ds"))
             datasets.setdefault(ds, {})["anomaly"] = child
             continue
         m = RE_RUL.match(name)
         if m:
-            ds = f"FD{m.group(1)}"
+            ds = normalize_dataset_id(m.group("ds"))
             datasets.setdefault(ds, {})["rul"] = child
             continue
 
@@ -165,33 +174,44 @@ def load_decision_support(csv_path: str) -> pd.DataFrame:
     p = Path(csv_path)
     df = pd.read_csv(
         p,
-        dtype={
-            "dataset_id": "string",
-            "split": "string",
-            "engine_id": "int32",
-            "cycle": "int32",
-            "rul_pred": "float32",
-            "anomaly_score": "float32",
-            "decision_label": "string",
-            "reason_codes": "string",
-            "reason_text": "string",
-            "theta_rul_used": "float32",
-            "alpha_anomaly_used": "float32",
-        },
+        low_memory=False,
     )
 
-    # Backward-compat: v1 outputs may not carry dataset_id/split columns.
+    # Backward-compat: normalize v2 exports into the canonical schema used by the dashboard.
+    if "asset_id" in df.columns:
+        rename_map = {
+            "asset_id": "engine_id",
+            "t": "cycle",
+            "anomaly_score_smoothed": "anomaly_score",
+            "alpha_high_used": "alpha_anomaly_used",
+        }
+        df = df.rename(columns={k: v for k, v in rename_map.items() if k in df.columns})
+        if "anomaly_score" not in df.columns and "anomaly_score_raw" in df.columns:
+            df["anomaly_score"] = df["anomaly_score_raw"]
+
+    # Backward-compat: exports may not carry dataset_id/split columns.
     dataset_match = RE_DECISION_SUPPORT.match(p.name)
-    inferred_dataset = f"FD{dataset_match.group(1)}" if dataset_match else "UNKNOWN"
+    inferred_dataset = normalize_dataset_id(dataset_match.group("ds")) if dataset_match else "UNKNOWN"
     if "dataset_id" not in df.columns:
         df["dataset_id"] = inferred_dataset
     if "split" not in df.columns:
         df["split"] = "test"
 
-    df["dataset_id"] = df["dataset_id"].astype("string").fillna(inferred_dataset)
+    df["dataset_id"] = df["dataset_id"].astype("string").fillna(inferred_dataset).map(normalize_dataset_id)
     df["split"] = df["split"].astype("string").fillna("test")
     df.loc[df["split"].str.strip() == "", "split"] = "test"
+    if "engine_id" in df.columns:
+        df["engine_id"] = pd.to_numeric(df["engine_id"], errors="coerce").astype("Int64")
+    if "cycle" in df.columns:
+        df["cycle"] = pd.to_numeric(df["cycle"], errors="coerce").astype("Int64")
+    for col in ["rul_pred", "anomaly_score", "theta_rul_used", "alpha_anomaly_used"]:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
     return df
+
+
+def available_dataset_ids(datasets: Dict[str, DatasetFiles]) -> List[str]:
+    return sorted(datasets.keys())
 
 
 def decision_segments(df_engine: pd.DataFrame) -> List[Tuple[int, int, str]]:
@@ -476,17 +496,32 @@ def render_label_legend() -> None:
     )
 
 
-def render_file_status_table(outdir: Path, dataset_id: str) -> None:
-    expected = expected_paths_for_dataset(outdir, dataset_id)
+def render_file_status_table(outdir: Path, dataset_id: str, files: Optional[DatasetFiles]) -> None:
     rows = []
-    for name, path in expected.items():
-        rows.append(
-            {
-                "file": name,
-                "status": "FOUND" if path.exists() else "MISSING",
-                "path": _safe_relpath(path),
-            }
-        )
+    if files is None:
+        expected = expected_paths_for_dataset(outdir, dataset_id)
+        for name, path in expected.items():
+            rows.append(
+                {
+                    "file": name,
+                    "status": "MISSING",
+                    "path": _safe_relpath(path),
+                }
+            )
+    else:
+        discovered = {
+            "decision_support.csv": files.decision_support_csv,
+            "anomaly_scores.csv": files.anomaly_scores_csv,
+            "rul_predictions.csv": files.rul_predictions_csv,
+        }
+        for name, path in discovered.items():
+            rows.append(
+                {
+                    "file": name,
+                    "status": "FOUND" if path else "MISSING",
+                    "path": _safe_relpath(path) if path else "Not provided",
+                }
+            )
     st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
 
 
@@ -783,9 +818,9 @@ def render_transitions_summary(
 
 
 def main() -> None:
-    st.set_page_config(page_title="JET-CUBE Decision Support Dashboard", layout="wide")
+    st.set_page_config(page_title="AeroTrace Decision Support Dashboard", layout="wide")
 
-    st.title("JET-CUBE — Decision Support Dashboard (FD001–FD004)")
+    st.title("AeroTrace Decision Support Dashboard")
     default_outdir = resolve_default_outputs_dir()
 
     with st.sidebar:
@@ -799,10 +834,11 @@ def main() -> None:
         ).expanduser()
 
         datasets = discover_datasets(str(outdir))
-        ds = st.selectbox("Dataset", options=canonical_dataset_ids(), index=0)
+        dataset_options = available_dataset_ids(datasets)
+        ds = st.selectbox("Dataset", options=dataset_options) if dataset_options else None
 
         st.markdown("**Dosya Durumu (seçili dataset)**")
-        render_file_status_table(outdir, ds)
+        render_file_status_table(outdir, ds or "UNKNOWN", datasets.get(ds) if ds else None)
 
     st.caption(
         f"Bu uygulama sadece `{_safe_relpath(outdir)}` altındaki CSV/JSON artefact’larını okur; eğitim/yeniden üretim yapmaz."
@@ -812,28 +848,33 @@ def main() -> None:
         st.error(
             f"Output klasörü bulunamadı: `{_safe_relpath(outdir)}`\n\n"
             "Beklenen dosyalar (örnek):\n"
-            f"- `{_safe_relpath(outdir / 'fd001_decision_support.csv')}`\n"
-            f"- `{_safe_relpath(outdir / 'fd002_decision_support.csv')}`\n"
-            f"- `{_safe_relpath(outdir / 'fd003_decision_support.csv')}`\n"
-            f"- `{_safe_relpath(outdir / 'fd004_decision_support.csv')}`"
+            f"- `{_safe_relpath(outdir / 'fd001_decision_support_v2.csv')}`\n"
+            f"- `{_safe_relpath(outdir / 'ncmapss_DS01_decision_support_v2.csv')}`"
+        )
+        st.stop()
+
+    if not datasets or ds is None:
+        st.error(
+            "Seçilebilir dataset bulunamadı.\n"
+            f"- Klasör: `{_safe_relpath(outdir)}`\n"
+            "- Beklenen adlandırma: `fd001_decision_support_v2.csv`, `ncmapss_DS01_decision_support_v2.csv` veya benzeri"
         )
         st.stop()
 
     files = datasets.get(ds)
-    ds_expected = expected_paths_for_dataset(outdir, ds)
-    if files is None or not ds_expected["decision_support.csv"].exists():
+    if files is None or not files.decision_support_csv.exists():
         st.error(
             "Seçili dataset için decision-support CSV bulunamadı.\n"
-            f"- Beklenen: `{_safe_relpath(ds_expected['decision_support.csv'])}`"
+            f"- Beklenen: `{ds}` için bir decision-support CSV"
         )
         st.stop()
 
-    df = load_decision_support(str(ds_expected["decision_support.csv"]))
+    df = load_decision_support(str(files.decision_support_csv))
     missing = _required_missing_columns(df, CANONICAL_DECISION_SUPPORT_COLS)
     if missing:
         st.error(
             "Decision-support CSV beklenen şemayı karşılamıyor.\n"
-            f"- Dosya: `{_safe_relpath(ds_expected['decision_support.csv'])}`\n"
+            f"- Dosya: `{_safe_relpath(files.decision_support_csv)}`\n"
             f"- Eksik kolonlar: {', '.join(missing)}\n"
             f"- Mevcut kolonlar: {', '.join(map(str, df.columns))}"
         )

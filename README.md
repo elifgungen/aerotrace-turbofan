@@ -17,6 +17,7 @@ The end-to-end workflow brings together four connected capabilities:
 
 | Path | Description |
 | --- | --- |
+| `guides/` | Curated setup and usage guides validated against the current repository layout. |
 | `data/` | Raw, processed, and curated data assets used by the MVP. |
 | `notebooks/` | Notebook exports, model artefacts, and dataset-specific result files. |
 | `docs/` | Narrative reports, architecture notes, review notes, and final evaluation material. |
@@ -29,6 +30,7 @@ The end-to-end workflow brings together four connected capabilities:
 
 Choose the path that matches the review goal:
 
+- For curated repository guidance, start with [`guides/README.md`](./guides/README.md).
 - For the interactive browser experience, open [`webapp/README.md`](./webapp/README.md) and run the Vite application locally.
 - For decision-support logic and packaged outputs, inspect [`demo/`](./demo) together with the reports under [`docs/`](./docs).
 
@@ -56,3 +58,4 @@ This policy is intentionally deterministic and traceable so that every recommend
 
 - Documentation in the repository is primarily in Turkish, with technical terms preserved in English where useful.
 - Large training binaries are intentionally excluded from version control to keep the public history reviewable.
+- Legacy draft documentation that was pulled from public navigation is preserved in [`docs/HATALI_00_README_ARSIVI.md`](./docs/HATALI_00_README_ARSIVI.md) for rewrite tracking only.
