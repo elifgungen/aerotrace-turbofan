@@ -32,7 +32,9 @@ Choose the path that matches the review goal:
 
 - For curated repository guidance, start with [`guides/README.md`](./guides/README.md).
 - For the interactive browser experience, open [`webapp/README.md`](./webapp/README.md) and run the Vite application locally.
-- For decision-support logic and packaged outputs, inspect [`demo/`](./demo) together with the reports under [`docs/`](./docs).
+- For the Streamlit demo and packaged CSV outputs, start with [`demo/README.md`](./demo/README.md).
+- For digital twin workflows, start with [`twin/README.md`](./twin/README.md).
+- For supporting reports and technical evidence, inspect [`docs/`](./docs).
 
 ## Maintenance Triage Logic
 

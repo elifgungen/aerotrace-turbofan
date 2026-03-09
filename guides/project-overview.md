@@ -12,9 +12,9 @@ AeroTrace Turbofan is a public showcase repository for a turbofan maintenance de
 
 ## Recommended Review Paths
 
-- For a fast product tour, read [`README.md`](../README.md) and then open [`guides/webapp-guide.md`](./webapp-guide.md).
-- For CSV-based inspection of decision-support outputs, use [`guides/streamlit-demo-guide.md`](./streamlit-demo-guide.md).
-- For simulation-oriented workflows, use [`guides/digital-twin-guide.md`](./digital-twin-guide.md).
+- For a fast product tour, read [`README.md`](../README.md) and then open [`webapp/README.md`](../webapp/README.md).
+- For CSV-based inspection of decision-support outputs, use [`demo/README.md`](../demo/README.md) and [`demo/streamlit_dashboard/README.md`](../demo/streamlit_dashboard/README.md).
+- For simulation-oriented workflows, use [`twin/README.md`](../twin/README.md).
 - For data inventory and coverage, use [`guides/data-assets.md`](./data-assets.md).
 
 ## Scope Notes
