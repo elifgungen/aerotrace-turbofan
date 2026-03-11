@@ -1,5 +1,7 @@
 # AeroTrace Turbofan
 
+> Live demo: [AeroTrace Web App](https://09webapp.vercel.app)
+
 AeroTrace Turbofan is a repository of benchmark-based predictive maintenance artifacts for turbofan engines. It combines remaining useful life (RUL) prediction outputs, anomaly scores, an explainable maintenance decision layer, a browser-based review app, and digital twin demo assets into one inspectable package.
 
 The repository is organized so a first-time GitHub reader can follow the full path from benchmark data to maintenance-facing outputs without having to retrain every model first.
@@ -28,6 +30,15 @@ The repository packages that workflow around public turbofan benchmark datasets:
 | [`twin/`](./twin/README.md) | Streamlit-based twin apps, scripts, and hybrid outputs | Digital twin and replay workflows |
 | [`figures/`](./figures) | Exported report figures | Visual evidence used in reports |
 | [`docs/`](./docs) | Narrative reports and decision-support notes | Supporting evidence and historical context |
+
+## Live demo
+
+AeroTrace is also available as a live web experience for readers who want to inspect the project through an interface before diving into the repository structure. The web app turns the repository artifacts into a more direct review flow, making it easier to move from high-level fleet monitoring to engine-level inspection and evidence-oriented analysis.
+
+The current demo includes an **Ana Sayfa**, **Filo Görünümü**, **Motor Detay**, **3D Twin**, and **Audit & Kanıt** navigation structure, along with a **Jüri Demo** flow for guided walkthroughs. This makes the project easier to review not only as a collection of notebooks and outputs, but as an interactive maintenance decision-support experience.
+
+**Open the live app:** [AeroTrace Web App](https://09webapp.vercel.app)
+
 
 ## Main components
 
