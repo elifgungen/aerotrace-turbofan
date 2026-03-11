@@ -1,0 +1,819 @@
+{
+  "repo_root": "/Users/elifsena/aerotrace-turbofan",
+  "inventory": {
+    "data_processed_outputs": [
+      "data/processed/outputs/FD001/fd001_anomaly_scores.csv",
+      "data/processed/outputs/FD001/fd001_decision_support.csv",
+      "data/processed/outputs/FD001/fd001_decision_support_report.json",
+      "data/processed/outputs/FD001/fd001_preprocess_report.json",
+      "data/processed/outputs/FD001/fd001_rul_predictions.csv",
+      "data/processed/outputs/FD002/fd002_anomaly_scores.csv",
+      "data/processed/outputs/FD002/fd002_decision_support.csv",
+      "data/processed/outputs/FD002/fd002_decision_support_report.json",
+      "data/processed/outputs/FD002/fd002_preprocess_report.json",
+      "data/processed/outputs/FD002/fd002_rul_predictions.csv",
+      "data/processed/outputs/FD003/fd003_anomaly_mapping_params.json",
+      "data/processed/outputs/FD003/fd003_anomaly_report.json",
+      "data/processed/outputs/FD003/fd003_anomaly_scores.csv",
+      "data/processed/outputs/FD003/fd003_decision_support.csv",
+      "data/processed/outputs/FD003/fd003_decision_support_report.json",
+      "data/processed/outputs/FD003/fd003_rul_predictions.csv",
+      "data/processed/outputs/FD004/fd004_anomaly_mapping_params.json",
+      "data/processed/outputs/FD004/fd004_anomaly_report.json",
+      "data/processed/outputs/FD004/fd004_anomaly_scores.csv",
+      "data/processed/outputs/FD004/fd004_decision_support.csv",
+      "data/processed/outputs/FD004/fd004_decision_support_report.json",
+      "data/processed/outputs/FD004/fd004_rul_predictions.csv",
+      "data/processed/outputs/N-CMAPSS/ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+      "data/processed/outputs/N-CMAPSS/ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+      "data/processed/outputs/N-CMAPSS/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+      "data/processed/outputs/N-CMAPSS/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+      "data/processed/outputs/N-CMAPSS/ncmapss_DS05_decision_support_v2.csv",
+      "data/processed/outputs/N-CMAPSS/ncmapss_DS06_decision_support_v2.csv",
+      "data/processed/outputs/N-CMAPSS/ncmapss_DS07_rul_predictions_autogluon_FIXED.csv",
+      "data/processed/outputs/N-CMAPSS/ncmapss_prediction_sources.json"
+    ],
+    "notebooks": [
+      "notebooks/Anomaly/C-MAPSS/FD001_anomaly_score_baseline_v2.ipynb",
+      "notebooks/Anomaly/C-MAPSS/FD002_anomaly_score_from_BASE_outputs_colab.ipynb",
+      "notebooks/Anomaly/C-MAPSS/fd001_baseline_deviation_anomaly.py",
+      "notebooks/Anomaly/N-CMAPSS/scripts/compute_anomaly_ncmapss.py",
+      "notebooks/EDA/C-MAPSS_notebooks/FD001_EDA_notebook.ipynb",
+      "notebooks/RUL/C-MAPSS/FD001/FD001_AllRaws/train_fd001_lgbm_cat.py",
+      "notebooks/RUL/C-MAPSS/FD002/FD002_All/FD002_SingleDataset_Runner_AllRows.ipynb",
+      "notebooks/RUL/C-MAPSS/FD002/FD002_All/fd002_leakage_report.py",
+      "notebooks/RUL/C-MAPSS/FD003/FD003_train_ensemble_sensors_plus_cycle_CAP125_with_metrics_export.ipynb",
+      "notebooks/RUL/C-MAPSS/FD004/FD004_compare_BASE_A_B_OzcanMetrics_CAP125.ipynb",
+      "notebooks/RUL/N-CMAPSS/DS01-DS04/train_autogluon_ncmapss.py",
+      "notebooks/RUL/N-CMAPSS/DS03-DS04_New/DS03_AutoGluon_Colab.ipynb",
+      "notebooks/RUL/N-CMAPSS/DS03-DS04_New/DS04_AutoGluon_Colab.ipynb",
+      "notebooks/RUL/N-CMAPSS/train_autogluon_ncmapss.py"
+    ],
+    "demo": [
+      "demo/decision_support_runner.py",
+      "demo/decision_support_v2_outputs/audit/delta_fd001.csv",
+      "demo/decision_support_v2_outputs/audit/delta_ncmapss_ds01.csv",
+      "demo/decision_support_v2_outputs/audit/delta_summary_corrected.json",
+      "demo/decision_support_v2_outputs/audit/ds01_split_change_ratio.csv",
+      "demo/decision_support_v2_outputs/audit/ds01_transition_matrix.csv",
+      "demo/decision_support_v2_outputs/audit/ds01_v1_vs_v2_policy_impact_report.md",
+      "demo/decision_support_v2_outputs/audit/hardening_diagnostics.json",
+      "demo/decision_support_v2_outputs/audit/mvp_feasibility_proof_report.md",
+      "demo/decision_support_v2_outputs/audit/ncmapss_all_datasets_report.md",
+      "demo/decision_support_v2_outputs/audit/ncmapss_batch_generation_report.json",
+      "demo/decision_support_v2_outputs/fd001_decision_support.csv",
+      "demo/decision_support_v2_outputs/fd001_decision_support_v2.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS01_decision_support.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS01_decision_support_v2.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS01_decision_support_v2_test_only.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS02_decision_support.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS02_decision_support_v2.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS03_decision_support.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS03_decision_support_v2.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS04_decision_support.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS04_decision_support_v2.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS05_decision_support.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS05_decision_support_v2.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS06_decision_support.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS06_decision_support_v2.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS07_decision_support.csv",
+      "demo/decision_support_v2_outputs/ncmapss_DS07_decision_support_v2.csv",
+      "demo/decision_support_v2_package/demo/decision_support_runner.py",
+      "demo/decision_support_v2_package/scripts/run_decision_support.py",
+      "demo/decision_support_v2_package/src/decision_support/__init__.py",
+      "demo/decision_support_v2_package/src/decision_support/adapters/__init__.py",
+      "demo/decision_support_v2_package/src/decision_support/adapters/_common.py",
+      "demo/decision_support_v2_package/src/decision_support/adapters/cmapss_adapter.py",
+      "demo/decision_support_v2_package/src/decision_support/adapters/ncmapss_adapter.py",
+      "demo/decision_support_v2_package/src/decision_support/policy_engine.py",
+      "demo/decision_support_v2_package/tests/test_policy_engine.py",
+      "demo/decision_support_v2_package/tests/test_runner_backward_compat.py",
+      "demo/decision_support_v2_package/tests/test_v2_schema.py",
+      "demo/demo output/fd001_decision_support.csv",
+      "demo/demo output/fd001_decision_support_baseline_deviation.csv",
+      "demo/demo output/fd001_decision_support_baseline_deviation_report.json",
+      "demo/demo output/fd002_decision_support_with_anomaly.csv",
+      "demo/demo output/fd002_decision_support_with_anomaly_report.json",
+      "demo/demo_runbook.md",
+      "demo/streamlit_dashboard/requirements_demo.txt",
+      "demo/streamlit_dashboard/streamlit_app.py"
+    ],
+    "figures": [
+      "figures/.DS_Store",
+      "figures/decision_support/FIGURES_NOTE.md",
+      "figures/decision_support/fd001_baseline_engine_49_timeline.png",
+      "figures/decision_support/fd001_baseline_engine_73_timeline.png",
+      "figures/decision_support/fd002_engine_159_timeline.png",
+      "figures/decision_support/fd002_engine_1_timeline.png",
+      "figures/decision_support/ncmapss_all/README.md",
+      "figures/decision_support/ncmapss_all/ncmapss_ds01_change_ratio_by_split.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds01_v1_to_v2_transition_matrix.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds01_v1_v2_label_distribution.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds02_change_ratio_by_split.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds02_v1_to_v2_transition_matrix.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds02_v1_v2_label_distribution.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds03_change_ratio_by_split.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds03_v1_to_v2_transition_matrix.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds03_v1_v2_label_distribution.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds04_change_ratio_by_split.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds04_v1_to_v2_transition_matrix.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds04_v1_v2_label_distribution.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds05_change_ratio_by_split.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds05_v1_to_v2_transition_matrix.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds05_v1_v2_label_distribution.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds06_change_ratio_by_split.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds06_v1_to_v2_transition_matrix.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds06_v1_v2_label_distribution.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds07_change_ratio_by_split.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds07_v1_to_v2_transition_matrix.png",
+      "figures/decision_support/ncmapss_all/ncmapss_ds07_v1_v2_label_distribution.png",
+      "figures/evaluation/absolute_error_boxplot_by_dataset.png",
+      "figures/evaluation/absolute_error_boxplot_by_dataset_cmapss.png",
+      "figures/evaluation/absolute_error_boxplot_by_dataset_ncmapss.png",
+      "figures/evaluation/evaluation_engine_metrics.csv",
+      "figures/evaluation/evaluation_engine_metrics_cmapss.csv",
+      "figures/evaluation/evaluation_engine_metrics_ncmapss.csv",
+      "figures/evaluation/evaluation_manifest.json",
+      "figures/evaluation/evaluation_metrics_by_dataset.csv",
+      "figures/evaluation/evaluation_metrics_by_dataset_cmapss.csv",
+      "figures/evaluation/evaluation_metrics_by_dataset_ncmapss.csv",
+      "figures/evaluation/evaluation_rows.csv",
+      "figures/evaluation/evaluation_rows_cmapss.csv",
+      "figures/evaluation/evaluation_rows_ncmapss.csv",
+      "figures/evaluation/final_cycle_abs_error_boxplot_by_dataset.png",
+      "figures/evaluation/final_cycle_abs_error_boxplot_by_dataset_cmapss.png",
+      "figures/evaluation/final_cycle_abs_error_boxplot_by_dataset_ncmapss.png",
+      "figures/evaluation/generated_predictions/ncmapss_ds01_random_forest_predictions.csv",
+      "figures/evaluation/generated_predictions/ncmapss_ds02_random_forest_predictions.csv",
+      "figures/evaluation/generated_predictions/ncmapss_ds03_random_forest_predictions.csv",
+      "figures/evaluation/generated_predictions/ncmapss_ds04_random_forest_predictions.csv",
+      "figures/evaluation/per_engine_mae_boxplot_by_dataset.png",
+      "figures/evaluation/per_engine_mae_boxplot_by_dataset_cmapss.png",
+      "figures/evaluation/per_engine_mae_boxplot_by_dataset_ncmapss.png",
+      "figures/evaluation/residual_histogram_by_dataset.png",
+      "figures/evaluation/residual_histogram_by_dataset_cmapss.png",
+      "figures/evaluation/residual_histogram_by_dataset_ncmapss.png",
+      "figures/evaluation/true_vs_pred_scatter.png",
+      "figures/evaluation/true_vs_pred_scatter_cmapss.png",
+      "figures/evaluation/true_vs_pred_scatter_ncmapss.png",
+      "figures/mvp_report/fd001_distributions.png",
+      "figures/mvp_report/fd001_engine_49_timeline.png",
+      "figures/mvp_report/fd002_distributions.png",
+      "figures/mvp_report/fd002_engine_65_timeline.png",
+      "figures/mvp_report/fd003_distributions.png",
+      "figures/mvp_report/fd003_engine_24_timeline.png",
+      "figures/mvp_report/fd004_distributions.png",
+      "figures/mvp_report/fd004_engine_25_timeline.png"
+    ],
+    "docs": [
+      "docs/Decision_Support/MVP/FILES.txt",
+      "docs/Decision_Support/MVP/config/decision_support_thresholds.json",
+      "docs/Decision_Support/MVP/data/outputs/fd001_decision_support.csv",
+      "docs/Decision_Support/MVP/data/outputs/fd002_decision_support.csv",
+      "docs/Decision_Support/MVP/decision_logic.md",
+      "docs/Decision_Support/MVP/decision_support_report_2026-01-28.md",
+      "docs/Decision_Support/MVP/decision_support_snapshot_manifest_2026-01-28.txt",
+      "docs/Decision_Support/MVP_V2/configs/decision_support.yaml",
+      "docs/Decision_Support/MVP_V2/docs/decision_logic_v2.md",
+      "docs/Decision_Support/MVP_V2/docs/decision_support_existing_summary.md",
+      "docs/Decision_Support/MVP_V2/docs/decision_support_schema.md",
+      "docs/Decision_Support/MVP_V2/docs/mvp_submission_checklist.md",
+      "docs/data reports/C-MAPSS_Normalization_Reports/FD001 Normalizasyon ve Veri Haz\u0131rlama Raporu.docx",
+      "docs/data reports/C-MAPSS_Normalization_Reports/FD002 Global Z-Score Normalizasyon ve Veri Haz\u0131rlama Raporu.docx",
+      "docs/data reports/C-MAPSS_Normalization_Reports/FD002_regime_variants_report.docx",
+      "docs/data reports/C-MAPSS_Normalization_Reports/FD003_Normalizasyon_ve_Modelleme_Raporu.docx",
+      "docs/data reports/C-MAPSS_Normalization_Reports/FD004_Normalization_Report.docx",
+      "docs/data reports/C-MAPSS_Sensor_Selection_Reports/Sensor_Secimi_Rapor.docx",
+      "docs/data reports/N-CMAPSS_Normalization_Report/ncmapss_veri_ve_normalizasyon_pipeline_TR.docx",
+      "docs/evaluation_visuals_summary.md",
+      "docs/final reports/c-mapss/configs/anomaly_thresholds.json",
+      "docs/final reports/c-mapss/configs/decision_support_thresholds.json",
+      "docs/final reports/c-mapss/fd003_protocol_fix_report.md",
+      "docs/final reports/c-mapss/fd004_repro_fix_report.md",
+      "docs/final reports/c-mapss/mvp_results_narrative_report.docx",
+      "docs/final reports/c-mapss/mvp_results_narrative_report.md",
+      "docs/final reports/c-mapss/\u00e7\u0131kt\u0131 sonu\u00e7 raporu/mvp_results_narrative_report.docx",
+      "docs/final reports/c-mapss/\u00e7\u0131kt\u0131 sonu\u00e7 raporu/mvp_results_narrative_report.md",
+      "docs/incident reports/2026-02-10_split-semantics_mismatch_ncmapss-ds01-ds04.md",
+      "docs/mvp_feasibility_proof_report.md"
+    ]
+  },
+  "cmapss_report": {
+    "FD001": {
+      "truth": {
+        "status": "ok",
+        "test_source": "data/raw/CMAPSSData/test_FD001.txt",
+        "rul_source": "data/raw/CMAPSSData/RUL_FD001.txt",
+        "join_keys": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle"
+        ],
+        "truth_reconstruction": {
+          "offset_file": "RUL_FDxxx.txt provides one terminal RUL offset per test engine in engine_id order",
+          "formula_raw": "rul_true_raw = rul_offset + max_cycle_for_engine - cycle",
+          "formula_capped": "rul_true = min(rul_true_raw, 125.0)",
+          "split_assumption": "prediction snapshots are committed as split=test and are joined on dataset_id, split, engine_id, cycle"
+        }
+      },
+      "predictions": {
+        "status": "ok",
+        "pred_source": "data/processed/outputs/FD001/fd001_rul_predictions.csv",
+        "schema": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle",
+          "rul_pred"
+        ],
+        "join_keys": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle"
+        ],
+        "row_count": 13096,
+        "split_values": [
+          "test"
+        ],
+        "dataset_values": [
+          "FD001"
+        ],
+        "granularity": "per-cycle prediction rows",
+        "duplicate_join_keys": 0
+      },
+      "status": "joined",
+      "joined_rows": 13096,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "truth_source": "data/raw/CMAPSSData/test_FD001.txt",
+      "rul_offset_source": "data/raw/CMAPSSData/RUL_FD001.txt",
+      "prediction_source": "data/processed/outputs/FD001/fd001_rul_predictions.csv"
+    },
+    "FD002": {
+      "truth": {
+        "status": "ok",
+        "test_source": "data/raw/CMAPSSData/test_FD002.txt",
+        "rul_source": "data/raw/CMAPSSData/RUL_FD002.txt",
+        "join_keys": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle"
+        ],
+        "truth_reconstruction": {
+          "offset_file": "RUL_FDxxx.txt provides one terminal RUL offset per test engine in engine_id order",
+          "formula_raw": "rul_true_raw = rul_offset + max_cycle_for_engine - cycle",
+          "formula_capped": "rul_true = min(rul_true_raw, 125.0)",
+          "split_assumption": "prediction snapshots are committed as split=test and are joined on dataset_id, split, engine_id, cycle"
+        }
+      },
+      "predictions": {
+        "status": "ok",
+        "pred_source": "data/processed/outputs/FD002/fd002_rul_predictions.csv",
+        "schema": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle",
+          "rul_pred"
+        ],
+        "join_keys": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle"
+        ],
+        "row_count": 33991,
+        "split_values": [
+          "test"
+        ],
+        "dataset_values": [
+          "FD002"
+        ],
+        "granularity": "per-cycle prediction rows",
+        "duplicate_join_keys": 0
+      },
+      "status": "joined",
+      "joined_rows": 33991,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "truth_source": "data/raw/CMAPSSData/test_FD002.txt",
+      "rul_offset_source": "data/raw/CMAPSSData/RUL_FD002.txt",
+      "prediction_source": "data/processed/outputs/FD002/fd002_rul_predictions.csv"
+    },
+    "FD003": {
+      "truth": {
+        "status": "ok",
+        "test_source": "data/raw/CMAPSSData/test_FD003.txt",
+        "rul_source": "data/raw/CMAPSSData/RUL_FD003.txt",
+        "join_keys": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle"
+        ],
+        "truth_reconstruction": {
+          "offset_file": "RUL_FDxxx.txt provides one terminal RUL offset per test engine in engine_id order",
+          "formula_raw": "rul_true_raw = rul_offset + max_cycle_for_engine - cycle",
+          "formula_capped": "rul_true = min(rul_true_raw, 125.0)",
+          "split_assumption": "prediction snapshots are committed as split=test and are joined on dataset_id, split, engine_id, cycle"
+        }
+      },
+      "predictions": {
+        "status": "ok",
+        "pred_source": "data/processed/outputs/FD003/fd003_rul_predictions.csv",
+        "schema": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle",
+          "rul_pred"
+        ],
+        "join_keys": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle"
+        ],
+        "row_count": 16596,
+        "split_values": [
+          "test"
+        ],
+        "dataset_values": [
+          "FD003"
+        ],
+        "granularity": "per-cycle prediction rows",
+        "duplicate_join_keys": 0
+      },
+      "status": "joined",
+      "joined_rows": 16596,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "truth_source": "data/raw/CMAPSSData/test_FD003.txt",
+      "rul_offset_source": "data/raw/CMAPSSData/RUL_FD003.txt",
+      "prediction_source": "data/processed/outputs/FD003/fd003_rul_predictions.csv"
+    },
+    "FD004": {
+      "truth": {
+        "status": "ok",
+        "test_source": "data/raw/CMAPSSData/test_FD004.txt",
+        "rul_source": "data/raw/CMAPSSData/RUL_FD004.txt",
+        "join_keys": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle"
+        ],
+        "truth_reconstruction": {
+          "offset_file": "RUL_FDxxx.txt provides one terminal RUL offset per test engine in engine_id order",
+          "formula_raw": "rul_true_raw = rul_offset + max_cycle_for_engine - cycle",
+          "formula_capped": "rul_true = min(rul_true_raw, 125.0)",
+          "split_assumption": "prediction snapshots are committed as split=test and are joined on dataset_id, split, engine_id, cycle"
+        }
+      },
+      "predictions": {
+        "status": "ok",
+        "pred_source": "data/processed/outputs/FD004/fd004_rul_predictions.csv",
+        "schema": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle",
+          "rul_pred"
+        ],
+        "join_keys": [
+          "dataset_id",
+          "split",
+          "engine_id",
+          "cycle"
+        ],
+        "row_count": 41214,
+        "split_values": [
+          "test"
+        ],
+        "dataset_values": [
+          "FD004"
+        ],
+        "granularity": "per-cycle prediction rows",
+        "duplicate_join_keys": 0
+      },
+      "status": "joined",
+      "joined_rows": 41214,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "truth_source": "data/raw/CMAPSSData/test_FD004.txt",
+      "rul_offset_source": "data/raw/CMAPSSData/RUL_FD004.txt",
+      "prediction_source": "data/processed/outputs/FD004/fd004_rul_predictions.csv"
+    }
+  },
+  "ncmapss_report": {
+    "DS01": {
+      "status": "joined",
+      "truth_source": "data/processed/N-CMAPSS/DS01/test_DS01_v0.csv",
+      "pred_source": "data/processed/outputs/N-CMAPSS/ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+      "joined_rows": 341,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "prediction_origin": {
+        "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+        "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+        "imported_from_local_path": "/Users/elifsena/jet-cube-turbofan-mvp/data/outputs/ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+        "artifact_kind": "raw_prediction_export",
+        "model_family": "AutoGluon",
+        "notes": "Selected for the canonical DS01-DS07 source set; evaluation uses split=test only."
+      },
+      "model_name": "AutoGluon snapshot",
+      "source_type": "local_import_join",
+      "artifact_kind": "raw_prediction_export"
+    },
+    "DS02": {
+      "status": "joined",
+      "truth_source": "data/processed/N-CMAPSS/DS02/test_DS02_v0.csv",
+      "pred_source": "data/processed/outputs/N-CMAPSS/ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+      "joined_rows": 202,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "prediction_origin": {
+        "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+        "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+        "imported_from_local_path": "/Users/elifsena/jet-cube-turbofan-mvp/data/outputs/ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+        "artifact_kind": "raw_prediction_export",
+        "model_family": "AutoGluon",
+        "notes": "Selected for the canonical DS01-DS07 source set; evaluation uses split=test only."
+      },
+      "model_name": "AutoGluon snapshot",
+      "source_type": "local_import_join",
+      "artifact_kind": "raw_prediction_export"
+    },
+    "DS03": {
+      "status": "joined",
+      "truth_source": "data/processed/N-CMAPSS/DS03/test_DS03_v0.csv",
+      "pred_source": "data/processed/outputs/N-CMAPSS/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+      "joined_rows": 438,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "prediction_origin": {
+        "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+        "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+        "imported_from_local_path": "/Users/elifsena/Downloads/drive-download-20260308T122109Z-1-001/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+        "artifact_kind": "raw_prediction_export",
+        "model_family": "AutoGluon",
+        "notes": "Downloaded fixed export selected over older local variants; evaluation uses split=test only."
+      },
+      "model_name": "AutoGluon snapshot",
+      "source_type": "local_import_join",
+      "artifact_kind": "raw_prediction_export"
+    },
+    "DS04": {
+      "status": "joined",
+      "truth_source": "data/processed/N-CMAPSS/DS04/test_DS04_v0.csv",
+      "pred_source": "data/processed/outputs/N-CMAPSS/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+      "joined_rows": 344,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "prediction_origin": {
+        "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+        "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+        "imported_from_local_path": "/Users/elifsena/Downloads/drive-download-20260308T122109Z-1-001/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+        "artifact_kind": "raw_prediction_export",
+        "model_family": "AutoGluon",
+        "notes": "Downloaded fixed export selected over older local variants; evaluation uses split=test only."
+      },
+      "model_name": "AutoGluon snapshot",
+      "source_type": "local_import_join",
+      "artifact_kind": "raw_prediction_export"
+    },
+    "DS05": {
+      "status": "joined",
+      "truth_source": "data/processed/N-CMAPSS/DS05/test_DS05_v0.csv",
+      "pred_source": "data/processed/outputs/N-CMAPSS/ncmapss_DS05_decision_support_v2.csv",
+      "joined_rows": 327,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "prediction_origin": {
+        "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS05_decision_support_v2.csv",
+        "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS05_decision_support_v2.csv",
+        "imported_from_local_path": "/Users/elifsena/Downloads/decision support-mvp/decision_support_v2_outputs/ncmapss_DS05_decision_support_v2.csv",
+        "artifact_kind": "decision_support_export",
+        "model_family": "Decision-support export carrying rul_pred",
+        "notes": "No cleaner raw DS05 prediction export was found locally; evaluation uses the split=test rul_pred rows from the downloaded v2 decision-support table."
+      },
+      "model_name": "Decision-support v2 export",
+      "source_type": "local_import_join_decision_support",
+      "artifact_kind": "decision_support_export"
+    },
+    "DS06": {
+      "status": "joined",
+      "truth_source": "data/processed/N-CMAPSS/DS06/test_DS06_v0.csv",
+      "pred_source": "data/processed/outputs/N-CMAPSS/ncmapss_DS06_decision_support_v2.csv",
+      "joined_rows": 322,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "prediction_origin": {
+        "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS06_decision_support_v2.csv",
+        "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS06_decision_support_v2.csv",
+        "imported_from_local_path": "/Users/elifsena/Downloads/decision support-mvp/decision_support_v2_outputs/ncmapss_DS06_decision_support_v2.csv",
+        "artifact_kind": "decision_support_export",
+        "model_family": "Decision-support export carrying rul_pred",
+        "notes": "No cleaner raw DS06 prediction export was found locally; evaluation uses the split=test rul_pred rows from the downloaded v2 decision-support table."
+      },
+      "model_name": "Decision-support v2 export",
+      "source_type": "local_import_join_decision_support",
+      "artifact_kind": "decision_support_export"
+    },
+    "DS07": {
+      "status": "joined",
+      "truth_source": "data/processed/N-CMAPSS/DS07/test_DS07_v0.csv",
+      "pred_source": "data/processed/outputs/N-CMAPSS/ncmapss_DS07_rul_predictions_autogluon_FIXED.csv",
+      "joined_rows": 344,
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "prediction_origin": {
+        "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS07_rul_predictions_autogluon_FIXED.csv",
+        "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS07_rul_predictions_autogluon_FIXED.csv",
+        "imported_from_local_path": "/Users/elifsena/jet-cube-turbofan-mvp/data/outputs/ncmapss_DS07_rul_predictions_autogluon_FIXED.csv",
+        "artifact_kind": "raw_prediction_export",
+        "model_family": "AutoGluon",
+        "notes": "Selected for the canonical DS01-DS07 source set; evaluation uses split=test only."
+      },
+      "model_name": "AutoGluon snapshot",
+      "source_type": "local_import_join",
+      "artifact_kind": "raw_prediction_export"
+    }
+  },
+  "provenance": {
+    "cmapss_primary": {
+      "primary_path": "joined committed C-MAPSS predictions with local truth files",
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "datasets_successfully_joined": [
+        "FD001",
+        "FD002",
+        "FD003",
+        "FD004"
+      ],
+      "datasets_blocked": {},
+      "committed_predictions_used": {
+        "FD001": "data/processed/outputs/FD001/fd001_rul_predictions.csv",
+        "FD002": "data/processed/outputs/FD002/fd002_rul_predictions.csv",
+        "FD003": "data/processed/outputs/FD003/fd003_rul_predictions.csv",
+        "FD004": "data/processed/outputs/FD004/fd004_rul_predictions.csv"
+      },
+      "truth_files_used": {
+        "FD001": {
+          "test_txt": "data/raw/CMAPSSData/test_FD001.txt",
+          "rul_txt": "data/raw/CMAPSSData/RUL_FD001.txt"
+        },
+        "FD002": {
+          "test_txt": "data/raw/CMAPSSData/test_FD002.txt",
+          "rul_txt": "data/raw/CMAPSSData/RUL_FD002.txt"
+        },
+        "FD003": {
+          "test_txt": "data/raw/CMAPSSData/test_FD003.txt",
+          "rul_txt": "data/raw/CMAPSSData/RUL_FD003.txt"
+        },
+        "FD004": {
+          "test_txt": "data/raw/CMAPSSData/test_FD004.txt",
+          "rul_txt": "data/raw/CMAPSSData/RUL_FD004.txt"
+        }
+      },
+      "generated_files": [
+        "figures/evaluation/evaluation_rows_cmapss.csv",
+        "figures/evaluation/evaluation_metrics_by_dataset_cmapss.csv",
+        "figures/evaluation/evaluation_engine_metrics_cmapss.csv",
+        "figures/evaluation/absolute_error_boxplot_by_dataset_cmapss.png",
+        "figures/evaluation/per_engine_mae_boxplot_by_dataset_cmapss.png",
+        "figures/evaluation/final_cycle_abs_error_boxplot_by_dataset_cmapss.png",
+        "figures/evaluation/true_vs_pred_scatter_cmapss.png",
+        "figures/evaluation/residual_histogram_by_dataset_cmapss.png"
+      ]
+    },
+    "ncmapss_primary": {
+      "primary_path": "joined N-CMAPSS predictions with processed truth tables",
+      "join_keys": [
+        "dataset_id",
+        "split",
+        "engine_id",
+        "cycle"
+      ],
+      "datasets_successfully_joined": [
+        "DS01",
+        "DS02",
+        "DS03",
+        "DS04",
+        "DS05",
+        "DS06",
+        "DS07"
+      ],
+      "datasets_blocked": {},
+      "prediction_files_used": {
+        "DS01": "data/processed/outputs/N-CMAPSS/ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+        "DS02": "data/processed/outputs/N-CMAPSS/ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+        "DS03": "data/processed/outputs/N-CMAPSS/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+        "DS04": "data/processed/outputs/N-CMAPSS/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+        "DS05": "data/processed/outputs/N-CMAPSS/ncmapss_DS05_decision_support_v2.csv",
+        "DS06": "data/processed/outputs/N-CMAPSS/ncmapss_DS06_decision_support_v2.csv",
+        "DS07": "data/processed/outputs/N-CMAPSS/ncmapss_DS07_rul_predictions_autogluon_FIXED.csv"
+      },
+      "truth_files_used": {
+        "DS01": "data/processed/N-CMAPSS/DS01/test_DS01_v0.csv",
+        "DS02": "data/processed/N-CMAPSS/DS02/test_DS02_v0.csv",
+        "DS03": "data/processed/N-CMAPSS/DS03/test_DS03_v0.csv",
+        "DS04": "data/processed/N-CMAPSS/DS04/test_DS04_v0.csv",
+        "DS05": "data/processed/N-CMAPSS/DS05/test_DS05_v0.csv",
+        "DS06": "data/processed/N-CMAPSS/DS06/test_DS06_v0.csv",
+        "DS07": "data/processed/N-CMAPSS/DS07/test_DS07_v0.csv"
+      },
+      "prediction_origins": {
+        "DS01": {
+          "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+          "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+          "imported_from_local_path": "/Users/elifsena/jet-cube-turbofan-mvp/data/outputs/ncmapss_DS01_rul_predictions_autogluon_FIXED.csv",
+          "artifact_kind": "raw_prediction_export",
+          "model_family": "AutoGluon",
+          "notes": "Selected for the canonical DS01-DS07 source set; evaluation uses split=test only."
+        },
+        "DS02": {
+          "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+          "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+          "imported_from_local_path": "/Users/elifsena/jet-cube-turbofan-mvp/data/outputs/ncmapss_DS02_rul_predictions_autogluon_FIXED.csv",
+          "artifact_kind": "raw_prediction_export",
+          "model_family": "AutoGluon",
+          "notes": "Selected for the canonical DS01-DS07 source set; evaluation uses split=test only."
+        },
+        "DS03": {
+          "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+          "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+          "imported_from_local_path": "/Users/elifsena/Downloads/drive-download-20260308T122109Z-1-001/ncmapss_DS03_rul_predictions_autogluon_FIXED.csv",
+          "artifact_kind": "raw_prediction_export",
+          "model_family": "AutoGluon",
+          "notes": "Downloaded fixed export selected over older local variants; evaluation uses split=test only."
+        },
+        "DS04": {
+          "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+          "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+          "imported_from_local_path": "/Users/elifsena/Downloads/drive-download-20260308T122109Z-1-001/ncmapss_DS04_rul_predictions_autogluon_FIXED.csv",
+          "artifact_kind": "raw_prediction_export",
+          "model_family": "AutoGluon",
+          "notes": "Downloaded fixed export selected over older local variants; evaluation uses split=test only."
+        },
+        "DS05": {
+          "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS05_decision_support_v2.csv",
+          "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS05_decision_support_v2.csv",
+          "imported_from_local_path": "/Users/elifsena/Downloads/decision support-mvp/decision_support_v2_outputs/ncmapss_DS05_decision_support_v2.csv",
+          "artifact_kind": "decision_support_export",
+          "model_family": "Decision-support export carrying rul_pred",
+          "notes": "No cleaner raw DS05 prediction export was found locally; evaluation uses the split=test rul_pred rows from the downloaded v2 decision-support table."
+        },
+        "DS06": {
+          "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS06_decision_support_v2.csv",
+          "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS06_decision_support_v2.csv",
+          "imported_from_local_path": "/Users/elifsena/Downloads/decision support-mvp/decision_support_v2_outputs/ncmapss_DS06_decision_support_v2.csv",
+          "artifact_kind": "decision_support_export",
+          "model_family": "Decision-support export carrying rul_pred",
+          "notes": "No cleaner raw DS06 prediction export was found locally; evaluation uses the split=test rul_pred rows from the downloaded v2 decision-support table."
+        },
+        "DS07": {
+          "copied_into_repo": "data/processed/outputs/N-CMAPSS/ncmapss_DS07_rul_predictions_autogluon_FIXED.csv",
+          "canonical_copy": "/Users/elifsena/ncmapss_eval_canonical/predictions/ncmapss_DS07_rul_predictions_autogluon_FIXED.csv",
+          "imported_from_local_path": "/Users/elifsena/jet-cube-turbofan-mvp/data/outputs/ncmapss_DS07_rul_predictions_autogluon_FIXED.csv",
+          "artifact_kind": "raw_prediction_export",
+          "model_family": "AutoGluon",
+          "notes": "Selected for the canonical DS01-DS07 source set; evaluation uses split=test only."
+        }
+      },
+      "generated_files": [
+        "figures/evaluation/evaluation_rows_ncmapss.csv",
+        "figures/evaluation/evaluation_metrics_by_dataset_ncmapss.csv",
+        "figures/evaluation/evaluation_engine_metrics_ncmapss.csv",
+        "figures/evaluation/absolute_error_boxplot_by_dataset_ncmapss.png",
+        "figures/evaluation/per_engine_mae_boxplot_by_dataset_ncmapss.png",
+        "figures/evaluation/final_cycle_abs_error_boxplot_by_dataset_ncmapss.png",
+        "figures/evaluation/true_vs_pred_scatter_ncmapss.png",
+        "figures/evaluation/residual_histogram_by_dataset_ncmapss.png"
+      ]
+    },
+    "ncmapss_fallback": {
+      "secondary_path": "optional N-CMAPSS evaluation when explicit prediction artifacts are unavailable",
+      "fallback_training_enabled": false,
+      "datasets": {},
+      "generated_files": []
+    }
+  },
+  "status_summary": {
+    "cmapss": {
+      "joined": [
+        "FD001",
+        "FD002",
+        "FD003",
+        "FD004"
+      ],
+      "fallback": [],
+      "blocked": []
+    },
+    "ncmapss": {
+      "joined": [
+        "DS01",
+        "DS02",
+        "DS03",
+        "DS04",
+        "DS05",
+        "DS06",
+        "DS07"
+      ],
+      "fallback": [],
+      "blocked": []
+    }
+  },
+  "generated_files": [
+    "figures/evaluation/evaluation_rows.csv",
+    "figures/evaluation/evaluation_metrics_by_dataset.csv",
+    "figures/evaluation/evaluation_engine_metrics.csv",
+    "figures/evaluation/absolute_error_boxplot_by_dataset.png",
+    "figures/evaluation/per_engine_mae_boxplot_by_dataset.png",
+    "figures/evaluation/final_cycle_abs_error_boxplot_by_dataset.png",
+    "figures/evaluation/true_vs_pred_scatter.png",
+    "figures/evaluation/residual_histogram_by_dataset.png",
+    "figures/evaluation/evaluation_rows_cmapss.csv",
+    "figures/evaluation/evaluation_metrics_by_dataset_cmapss.csv",
+    "figures/evaluation/evaluation_engine_metrics_cmapss.csv",
+    "figures/evaluation/absolute_error_boxplot_by_dataset_cmapss.png",
+    "figures/evaluation/per_engine_mae_boxplot_by_dataset_cmapss.png",
+    "figures/evaluation/final_cycle_abs_error_boxplot_by_dataset_cmapss.png",
+    "figures/evaluation/true_vs_pred_scatter_cmapss.png",
+    "figures/evaluation/residual_histogram_by_dataset_cmapss.png",
+    "figures/evaluation/evaluation_rows_ncmapss.csv",
+    "figures/evaluation/evaluation_metrics_by_dataset_ncmapss.csv",
+    "figures/evaluation/evaluation_engine_metrics_ncmapss.csv",
+    "figures/evaluation/absolute_error_boxplot_by_dataset_ncmapss.png",
+    "figures/evaluation/per_engine_mae_boxplot_by_dataset_ncmapss.png",
+    "figures/evaluation/final_cycle_abs_error_boxplot_by_dataset_ncmapss.png",
+    "figures/evaluation/true_vs_pred_scatter_ncmapss.png",
+    "figures/evaluation/residual_histogram_by_dataset_ncmapss.png"
+  ],
+  "fallback_training_enabled": false,
+  "evaluation_rows": 107215,
+  "datasets_in_evaluation": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004",
+    "DS01",
+    "DS02",
+    "DS03",
+    "DS04",
+    "DS05",
+    "DS06",
+    "DS07"
+  ]
+}
