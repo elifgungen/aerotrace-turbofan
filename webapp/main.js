@@ -1976,8 +1976,96 @@ async function renderAudit(container) {
           </div>
         </div>
       </div>
+
+      <!-- ═══ Değerlendirme Görselleri ═══ -->
+      <div class="eval-section">
+        <div class="eval-section-header">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+          <h3>Değerlendirme Görselleri</h3>
+        </div>
+
+        <div class="eval-tabs" id="eval-tabs">
+          <button class="eval-tab active" data-panel="cmapss">C-MAPSS</button>
+          <button class="eval-tab" data-panel="ncmapss">N-CMAPSS</button>
+        </div>
+
+        <div class="eval-tab-panel active" id="panel-cmapss">
+          <div class="eval-plots-grid">
+            <div class="eval-plot-card">
+              <div class="eval-plot-title">Mutlak Hata Dağılımı</div>
+              <div class="eval-plot-img-wrap">
+                <img src="./evaluation/absolute_error_boxplot_by_dataset_cmapss.png"
+                     alt="C-MAPSS Mutlak Hata Boxplot"
+                     loading="lazy" />
+              </div>
+              <div class="eval-plot-caption">Tahmin hatasının C-MAPSS veri setleri arasındaki dağılımını gösterir; senaryo düzeyinde kararlılığı değerlendirmeye yardımcı olur.</div>
+            </div>
+            <div class="eval-plot-card">
+              <div class="eval-plot-title">Motor Başına MAE</div>
+              <div class="eval-plot-img-wrap">
+                <img src="./evaluation/per_engine_mae_boxplot_by_dataset_cmapss.png"
+                     alt="C-MAPSS Motor Başına MAE Boxplot"
+                     loading="lazy" />
+              </div>
+              <div class="eval-plot-caption">Her veri setinde motorlar arası MAE değişkenliğini özetler; tek bir toplu metriğe sıkıştırmak yerine bireysel motor davranışını yansıtır.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="eval-tab-panel" id="panel-ncmapss">
+          <div class="eval-plots-grid">
+            <div class="eval-plot-card">
+              <div class="eval-plot-title">Mutlak Hata Dağılımı</div>
+              <div class="eval-plot-img-wrap">
+                <img src="./evaluation/absolute_error_boxplot_by_dataset_ncmapss.png"
+                     alt="N-CMAPSS Mutlak Hata Boxplot"
+                     loading="lazy" />
+              </div>
+              <div class="eval-plot-caption">N-CMAPSS senaryolarındaki tahmin hatası dağılımı; farklı operasyon koşullarında model kararlılığını karşılaştırmayı sağlar.</div>
+            </div>
+            <div class="eval-plot-card">
+              <div class="eval-plot-title">Motor Başına MAE</div>
+              <div class="eval-plot-img-wrap">
+                <img src="./evaluation/per_engine_mae_boxplot_by_dataset_ncmapss.png"
+                     alt="N-CMAPSS Motor Başına MAE Boxplot"
+                     loading="lazy" />
+              </div>
+              <div class="eval-plot-caption">N-CMAPSS veri setlerinde motorlar arası MAE varyasyonu; bireysel motor performans farklarını gösterir.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
     `;
+
+  // ── Evaluation section: scoped tab switching ──
+  const evalTabs = container.querySelectorAll('.eval-tab');
+  const evalPanels = container.querySelectorAll('.eval-tab-panel');
+  evalTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      evalTabs.forEach(t => t.classList.remove('active'));
+      evalPanels.forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      const panel = container.querySelector(`#panel-${tab.dataset.panel}`);
+      if (panel) panel.classList.add('active');
+    });
+  });
+
+  // ── Graceful image fallback: hide broken images, show placeholder ──
+  container.querySelectorAll('.eval-plot-img-wrap img').forEach(img => {
+    img.addEventListener('error', () => {
+      const wrap = img.parentElement;
+      wrap.innerHTML = `
+        <div class="eval-plot-fallback">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+            <path d="M21 15l-5-5L5 21"/>
+          </svg>
+          Görsel yüklenemedi
+        </div>`;
+    });
+  });
 }
 
 // ═══════════════════════════════════════════════════════

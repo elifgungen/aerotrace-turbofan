@@ -2370,6 +2370,149 @@ code,
   font-weight: 700;
 }
 
+/* ═══════════════════════════════════════════════════════
+   EVALUATION VISUALS (Audit Page)
+   ═══════════════════════════════════════════════════════ */
+.eval-section {
+  margin-top: var(--space-2xl);
+}
+
+.eval-section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: var(--space-lg);
+  color: var(--text-primary);
+}
+
+.eval-section-header svg {
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.eval-section-header h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.eval-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: var(--space-lg);
+}
+
+.eval-tab {
+  padding: 8px 20px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  letter-spacing: 0.02em;
+}
+
+.eval-tab:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.eval-tab.active {
+  background: linear-gradient(135deg, var(--accent), #5b3a8a);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(100, 60, 180, 0.25);
+}
+
+.eval-tab-panel {
+  display: none;
+}
+
+.eval-tab-panel.active {
+  display: block;
+}
+
+.eval-plots-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+}
+
+.eval-plot-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+  border-left: 3px solid var(--accent);
+}
+
+.eval-plot-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.eval-plot-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 2px solid var(--accent-border);
+}
+
+.eval-plot-img-wrap {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm);
+  margin-bottom: var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+}
+
+.eval-plot-img-wrap img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+  object-fit: contain;
+  display: block;
+}
+
+.eval-plot-caption {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.eval-plot-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: var(--space-xl);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+.eval-plot-fallback svg {
+  opacity: 0.35;
+}
+
+@media (max-width: 768px) {
+  .eval-plots-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* ── Reset Camera Button ── */
 .btn-reset-cam {
