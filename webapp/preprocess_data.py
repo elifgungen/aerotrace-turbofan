@@ -16,11 +16,11 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-SRC = Path(__file__).resolve().parent.parent / "demo" / "decision_support_v2_outputs" / "fd001_decision_support_v2.csv"
+SRC = Path(__file__).resolve().parent.parent / "05_demo" / "decision_support_v2_outputs" / "fd001_decision_support_v2.csv"
 OUT = Path(__file__).resolve().parent / "public" / "data"
 
 # Raw FD001 sensor data
-RAW_FD001 = Path(__file__).resolve().parent.parent / "data" / "raw" / "CMAPSS" / "FD001_raw_dataset" / "train_FD001.txt"
+RAW_FD001 = Path(__file__).resolve().parent.parent / "01_data" / "raw" / "CMAPSS" / "FD001_raw_dataset" / "train_FD001.txt"
 
 # ── Sensor Configuration ──────────────────────────────────────────────
 # Column indices in train_FD001.txt (0-indexed):

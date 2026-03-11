@@ -17,7 +17,7 @@ from pathlib import Path
 from collections import defaultdict
 
 # ─── Configuration ───────────────────────────────────────────────────
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent  # AeroTrace 2/
 WEBAPP_DATA = Path(__file__).resolve().parent / "public" / "data"
 
 # Dataset sources: (id, label, csv_path, format)
@@ -25,9 +25,9 @@ DATASETS = [
     # C-MAPSS v2 (FD001 has v2 in demo outputs)
     ("FD001", "C-MAPSS FD001", PROJECT_ROOT / "demo/decision_support_v2_outputs/fd001_decision_support_v2.csv", "v2_fd"),
     # C-MAPSS v1 (FD002-FD004)
-    ("FD002", "C-MAPSS FD002", PROJECT_ROOT / "data/processed/outputs/C-MAPSS/FD002/fd002_decision_support.csv", "v1"),
-    ("FD003", "C-MAPSS FD003", PROJECT_ROOT / "data/processed/outputs/C-MAPSS/FD003/fd003_decision_support.csv", "v1"),
-    ("FD004", "C-MAPSS FD004", PROJECT_ROOT / "data/processed/outputs/C-MAPSS/FD004/fd004_decision_support.csv", "v1"),
+    ("FD002", "C-MAPSS FD002", PROJECT_ROOT / "JET-CUBE-public/01_data/processed/outputs/FD002/fd002_decision_support.csv", "v1"),
+    ("FD003", "C-MAPSS FD003", PROJECT_ROOT / "JET-CUBE-public/01_data/processed/outputs/FD003/fd003_decision_support.csv", "v1"),
+    ("FD004", "C-MAPSS FD004", PROJECT_ROOT / "JET-CUBE-public/01_data/processed/outputs/FD004/fd004_decision_support.csv", "v1"),
     # N-CMAPSS v2 (DS01-DS07)
     ("DS01", "N-CMAPSS DS01", PROJECT_ROOT / "demo/decision_support_v2_outputs/ncmapss_DS01_decision_support_v2.csv", "v2_ncmapss"),
     ("DS02", "N-CMAPSS DS02", PROJECT_ROOT / "demo/decision_support_v2_outputs/ncmapss_DS02_decision_support_v2.csv", "v2_ncmapss"),
